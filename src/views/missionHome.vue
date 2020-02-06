@@ -41,6 +41,7 @@ export default {};
     width: 100%;
     padding: 13px 15px;
     text-align: center;
+    @include fontstyle(regular, 16px, 1, $font, #bcbcbc);
     &::placeholder {
       @include fontstyle(regular, 16px, 1, $font, #bcbcbc);
     }
