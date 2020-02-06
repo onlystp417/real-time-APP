@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster+Two:700i&display=swap");
+// font style
+$font: 'Roboto', sans-serif;
+
+@mixin fontstyle($style, $size, $lineheight, $fontfamily) {
+  font-weight: $style;
+  font-size: $size;
+  font-family: $fontfamily;
+  line-height: $lineheight;
+}
