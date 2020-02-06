@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <bar></bar>
+    <div id="fake-router">
       <router-link to="/">home</router-link>|
       <router-link to="/misisonHome">m-home</router-link>|
       <router-link to="/missionInstruction-one">m-i-one</router-link>|
@@ -15,13 +16,12 @@
       <router-link to="/privateMessage">private-m</router-link>|
       <router-link to="/publicMessage">public-m</router-link>|
     </div>
-    <div></div>
-    <router-view />
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-// import bar from "@/components/bar.vue";
+import bar from "@/components/bar.vue";
 // import info from "@/views/info.vue";
 // import missionStart from "@/views/missionStart.vue";
 
@@ -32,7 +32,9 @@ export default {
       b: 1000
     };
   },
-  components: {}
+  components: {
+    bar
+  }
 };
 </script>
 
