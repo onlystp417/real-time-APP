@@ -5,6 +5,13 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    id: '',
+    name: '',
+    missionState: [
+      {
+
+      }
+    ]
   },
   mutations: {
   },
