@@ -28,8 +28,6 @@ import bar from "@/components/bar.vue";
 export default {
   data: function() {
     return {
-      a: 1,
-      b: 1000
     };
   },
   components: {
