@@ -22,72 +22,72 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: Home
+    component: home
   },
   {
     path: '/missionHome',
     name: 'missionHomet',
-    component: () => import('../views/missionHome.vue')
+    component: missionHome
   },
   {
     path: '/missionInstruction-one',
     name: 'missionInstruction-one',
-    component: () => import('../views/missionInstruction-one.vue')
+    component: missionInstructionOne
   },
   {
     path: '/missionInstruction-two',
     name: 'missionInstruction-two',
-    component: () => import('../views/missionInstruction-two.vue')
+    component: missionInstructionTwo
   },
   {
     path: '/missionInstruction-three',
     name: 'missionInstruction-three',
-    component: () => import('../views/missionInstruction-three.vue')
+    component: missionInstructionThree
   },
   {
     path: '/missionInstruction-four',
     name: 'missionInstruction-four',
-    component: () => import('../views/missionInstruction-four.vue')
+    component: missionInstructionFour
   },
   {
     path: '/missionLevel',
     name: 'missionLevel',
-    component: () => import('../views/missionLevel.vue')
+    component: missionLevel
   },
   {
     path: '/missionStart',
     name: 'missionStart',
-    component: () => import('../views/missionStart.vue')
+    component: missionStart
   },
   {
     path: '/rollcall',
     name: 'rollcall',
-    component: () => import('../views/rollcall.vue')
+    component: rollcall
   },
   {
     path: '/grade',
     name: 'grade',
-    component: () => import('../views/grade.vue')
+    component: grade
   },
   {
     path: '/course',
     name: 'course',
-    component: () => import('../views/course.vue')
+    component: course
   },
   {
     path: '/quiz',
     name: 'quiz',
-    component: () => import('../views/quiz.vue')
+    component: quiz
   },
   {
     path: '/privateMessage',
     name: 'privateMessage',
-    component: () => import('../views/privateMessage.vue')
+    component: privateMessage
   },
   {
     path: '/publicMessage',
     name: 'publicMessage',
-    component: () => import('../views/publicMessage.vue')
+    component: publicMessage
   },
 ]
 
