@@ -2,9 +2,10 @@
 // font style
 $font: 'Roboto', sans-serif;
 
-@mixin fontstyle($style, $size, $lineheight, $fontfamily) {
-  font-weight: $style;
+@mixin fontstyle($weight, $size, $lineheight, $fontfamily, $color) {
+  font-weight: $weight;
   font-size: $size;
   font-family: $fontfamily;
   line-height: $lineheight;
+  color: $color;
 }
