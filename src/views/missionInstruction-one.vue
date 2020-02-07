@@ -1,6 +1,6 @@
 <template>
-  <div class="mission-instruction">
-    <div class="card">
+  <div class="mission-instruction mission-instruction-card">
+    <div class="card instruction-card-space instruction-card-font">
       <h3>任務一</h3>
       <div>
         <p>1.感受到振動後拿起手機</p>
@@ -23,30 +23,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.mission-instruction {
-  width: 360px;
-  margin: auto;
-  padding-top: 136px;
-  .card {
-    background: $white;
-    border-radius: 13px;
-    box-shadow: #00000029 0px 1px 3px;
-  }
-  .card {
-    padding: 15px 30px 21px 30px;
-    margin-bottom: 48px;
-  }
-  h3 {
-    margin-bottom: 10px;
-    @include fontstyle(regular, 26px, 1.5, $font, #757575);
-    text-align: center;
-  }
-  p {
-    padding-left: 34px;
-    @include fontstyle(regular, 16px, 2.5, $font, #757575);
-  }
-  p + p {
-    border-top: #707070 1px solid;
-  }
-}
 </style>
