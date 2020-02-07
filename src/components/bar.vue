@@ -1,9 +1,21 @@
 <template>
   <header class="bar">
     <div class="bar-state"></div>
-    <h1 class="bar-app">使用者介面設計</h1>
+    <a href>
+      <backward></backward>
+      <h1 class="bar-app">使用者介面設計</h1>
+    </a>
   </header>
 </template>
+
+<script>
+import backward from "@/components/backward.vue";
+export default {
+  components: {
+    backward
+  }
+};
+</script>
 
 <style lang="scss" scoped>
 .bar {
@@ -22,6 +34,9 @@
     @include fontstyle(900, 20px, 27px, $font, #fff);
     padding: 37px 45px 16px 45px;
     box-shadow: 0px 3px 6px #0000004d;
+  }
+  a {
+    display: block;
   }
 }
 </style>
