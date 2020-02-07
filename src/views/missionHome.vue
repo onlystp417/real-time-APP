@@ -69,6 +69,7 @@ export default {};
     @include fontstyle(regular, 16px, 1.5, $font, $white);
     &:active {
       box-sizing: border-box;
+      background: $white;
       color: $light-blue;
       border: $light-blue 2px solid;
     }
