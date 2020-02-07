@@ -1,8 +1,10 @@
 <template>
-  <div class="home">123</div>
+  <div></div>
 </template>
 
 <script>
-// import HelloWorld from '@/components/HelloWorld.vue'
 export default {};
 </script>
+
+<style lang="scss" scoped>
+</style>

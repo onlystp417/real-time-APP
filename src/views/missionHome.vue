@@ -1,12 +1,14 @@
 <template>
   <div class="mission-home">
     <form class="register" action>
-      <div>
+      <div class="user">
         <label>編號：M13</label>
         <input type="text" placeholder="姓名：王小明" />
       </div>
-      <button class="cancel">取消</button>
-      <button class="start" type="submit">開始</button>
+      <div class="action">
+        <button class="negtive">取消</button>
+        <button class="positive" type="submit">開始</button>
+      </div>
     </form>
   </div>
 </template>
@@ -17,13 +19,15 @@ export default {};
 
 <style lang="scss" scoped>
 .mission-home {
-  padding: 212px 40px 0px 40px;
+  width: 331px;
+  padding-top: 212px;
+  margin: auto;
 }
 .register {
-  > div {
-    background: #fff;
+  > .user {
+    background: $white;
     width: 100%;
-    margin: 0px auto 26px auto;
+    margin-bottom: 26px;
     padding: 15px 37px 27px 34px;
     border-radius: 13px;
     box-shadow: 0px 1px 3px #00000029;
@@ -52,17 +56,23 @@ export default {};
     border-radius: 99999px;
     box-shadow: 0px 2px 3px #00000029;
   }
-  .cancel {
-    background: #fff;
+  .negtive {
+    background: $white;
     margin-left: 44px;
     margin-right: 15px;
     @include fontstyle(regular, 16px, 1.5, $font, #b7b7b7);
   }
-  .start {
-    background: #8ec8f3;
+  .positive {
+    background: $light-blue;
     margin-left: 15px;
     margin-right: 29px;
-    @include fontstyle(regular, 16px, 1.5, $font, #fff);
+    @include fontstyle(regular, 16px, 1.5, $font, $white);
+    &:active {
+      box-sizing: border-box;
+      background: $white;
+      color: $light-blue;
+      border: $light-blue 2px solid;
+    }
   }
 }
 </style>
