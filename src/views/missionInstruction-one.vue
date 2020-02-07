@@ -1,10 +1,52 @@
 <template>
-  <div></div>
+  <div class="mission-instruction">
+    <div class="card">
+      <h3>任務一</h3>
+      <div>
+        <p>1.感受到振動後拿起手機</p>
+        <p>2.使用點名功能簽到</p>
+        <p>3.觀看本堂課的課程資訊</p>
+        <p>4.傳送「課程順暢」文字訊息給老師</p>
+      </div>
+    </div>
+    <buttonPrimary>開始</buttonPrimary>
+  </div>
 </template>
 
 <script>
-export default {};
+import buttonPrimary from "@/components/buttonPrimary.vue";
+export default {
+  components: {
+    buttonPrimary
+  }
+};
 </script>
 
 <style lang="scss" scoped>
+.mission-instruction {
+  width: 360px;
+  margin: auto;
+  padding-top: 136px;
+  .card {
+    background: $white;
+    border-radius: 13px;
+    box-shadow: #00000029 0px 1px 3px;
+  }
+  .card {
+    padding: 15px 30px 21px 30px;
+    margin-bottom: 48px;
+  }
+  h3 {
+    margin-bottom: 10px;
+    @include fontstyle(regular, 26px, 1.5, $font, #757575);
+    text-align: center;
+  }
+  p {
+    padding-left: 34px;
+    @include fontstyle(regular, 16px, 2.5, $font, #757575);
+  }
+  p + p {
+    border-top: #707070 1px solid;
+  }
+}
 </style>
