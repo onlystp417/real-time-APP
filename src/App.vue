@@ -2,6 +2,7 @@
   <div id="app">
     <bar></bar>
     <!-- <missionHome></missionHome> -->
+    <router-view></router-view>
     <div id="fake-router">
       <router-link to="/home">home</router-link>|
       <router-link to="/missionHome">m-home</router-link>|
@@ -17,7 +18,6 @@
       <router-link to="/privateMessage">private-m</router-link>|
       <router-link to="/publicMessage">public-m</router-link>|-->
     </div>
-    <router-view></router-view>
   </div>
 </template>
 
