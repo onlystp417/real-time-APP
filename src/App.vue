@@ -28,8 +28,6 @@ import bar from "@/components/bar.vue";
 export default {
   data: function() {
     return {
-      a: 1,
-      b: 1000
     };
   },
   components: {
@@ -40,7 +38,11 @@ export default {
 </script>
 
 <style lang="scss">
+<<<<<<< HEAD
 #app {
   padding-top: 80px;
 }
+=======
+#app{}
+>>>>>>> d8fa94194c93c3929f2c049cc7d2494de2973527
 </style>
