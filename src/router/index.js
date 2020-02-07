@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import home from '../views/home.vue'
+import home from '../views/Home.vue'
 import missionHome from '../views/missionHome.vue'
 import missionInstructionOne from '../views/missionInstruction-one.vue'
 // import missionInstructionTwo from '../views/missionInstruction-two.vue'
