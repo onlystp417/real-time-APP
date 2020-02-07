@@ -2,7 +2,7 @@
   <div class="mission-level">
     <div>
       <h3>任務一</h3>
-      <buttonPrimary>開始</buttonPrimary>
+      <buttonPrimary class="finished">已完成</buttonPrimary>
     </div>
     <div>
       <h3>任務二</h3>
@@ -52,6 +52,12 @@ export default {
   svg {
     width: 50px;
   }
+}
+
+.finished {
+  background: $white;
+  border: #bcbcbc 2px solid;
+  color: #bcbcbc;
 }
 </style>
 
