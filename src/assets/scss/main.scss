@@ -1,3 +1,7 @@
 @import "./abstract/color";
 @import "./abstract/typography";
 @import "./base/reset";
+
+body {
+  background: $lightest-gray;
+}
