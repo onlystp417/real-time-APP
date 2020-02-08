@@ -22,5 +22,31 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
+.mission-instruction-card {
+  width: 360px;
+  margin: auto;
+  padding-top: 136px;
+  .card {
+    background: $white;
+    border-radius: 13px;
+    box-shadow: #00000029 0px 1px 3px;
+    padding: 15px 30px 21px 30px;
+    margin-bottom: 48px;
+    h3 {
+      margin-bottom: 15px;
+      @include fontstyle(regular, 26px, 1.5, $font, #757575);
+      text-align: center;
+    }
+    p {
+      padding-left: 34px;
+      margin-top: 10px;
+      @include fontstyle(regular, 16px, 1.5, $font, #757575);
+    }
+    p + p {
+      border-top: #707070 1px solid;
+      padding-top: 10px;
+    }
+  }
+}
 </style>
