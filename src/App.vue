@@ -12,7 +12,7 @@
       <router-link to="/missionLevel">m-level</router-link>|
       <router-link to="/missionStart">m-start</router-link>|
       <router-link to="/missionComplete">m-complete</router-link>|
-      <router-link to="/rolcall">rolcall</router-link>|
+      <router-link to="/rollcall">rollcall</router-link>|
       <router-link to="/course">course</router-link>|
       <router-link to="/quiz">quiz</router-link>|
       <router-link to="/privateMessage">private-m</router-link>|
