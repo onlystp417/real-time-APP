@@ -1,6 +1,6 @@
 <template>
   <div class="rollcall-home">
-    <h3>點名紀錄</h3>
+    <!-- <title>點名紀錄</title> -->
     <section class="list-card">
       <h4>最近點名紀錄</h4>
       <buttonSecondary>查看</buttonSecondary>
@@ -30,12 +30,14 @@
 </template>
 
 <script>
+// import title from "@/components/title.vue";
 import buttonPrimary from "@/components/buttonPrimary.vue";
 import buttonSecondary from "@/components/buttonSecondary.vue";
 export default {
   components: {
     buttonPrimary,
     buttonSecondary
+    // title
   }
 };
 </script>
@@ -45,10 +47,10 @@ export default {
   width: 379px;
   margin: auto;
   padding-top: 15px;
-  h3 {
-    margin-bottom: 9px;
-    @include fontstyle(700, 24px, 1.2, $font, #474747);
-  }
+  // h3 {
+  //   margin-bottom: 9px;
+  //   @include fontstyle(700, 24px, 1.2, $font, #474747);
+  // }
   .primary-button {
     width: 200px;
     margin-top: 48px;
