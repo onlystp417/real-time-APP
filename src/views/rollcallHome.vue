@@ -1,6 +1,6 @@
 <template>
   <div class="rollcall-home">
-    <!-- <title>點名紀錄</title> -->
+    <rollcallTitle>點名紀錄</rollcallTitle>
     <section class="list-card">
       <h4>最近點名紀錄</h4>
       <buttonSecondary>查看</buttonSecondary>
@@ -30,14 +30,14 @@
 </template>
 
 <script>
-// import title from "@/components/title.vue";
+import rollcallTitle from "@/components/rollcallTitle.vue";
 import buttonPrimaryBig from "@/components/buttonPrimaryBig.vue";
 import buttonSecondary from "@/components/buttonSecondary.vue";
 export default {
   components: {
     buttonPrimaryBig,
-    buttonSecondary
-    // title
+    buttonSecondary,
+    rollcallTitle
   }
 };
 </script>
