@@ -52,4 +52,8 @@ export default {
   //   @include fontstyle(700, 24px, 1.2, $font, #474747);
   // }
 }
+
+.primary-button-big {
+  margin-top: 48px;
+}
 </style>
