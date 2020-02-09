@@ -32,7 +32,7 @@ export default {
 
 .rollcall-time,
 .rollcall-declare {
-  @include fontstyle(700, 40px, 1.5, $font, #727272);
+  @include fontstyle(500, 40px, 1.5, $font, #727272);
   text-align: center;
 }
 
