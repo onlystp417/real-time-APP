@@ -1,12 +1,14 @@
 <template>
-  <nav class="deep-sub-menu">
-    <a class="current" href>
-      <span>點名</span>
-    </a>
-    <a href>
-      <span>問答</span>
-    </a>
-  </nav>
+  <div class="deep-sub-menu-wrapper">
+    <nav class="deep-sub-menu">
+      <a class="current" href>
+        <span>點名</span>
+      </a>
+      <a href>
+        <span>問答</span>
+      </a>
+    </nav>
+  </div>
 </template>
 
 <script>
@@ -14,6 +16,11 @@ export default {};
 </script>
 
 <style lang="scss">
+.deep-sub-menu-wrapper {
+  display: relative;
+  padding-top: 39px;
+}
+
 .deep-sub-menu {
   position: absolute;
   top: 80px;
