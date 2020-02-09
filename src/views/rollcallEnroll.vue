@@ -2,15 +2,15 @@
   <div class="rollcall-enroll">
     <time class="rollcall-time">2020/1/5 13:28</time>
     <p class="rollcall-declare">正在點名！</p>
-    <buttonPrimary>我到了</buttonPrimary>
+    <buttonPrimaryBig>我到了</buttonPrimaryBig>
   </div>
 </template>
 
 <script>
-import buttonPrimary from "@/components/buttonPrimary.vue";
+import buttonPrimaryBig from "@/components/buttonPrimaryBig.vue";
 export default {
   components: {
-    buttonPrimary
+    buttonPrimaryBig
   }
 };
 </script>
@@ -21,12 +21,6 @@ export default {
   .rollcall-time {
     display: block;
     margin-bottom: 26px;
-  }
-  .primary-button {
-    width: 200px;
-    margin-top: 48px;
-    font-size: 20px;
-    line-height: 44px;
   }
 }
 

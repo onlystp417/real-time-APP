@@ -1,5 +1,5 @@
 <template>
-  <button class="primary-button">
+  <button class="primary-button-big">
     <slot></slot>
   </button>
 </template>
@@ -9,18 +9,18 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-.primary-button {
+.primary-button-big {
   display: block;
   background: $light-blue;
   border-radius: 21px;
   margin: auto;
   padding: 0;
-  width: 228px;
-  line-height: 42px;
+  width: 200px;
+  height: 44px;
   color: $white;
-  font-size: 16px;
+  font-size: 20px;
+  box-sizing: border-box;
   &:active {
-    box-sizing: border-box;
     background: $white;
     color: $light-blue;
     border: $light-blue 2px solid;

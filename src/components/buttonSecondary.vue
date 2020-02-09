@@ -19,11 +19,12 @@ export default {};
 
 .secondary-button {
   background: $light-blue;
-  padding: 6px 21px 5px 21px;
+  width: 74px;
+  height: 32px;
   border-radius: 9px;
+  box-sizing: border-box;
   @include fontstyle(400, 16px, 22px, $font, $white);
   &:active {
-    box-sizing: border-box;
     background: $white;
     color: $light-blue;
     border: $light-blue 2px solid;

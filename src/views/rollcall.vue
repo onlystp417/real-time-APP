@@ -1,9 +1,9 @@
 <template>
   <div>
     <!-- <deepSubMenuRollcallQuiz></deepSubMenuRollcallQuiz> -->
-    <!-- <rollcallHome></rollcallHome> -->
+    <rollcallHome></rollcallHome>
     <!-- <rollcallEnroll></rollcallEnroll> -->
-    <rollcallOntime></rollcallOntime>
+    <!-- <rollcallOntime></rollcallOntime> -->
     <!-- <shallowMenu></shallowMenu> -->
     <deepMainMenu></deepMainMenu>
   </div>

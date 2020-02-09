@@ -9,15 +9,15 @@
         <p>4.傳送「課程順暢」文字訊息給老師</p>
       </div>
     </div>
-    <buttonPrimary>開始</buttonPrimary>
+    <buttonPrimarySmall>開始</buttonPrimarySmall>
   </div>
 </template>
 
 <script>
-import buttonPrimary from "@/components/buttonPrimary.vue";
+import buttonPrimarySmall from "@/components/buttonPrimarySmall.vue";
 export default {
   components: {
-    buttonPrimary
+    buttonPrimarySmall
   }
 };
 </script>

@@ -17,15 +17,15 @@
         <p>6.觀看本帳號的最近一次的點名紀錄</p>
       </div>
     </div>
-    <buttonPrimary>開始</buttonPrimary>
+    <buttonPrimarySmall>開始</buttonPrimarySmall>
   </div>
 </template>
 
 <script>
-import buttonPrimary from "@/components/buttonPrimary.vue";
+import buttonPrimarySmall from "@/components/buttonPrimarySmall.vue";
 export default {
   components: {
-    buttonPrimary
+    buttonPrimarySmall
   }
 };
 </script>

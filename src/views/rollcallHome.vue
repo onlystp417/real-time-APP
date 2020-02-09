@@ -25,17 +25,17 @@
       <h4>出席率</h4>
       <span>50％</span>
     </section>
-    <buttonPrimary>我要點名</buttonPrimary>
+    <buttonPrimaryBig>我要點名</buttonPrimaryBig>
   </div>
 </template>
 
 <script>
 // import title from "@/components/title.vue";
-import buttonPrimary from "@/components/buttonPrimary.vue";
+import buttonPrimaryBig from "@/components/buttonPrimaryBig.vue";
 import buttonSecondary from "@/components/buttonSecondary.vue";
 export default {
   components: {
-    buttonPrimary,
+    buttonPrimaryBig,
     buttonSecondary
     // title
   }
@@ -51,11 +51,5 @@ export default {
   //   margin-bottom: 9px;
   //   @include fontstyle(700, 24px, 1.2, $font, #474747);
   // }
-  .primary-button {
-    width: 200px;
-    margin-top: 48px;
-    font-size: 20px;
-    line-height: 44px;
-  }
 }
 </style>

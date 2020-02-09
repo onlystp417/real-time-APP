@@ -2,28 +2,28 @@
   <div class="mission-level">
     <div>
       <h3>任務一</h3>
-      <buttonPrimary class="finished">已完成</buttonPrimary>
+      <buttonPrimarySmall class="finished">已完成</buttonPrimarySmall>
     </div>
     <div>
       <h3>任務二</h3>
-      <buttonPrimary>開始</buttonPrimary>
+      <buttonPrimarySmall>開始</buttonPrimarySmall>
     </div>
     <div>
       <h3>任務三</h3>
-      <buttonPrimary>開始</buttonPrimary>
+      <buttonPrimarySmall>開始</buttonPrimarySmall>
     </div>
     <div>
       <h3>任務四</h3>
-      <buttonPrimary>開始</buttonPrimary>
+      <buttonPrimarySmall>開始</buttonPrimarySmall>
     </div>
   </div>
 </template>
 
 <script>
-import buttonPrimary from "@/components/buttonPrimary.vue";
+import buttonPrimarySmall from "@/components/buttonPrimarySmall.vue";
 export default {
   components: {
-    buttonPrimary
+    buttonPrimarySmall
   }
 };
 </script>
