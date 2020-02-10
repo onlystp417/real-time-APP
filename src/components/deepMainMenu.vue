@@ -23,7 +23,7 @@ export default {};
   left: 0;
   right: 0;
   background: #fff;
-  padding: 5px 0;
+  padding-bottom: 5px;
   border-top: 1px solid #b7b7b7;
   font-size: 0;
   a {
@@ -81,7 +81,8 @@ export default {};
   }
 
   .contact-current {
-    background: url(../assets/images/message-active.png) top center/53px no-repeat;
+    background: url(../assets/images/message-active.png) top center/53px
+      no-repeat;
     color: $light-blue;
     h2 {
       color: $light-blue;
