@@ -8,12 +8,20 @@ import deepMainMenu from "@/components/deepMainMenu.vue";
 import deepSubMenuRollcallQuiz from "@/components/deepSubMenu_rollcall_quiz.vue";
 import deepSubMenuMessage from "@/components/deepSubMenu_message.vue";
 import deepSubMenuGradeCourse from "@/components/deepSubMenu_grade_course.vue";
+import quizHome from "@/components/quizHome.vue";
+import quizQuestion from "@/components/quizQuestion.vue";
+import filterPopover from "@/components/filterPopover.vue";
+import quizPopover from "@/components/quizPopover.vue";
 export default {
   shallowMenu,
   deepMainMenu,
   deepSubMenuRollcallQuiz,
   deepSubMenuGradeCourse,
-  deepSubMenuMessage
+  deepSubMenuMessage,
+  quizHome,
+  quizQuestion,
+  filterPopover,
+  quizPopover
 };
 </script>
 
