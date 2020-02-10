@@ -1,14 +1,14 @@
 <template>
   <div>
-    <deepSubMenuRollcallQuiz></deepSubMenuRollcallQuiz>
+    <!-- <deepSubMenuRollcallQuiz></deepSubMenuRollcallQuiz> -->
     <!-- <deepSubMenuGradeCourse></deepSubMenuGradeCourse> -->
     <!-- <deepSubMenuMessage></deepSubMenuMessage> -->
     <!-- <rollcallHome></rollcallHome> -->
     <!-- <rollcallEnroll></rollcallEnroll> -->
     <!-- <rollcallOntime></rollcallOntime> -->
     <rollcallRecord></rollcallRecord>
-    <shallowMenu></shallowMenu>
     <!-- <deepMainMenu></deepMainMenu> -->
+    <shallowMenu></shallowMenu>
   </div>
 </template>
 

@@ -3,6 +3,8 @@
     <deepSubMenuRollcallQuiz></deepSubMenuRollcallQuiz>
     <deepSubMenuGradeCourse></deepSubMenuGradeCourse>
     <deepSubMenuMessage></deepSubMenuMessage>
+    <deepMainMenu></deepMainMenu>
+    <shallowMenu></shallowMenu>
   </div>
 </template>
 
