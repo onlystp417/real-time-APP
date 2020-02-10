@@ -7,7 +7,7 @@ export default new Vuex.Store({
   state: {
     compelete: [],
     user: {
-      id: "good",
+      id: null,
       name: null,
       missionState: [false, false, false, false],
       missionLevel: null,
