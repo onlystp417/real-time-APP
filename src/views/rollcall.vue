@@ -2,10 +2,10 @@
   <div>
     <!-- <deepSubMenuRollcallQuiz></deepSubMenuRollcallQuiz> -->
     <!-- <rollcallHome></rollcallHome> -->
-    <rollcallEnroll></rollcallEnroll>
+    <!-- <rollcallEnroll></rollcallEnroll> -->
     <!-- <rollcallOntime></rollcallOntime> -->
-    <!-- <shallowMenu></shallowMenu> -->
-    <deepMainMenu></deepMainMenu>
+    <shallowMenu></shallowMenu>
+    <!-- <deepMainMenu></deepMainMenu> -->
   </div>
 </template>
 
