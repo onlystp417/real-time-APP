@@ -33,6 +33,7 @@ export default {
     background-color: #8ec8f3;
     @include fontstyle(900, 20px, 27px, $font, #fff);
     padding: 37px 45px 16px 45px;
+    box-shadow: 0px 3px 6px #0000004d;
   }
   a {
     display: block;
