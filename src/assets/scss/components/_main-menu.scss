@@ -15,7 +15,4 @@
   h2 {
     @include fontstyle(400, 12px, 1, $font, #b7b7b7);
   }
-  &:active {
-    color: $light-blue;
-  }
 }
