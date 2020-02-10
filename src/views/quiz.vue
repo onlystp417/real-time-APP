@@ -1,9 +1,13 @@
 <template>
   <div class="quiz">
-    <deepSubMenuRollcallQuiz></deepSubMenuRollcallQuiz>
-    <deepSubMenuGradeCourse></deepSubMenuGradeCourse>
-    <deepSubMenuMessage></deepSubMenuMessage>
-    <deepMainMenu></deepMainMenu>
+    <!-- <deepSubMenuRollcallQuiz></deepSubMenuRollcallQuiz> -->
+    <!-- <deepSubMenuGradeCourse></deepSubMenuGradeCourse> -->
+    <!-- <deepSubMenuMessage></deepSubMenuMessage> -->
+    <!-- <deepMainMenu></deepMainMenu> -->
+    <quizHome></quizHome>
+    <!-- <quizQuestion></quizQuestion> -->
+    <!-- <filterPopover></filterPopover> -->
+    <!-- <quizPopover></quizPopover> -->
     <shallowMenu></shallowMenu>
   </div>
 </template>
@@ -19,15 +23,17 @@ import quizQuestion from "@/views/quizQuestion.vue";
 import filterPopover from "@/components/filterPopover.vue";
 import quizPopover from "@/components/quizPopover.vue";
 export default {
-  shallowMenu,
-  deepMainMenu,
-  deepSubMenuRollcallQuiz,
-  deepSubMenuGradeCourse,
-  deepSubMenuMessage,
-  quizHome,
-  quizQuestion,
-  filterPopover,
-  quizPopover
+  components: {
+    shallowMenu,
+    deepMainMenu,
+    deepSubMenuRollcallQuiz,
+    deepSubMenuGradeCourse,
+    deepSubMenuMessage,
+    quizHome,
+    quizQuestion,
+    filterPopover,
+    quizPopover
+  }
 };
 </script>
 
