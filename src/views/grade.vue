@@ -1,5 +1,9 @@
 <template>
-  <div></div>
+  <div class="grade">
+    <deepSubMenuRollcallQuiz></deepSubMenuRollcallQuiz>
+    <deepSubMenuGradeCourse></deepSubMenuGradeCourse>
+    <deepSubMenuMessage></deepSubMenuMessage>
+  </div>
 </template>
 
 <script>

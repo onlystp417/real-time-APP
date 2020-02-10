@@ -1,5 +1,9 @@
 <template>
-  <div></div>
+  <div class="public-message">
+    <deepSubMenuRollcallQuiz></deepSubMenuRollcallQuiz>
+    <deepSubMenuGradeCourse></deepSubMenuGradeCourse>
+    <deepSubMenuMessage></deepSubMenuMessage>
+  </div>
 </template>
 
 <script>
