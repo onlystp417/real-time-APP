@@ -4,6 +4,7 @@
     <!-- <rollcallHome></rollcallHome> -->
     <!-- <rollcallEnroll></rollcallEnroll> -->
     <!-- <rollcallOntime></rollcallOntime> -->
+    <rollcallRecord></rollcallRecord>
     <shallowMenu></shallowMenu>
     <!-- <deepMainMenu></deepMainMenu> -->
   </div>
@@ -16,6 +17,7 @@ import deepSubMenuRollcallQuiz from "@/components/deepSubMenu_rollcall_quiz.vue"
 import rollcallHome from "@/views/rollcallHome.vue";
 import rollcallEnroll from "@/views/rollcallEnroll.vue";
 import rollcallOntime from "@/views/rollcallOntime.vue";
+import rollcallRecord from "@/views/rollcallRecord.vue";
 export default {
   components: {
     shallowMenu,
@@ -23,7 +25,8 @@ export default {
     deepSubMenuRollcallQuiz,
     rollcallHome,
     rollcallEnroll,
-    rollcallOntime
+    rollcallOntime,
+    rollcallRecord
   }
 };
 </script>
