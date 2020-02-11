@@ -1,27 +1,18 @@
 <template>
-  <div class="missionComplete-container">
+  <section class="missionComplete">
     <h2 class="missionComplete-title">任務{{ missionLevelChinese }}完成！</h2>
     <section class="missionComplete-card">
       <h3 class="card-title">
-        <span>編號：{{ userID }}</span>
-        <span>{{ userName }}</span>
+        <span>編號：{{ userID }}</span>{{ userName }}
       </h3>
-      <div class="card-container">
-        <p
-          class="card-text"
-          v-for="(item, index) in messionMessage"
-          :key="index"
-        >
-          任務{{ missionLevel }}-{{ index }}：{{ item.minute }}分{{
-            item.second
-          }}秒
-        </p>
-      </div>
+      <p class="card-text" v-for="(item, index) in messionMessage" :key="index">
+        任務{{ missionLevel }}-{{ index }}：{{ item.minute }}分{{item.second}}秒
+      </p>
     </section>
-    <div class="missionComplete-container-button">
+    <div class="missionComplete-button">
       <buttonPrimarySmall>完成</buttonPrimarySmall>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -47,11 +38,11 @@ export default {
       return this.$store.getters.setMissionTime.map(value => {
         let time = {
           second: value % 60,
-          minute: (value - value % 60) / 60
+          minute: (value - (value % 60)) / 60
         };
-        let unitDigit = /^\b(?=\d$)/
-        time.second = time.second.toString().replace(unitDigit, '0');
-        time.minute = time.minute.toString().replace(unitDigit, '0');
+        let unitDigit = /^\b(?=\d$)/;
+        time.second = time.second.toString().replace(unitDigit, "0");
+        time.minute = time.minute.toString().replace(unitDigit, "0");
         return time;
       });
     }
@@ -61,11 +52,9 @@ export default {
 
 <style lang="scss" scoped>
 .missionComplete {
-  &-container {
-    width: 360px;
-    padding-top: 111px;
-    margin: 0 auto;
-  }
+  width: 360px;
+  padding-top: 111px;
+  margin: 0 auto;
   &-title {
     margin-bottom: 18px;
     text-align: center;
@@ -76,9 +65,6 @@ export default {
     border-radius: 13px;
     padding: 26px 37px 34px 37px;
     .card {
-      &-container {
-        text-align: center;
-      }
       &-title {
         text-align: center;
         @include fontstyle(900, 20px, 1.15, $font, #757575);
@@ -88,13 +74,13 @@ export default {
         }
       }
       &-text {
+        text-align: center;
         @include fontstyle(700, 16px, 2, $font, #757575);
       }
     }
   }
-  &-container-button {
-    margin: 0 auto;
-    margin-top: 42px;
+  &-button {
+    margin: 42px auto 0px auto;
   }
 }
 </style>
