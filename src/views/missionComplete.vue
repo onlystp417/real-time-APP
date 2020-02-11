@@ -94,8 +94,8 @@ export default {
     }
   }
   &-container-button {
-    padding-top: 42px;
     margin: 0 auto;
+    margin-top: 42px;
   }
 }
 </style>
