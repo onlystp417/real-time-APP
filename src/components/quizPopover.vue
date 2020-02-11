@@ -1,10 +1,61 @@
 <template>
-  <div></div>
+  <div class="quiz-popover">
+    <h5>答題結果</h5>
+    <div>
+      <answerResult>
+        <!-- <img slot="image" src="../assets/images/correct.png" alt="correct" /> -->
+        <img slot="image" src="../assets/images/wrong.png" alt="correct" />
+        <!-- <p class="correct-text" slot="text">正確</p> -->
+        <p class="wrong-text" slot="text">錯誤</p>
+      </answerResult>
+      <buttonPrimaryBig>確認</buttonPrimaryBig>
+    </div>
+  </div>
 </template>
 
 <script>
-export default {};
+import answerResult from "@/components/answerResult.vue";
+import buttonPrimaryBig from "@/components/buttonPrimaryBig.vue";
+export default {
+  components: {
+    answerResult,
+    buttonPrimaryBig
+  }
+};
 </script>
 
 <style lang="scss" scoped>
+.quiz-popover {
+  position: absolute;
+  top: 237px;
+  right: 42px;
+  left: 42px;
+  z-index: 99;
+  text-align: center;
+  > h5 {
+    background: $light-blue;
+    border-radius: 17px 17px 0 0;
+    @include fontstyle(400, 18px, 22px, $font, $white);
+    line-height: 40px;
+  }
+  > div {
+    background: $white;
+    padding: 17px 0 19px 0;
+    border-radius: 0 0 17px 17px;
+  }
+  img {
+    width: 72px;
+    height: 72px;
+    margin-bottom: 8px;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+  .correct-text {
+    @include fontstyle(500, 30px, 1.5, $font, $success);
+  }
+  .wrong-text {
+    @include fontstyle(500, 30px, 1.5, $font, $warning);
+  }
+}
 </style>

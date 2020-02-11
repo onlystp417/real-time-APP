@@ -5,10 +5,10 @@
     <!-- <deepSubMenuMessage></deepSubMenuMessage> -->
     <!-- <deepMainMenu></deepMainMenu> -->
     <!-- <quizHome></quizHome> -->
-    <quizQuestionOne></quizQuestionOne>
+    <!-- <quizQuestionOne></quizQuestionOne> -->
     <!-- <quizQuestionTwo></quizQuestionTwo> -->
-    <!-- <filterPopover></filterPopover> -->
-    <!-- <quizPopover></quizPopover> -->
+    <filterPopover></filterPopover>
+    <quizPopover></quizPopover>
     <shallowMenu></shallowMenu>
   </div>
 </template>
