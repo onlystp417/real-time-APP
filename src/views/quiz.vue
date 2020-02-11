@@ -4,8 +4,9 @@
     <!-- <deepSubMenuGradeCourse></deepSubMenuGradeCourse> -->
     <!-- <deepSubMenuMessage></deepSubMenuMessage> -->
     <!-- <deepMainMenu></deepMainMenu> -->
-    <quizHome></quizHome>
-    <!-- <quizQuestion></quizQuestion> -->
+    <!-- <quizHome></quizHome> -->
+    <quizQuestionOne></quizQuestionOne>
+    <!-- <quizQuestionTwo></quizQuestionTwo> -->
     <!-- <filterPopover></filterPopover> -->
     <!-- <quizPopover></quizPopover> -->
     <shallowMenu></shallowMenu>
@@ -19,7 +20,8 @@ import deepSubMenuRollcallQuiz from "@/components/deepSubMenu_rollcall_quiz.vue"
 import deepSubMenuMessage from "@/components/deepSubMenu_message.vue";
 import deepSubMenuGradeCourse from "@/components/deepSubMenu_grade_course.vue";
 import quizHome from "@/views/quizHome.vue";
-import quizQuestion from "@/views/quizQuestion.vue";
+import quizQuestionOne from "@/views/quizQuestion-one.vue";
+import quizQuestionTwo from "@/views/quizQuestion-two.vue";
 import filterPopover from "@/components/filterPopover.vue";
 import quizPopover from "@/components/quizPopover.vue";
 export default {
@@ -30,7 +32,8 @@ export default {
     deepSubMenuGradeCourse,
     deepSubMenuMessage,
     quizHome,
-    quizQuestion,
+    quizQuestionOne,
+    quizQuestionTwo,
     filterPopover,
     quizPopover
   }
