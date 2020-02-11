@@ -2,10 +2,6 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import home from '../views/home.vue'
 import missionHome from '../views/missionHome.vue'
-import missionInstructionOne from '../views/missionInstruction-one.vue'
-import missionInstructionTwo from '../views/missionInstruction-two.vue'
-import missionInstructionThree from '../views/missionInstruction-three.vue'
-import missionInstructionFour from '../views/missionInstruction-four.vue'
 import missionInstruction from '../views/missionInstruction.vue'
 import missionLevel from '../views/missionLevel.vue'
 import missionStart from '../views/missionStart.vue'
@@ -32,24 +28,6 @@ const routes = [
     component: missionHome
   },
   {
-    path: '/missionInstruction-one',
-    name: 'missionInstruction-one',
-    component: missionInstructionOne
-  },
-  {
-    path: '/missionInstruction-two',
-    name: 'missionInstruction-two',
-    component: missionInstructionTwo
-  },
-  {
-    path: '/missionInstruction-three',
-    name: 'missionInstruction-three',
-    component: missionInstructionThree
-  },
-  {
-    path: '/missionInstruction-four',
-    name: 'missionInstruction-four',
-    component: missionInstructionFour
     path: '/missionInstruction',
     name: 'missionInstruction',
     component: missionInstruction
