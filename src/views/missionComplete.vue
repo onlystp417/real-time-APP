@@ -46,13 +46,12 @@ export default {
     messionMessage() {
       return this.$store.getters.setMissionTime.map(value => {
         let time = {
-          second: null,
-          minute: null
+          second: value % 60,
+          minute: (value - value % 60) / 60
         };
-        time.second = (value % 60).toString().replace(/^\b(?=\d$)/, 0);
-        time.minute = ((value - time.second) / 60)
-          .toString()
-          .replace(/^\b(?=\d$)/, 0);
+        let unitDigit = /^\b(?=\d$)/
+        time.second = time.second.toString().replace(unitDigit, '0');
+        time.minute = time.minute.toString().replace(unitDigit, '0');
         return time;
       });
     }
