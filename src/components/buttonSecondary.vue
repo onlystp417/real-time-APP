@@ -1,9 +1,7 @@
 <template>
-  <div class="button-wrap">
-    <button class="secondary-button">
-      <slot></slot>
-    </button>
-  </div>
+  <button class="secondary-button">
+    <slot></slot>
+  </button>
 </template>
 
 <script>
@@ -11,12 +9,6 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-.button-wrap {
-  display: inline-block;
-  width: 25%;
-  text-align: right;
-}
-
 .secondary-button {
   background: $light-blue;
   width: 74px;

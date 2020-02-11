@@ -3,7 +3,9 @@
     <componentTitle>點名紀錄</componentTitle>
     <section class="list-card">
       <h4>最近點名紀錄</h4>
-      <buttonSecondary>查看</buttonSecondary>
+      <div class="button-wrap">
+        <buttonSecondary>查看</buttonSecondary>
+      </div>
     </section>
     <section class="list-card">
       <h4>準時</h4>
@@ -51,6 +53,12 @@ export default {
   //   margin-bottom: 9px;
   //   @include fontstyle(700, 24px, 1.2, $font, #474747);
   // }
+}
+
+.button-wrap {
+  display: inline-block;
+  width: 25%;
+  text-align: right;
 }
 
 .primary-button-big {

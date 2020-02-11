@@ -3,10 +3,10 @@
     <!-- <deepSubMenuRollcallQuiz></deepSubMenuRollcallQuiz> -->
     <!-- <deepSubMenuGradeCourse></deepSubMenuGradeCourse> -->
     <!-- <deepSubMenuMessage></deepSubMenuMessage> -->
-    <!-- <rollcallHome></rollcallHome> -->
+    <rollcallHome></rollcallHome>
     <!-- <rollcallEnroll></rollcallEnroll> -->
     <!-- <rollcallOntime></rollcallOntime> -->
-    <rollcallRecord></rollcallRecord>
+    <!-- <rollcallRecord></rollcallRecord> -->
     <!-- <deepMainMenu></deepMainMenu> -->
     <shallowMenu></shallowMenu>
   </div>
