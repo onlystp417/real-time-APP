@@ -19,7 +19,7 @@
       </div>
     </section>
     <div class="missionComplete-container-button">
-      <buttonPrimarySmall>開始</buttonPrimarySmall>
+      <buttonPrimarySmall>完成</buttonPrimarySmall>
     </div>
   </div>
 </template>
