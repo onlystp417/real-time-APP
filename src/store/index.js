@@ -138,12 +138,9 @@ export default new Vuex.Store({
   getters: {
     chineseMissionLevel: state =>
       state.user.missionLevel.toLocaleString("zh-u-nu-hanidec"),
-
-    setGenderAbbreviation: state => (state.user.gender === "male" ? "M" : "F"),
-
+    setGenderAbbreviation: state => state.user.gender === "male" ? "M" : "F",
     setUserSymbol: (state, getters) =>
       getters.setGenderAbbreviation + state.user.id.toString(),
-
     setMissionTime: state => {
       return state.user.missionLevelState
         .find((value, index) => index === state.user.missionLevel - 1)
