@@ -10,7 +10,7 @@
       </p>
     </section>
     <div class="missionComplete-button">
-      <buttonPrimarySmall>完成</buttonPrimarySmall>
+      <buttonPrimarySmall @click="$router.push({name: 'missionLevel'})">完成</buttonPrimarySmall>
     </div>
   </section>
 </template>
@@ -46,6 +46,8 @@ export default {
         return time;
       });
     }
+  },
+  methods:{
   }
 };
 </script>
