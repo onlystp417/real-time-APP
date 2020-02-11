@@ -6,6 +6,7 @@ import missionInstructionOne from '../views/missionInstruction-one.vue'
 import missionInstructionTwo from '../views/missionInstruction-two.vue'
 import missionInstructionThree from '../views/missionInstruction-three.vue'
 import missionInstructionFour from '../views/missionInstruction-four.vue'
+import missionInstruction from '../views/missionInstruction.vue'
 import missionLevel from '../views/missionLevel.vue'
 import missionStart from '../views/missionStart.vue'
 import missionComplete from '../views/missionComplete.vue'
@@ -49,6 +50,9 @@ const routes = [
     path: '/missionInstruction-four',
     name: 'missionInstruction-four',
     component: missionInstructionFour
+    path: '/missionInstruction',
+    name: 'missionInstruction',
+    component: missionInstruction
   },
   {
     path: '/missionLevel',
