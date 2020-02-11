@@ -10,11 +10,12 @@ export default {};
 
 <style lang="scss" scoped>
 .button-tertiary {
-  float: right;
+  position: absolute;
+  right: 17px;
+  bottom: 17px;
   background: $light-blue;
   width: 52px;
   height: 28px;
-  margin-right: 17px;
   border-radius: 7px;
   @include fontstyle(400, 16px, 28px, $font, $white);
   text-align: center;

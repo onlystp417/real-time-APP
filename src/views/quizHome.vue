@@ -38,14 +38,11 @@ export default {
   margin: auto;
   padding-top: 28px;
   > section {
-    background: $white;
+    position: relative;
+    height: 165px;
     margin-bottom: 14px;
     padding: 8px 0px 17px 0px;
-    &::after {
-      content: "";
-      display: block;
-      clear: both;
-    }
+    background: $white;
   }
   h4,
   h5,
@@ -61,9 +58,6 @@ export default {
   h5,
   p {
     @include fontstyle(300, 12px, 22px, $font, #474747);
-  }
-  p {
-    margin-bottom: 10px;
   }
 }
 </style>

@@ -8,11 +8,12 @@ export default {};
 
 <style lang="scss" scoped>
 .button-tertiary-wrong {
-  float: right;
+  position: absolute;
+  right: 17px;
+  bottom: 17px;
   background: $white;
   width: 52px;
   height: 28px;
-  margin-right: 17px;
   border-radius: 7px;
   border: 1px solid $warning;
   @include fontstyle(400, 16px, 26px, $font, $warning);
