@@ -2,7 +2,7 @@
   <div class="mission-instruction mission-instruction-card">
     <div class="card instruction-card-space instruction-card-font">
       <h3>任務{{ missionLevelChinese }}</h3>
-      <p v-for="item in missionLevelMessage">{{ item }}</p>
+      <p v-for="item in missionLevelMessage"><pre>{{ item }}</pre></p>
     </div>
     <buttonPrimarySmall @click="$router.push({name: 'rollcall'})">開始</buttonPrimarySmall>
   </div>
@@ -26,12 +26,12 @@ export default {
         [
           "1.感受到振動後拿起手機",
           "2.回答第一題，選擇A選項\n\r3.說出答題是否正確",
-          "4.找到討論區的「邊緣運算」文章\r\n5.在「邊緣運算」文章中 新增留言「雲端運算」",
+          "4.找到討論區的「邊緣運算」文章\r\n5.在「邊緣運算」文章中\n\r   新增留言「雲端運算」",
           "6.觀看本帳號的最近一次的點名紀錄"
         ],
         [
           "1.感受到振動後拿起手機",
-          "2.回答第二題，選擇B選項\r\n3.說出答題是否正確",
+          "2.回答第二題，選擇B選項\n\r3.說出答題是否正確",
           "4.查看本課程的出席率",
           "5.查看本課程的「12/3停課一周」公告"
         ],
