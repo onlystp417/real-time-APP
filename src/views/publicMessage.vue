@@ -2,7 +2,7 @@
   <div class="public-message">
     <!-- <deepSubMenuRollcallQuiz></deepSubMenuRollcallQuiz> -->
     <!-- <deepSubMenuGradeCourse></deepSubMenuGradeCourse> -->
-    <deepSubMenuMessage></deepSubMenuMessage>
+    <!-- <deepSubMenuMessage></deepSubMenuMessage> -->
     <deepMainMenu></deepMainMenu>
     <!-- <shallowMenu></shallowMenu> -->
     <div class="message-list">
@@ -40,6 +40,7 @@
           <span class="unit">則回應</span>
         </div>
       </section>
+      <buttonQuaternary></buttonQuaternary>
     </div>
     <messageTyping></messageTyping>
   </div>
@@ -52,6 +53,7 @@ import deepSubMenuRollcallQuiz from "@/components/deepSubMenu_rollcall_quiz.vue"
 import deepSubMenuMessage from "@/components/deepSubMenu_message.vue";
 import deepSubMenuGradeCourse from "@/components/deepSubMenu_grade_course.vue";
 import messageTyping from "@/components/messageTyping.vue";
+import buttonQuaternary from "@/components/buttonQuaternary.vue";
 export default {
   components: {
     shallowMenu,
@@ -59,13 +61,16 @@ export default {
     deepSubMenuRollcallQuiz,
     deepSubMenuGradeCourse,
     deepSubMenuMessage,
-    messageTyping
+    messageTyping,
+    buttonQuaternary
   }
 };
 </script>
 
 <style lang="scss" scoped>
 .public-message {
+  height: calc(100vh - 135px);
+  position: relative;
   padding-top: 28px;
 }
 
@@ -117,5 +122,9 @@ export default {
   right: 16px;
   bottom: 9px;
   @include fontstyle(300px, 10px, 1, $font, #b7b7b7);
+}
+
+.public-message-card:last-child {
+  margin-bottom: 119px;
 }
 </style>
