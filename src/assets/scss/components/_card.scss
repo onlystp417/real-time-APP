@@ -104,3 +104,21 @@
     }
   }
 }
+
+.anousement-card {
+  > div {
+    width: 379px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 14px 16px;
+    margin-bottom: 54px;
+  }
+  h4 {
+    margin-bottom: 13px;
+    @include fontstyle(500, 24px, 1.2, $font, #474747);
+  }
+  p {
+    height: 96px;
+    @include fontstyle(300, 16px, 24px, $font, #474747);
+  }
+}

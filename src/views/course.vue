@@ -5,7 +5,9 @@
     <!-- <deepSubMenuMessage></deepSubMenuMessage> -->
     <!-- <deepMainMenu></deepMainMenu> -->
     <shallowMenu></shallowMenu>
-    <courseHome></courseHome>
+    <!-- <courseHome></courseHome> -->
+    <!-- <courseSuspension></courseSuspension> -->
+    <courseHomework></courseHomework>
   </div>
 </template>
 
@@ -16,6 +18,8 @@ import deepSubMenuRollcallQuiz from "@/components/deepSubMenu_rollcall_quiz.vue"
 import deepSubMenuMessage from "@/components/deepSubMenu_message.vue";
 import deepSubMenuGradeCourse from "@/components/deepSubMenu_grade_course.vue";
 import courseHome from "@/views/courseHome.vue";
+import courseSuspension from "@/views/courseSuspension.vue";
+import courseHomework from "@/views/courseHomework.vue";
 
 export default {
   components: {
@@ -24,7 +28,9 @@ export default {
     deepSubMenuRollcallQuiz,
     deepSubMenuGradeCourse,
     deepSubMenuMessage,
-    courseHome
+    courseHome,
+    courseSuspension,
+    courseHomework
   }
 };
 </script>
