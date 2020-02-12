@@ -22,6 +22,7 @@ export default {
   position: fixed;
   width: 100%;
   top: 0px;
+  z-index: 999;
   &-state {
     position: absolute;
     left: 0;
