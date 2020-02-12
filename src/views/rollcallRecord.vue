@@ -40,8 +40,6 @@ export default {
 
 <style lang="scss" scoped>
 .rollcall-record {
-  width: 379px;
-  margin: auto;
   padding-top: 15px;
   > ul {
     margin-bottom: 46px;

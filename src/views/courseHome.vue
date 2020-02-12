@@ -53,8 +53,6 @@ export default {
 
 <style lang="scss" scoped>
 .course-home {
-  width: 379px;
-  margin: auto;
   padding-top: 28px;
   .information {
     &-card {

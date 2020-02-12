@@ -10,6 +10,8 @@ export default {};
 
 <style lang="scss" scoped>
 .component-title {
+  width: 379px;
+  margin: auto;
   margin-bottom: 9px;
   @include fontstyle(500, 24px, 1.2, $font, #474747);
 }

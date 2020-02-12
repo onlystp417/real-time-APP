@@ -45,8 +45,6 @@ export default {
 
 <style lang="scss" scoped>
 .rollcall-home {
-  width: 379px;
-  margin: auto;
   padding-top: 15px;
   h4 {
     line-height: 50px;

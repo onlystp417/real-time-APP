@@ -34,8 +34,6 @@ export default {
 
 <style lang="scss" scoped>
 .quiz-home {
-  width: 379px;
-  margin: auto;
   padding-top: 28px;
   > section {
     position: relative;
