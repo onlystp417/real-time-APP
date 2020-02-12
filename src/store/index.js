@@ -105,11 +105,15 @@ export default new Vuex.Store({
     }
   },
   getters: {
-    chineseMissionLevel: state =>
-      state.user.missionLevel.toLocaleString("zh-u-nu-hanidec"),
-    setGenderAbbreviation: state => state.user.gender === "male" ? "M" : "F",
-    setUserSymbol: (state, getters) =>
-      getters.setGenderAbbreviation + state.user.id.toString(),
+    chineseMissionLevel: state => {
+      return state.user.missionLevel.toLocaleString("zh-u-nu-hanidec");
+    },
+    setGenderAbbreviation: state => {
+      return state.user.gender === "male" ? "M" : "F";
+    },
+    userSymbol: (state, getters) => {
+      return getters.setGenderAbbreviation + state.user.id.toString();
+    },
     setMissionTime: state => {
       return state.user.missionLevelState
         .find((value, index) => index === state.user.missionLevel - 1)
@@ -120,7 +124,7 @@ export default new Vuex.Store({
   },
   mutations: {
     setMissionLevel: (state, payload) => {
-      state.user.missionLevel = payload.level
+      state.user.missionLevel = payload.level;
     }
   },
   actions: {},

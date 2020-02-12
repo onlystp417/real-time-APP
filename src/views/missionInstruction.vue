@@ -1,7 +1,7 @@
 <template>
   <div class="mission-instruction mission-instruction-card">
     <div class="card instruction-card-space instruction-card-font">
-      <h3>任務{{ missionLevelChinese }}</h3>
+      <h3>任務{{ chineseMissionLevel }}</h3>
       <p v-for="item in missionLevelMessage"><pre>{{ item }}</pre></p>
     </div>
     <buttonPrimarySmall @click="$router.push({name: 'rollcall'})">開始</buttonPrimarySmall>
@@ -9,6 +9,7 @@
 </template>
 
 <script>
+import { mapState, mapGetters } from "vuex";
 import buttonPrimarySmall from "@/components/buttonPrimarySmall.vue";
 export default {
   components: {
@@ -46,12 +47,10 @@ export default {
     };
   },
   computed: {
-    missionLevelChinese() {
-      return this.$store.getters.chineseMissionLevel;
-    },
-    missionLevel() {
-      return this.$store.state.user.missionLevel;
-    },
+    ...mapState({
+      missionLevel: state => state.user.missionLevel,
+    }),
+    ...mapGetters([ "chineseMissionLevel"]),
     missionLevelMessage() {
       return this.messionMessage.find(
         (value, index) => index === this.missionLevel - 1

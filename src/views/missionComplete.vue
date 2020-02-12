@@ -1,13 +1,16 @@
 <template>
   <section class="missionComplete">
-    <h2 class="missionComplete-title">任務{{ missionLevelChinese }}完成！</h2>
+    <h2 class="missionComplete-title">任務{{ chineseMissionLevel }}完成！</h2>
     <section class="missionComplete-card">
       <h3 class="card-title">
-        <span>編號：{{ userID }}</span>{{ userName }}
+        <span>編號：{{ userSymbol }}</span>
+        {{ name }}
       </h3>
-      <p class="card-text" v-for="(item, index) in messionMessage" :key="index">
-        任務{{ missionLevel }}-{{ index }}：{{ item.minute }}分{{item.second}}秒
-      </p>
+      <p
+        class="card-text"
+        v-for="(item, index) in messionMessage"
+        :key="index"
+      >任務{{ missionLevel }}-{{ index }}：{{ item.minute }}分{{item.second}}秒</p>
     </section>
     <div class="missionComplete-button">
       <buttonPrimarySmall @click="$router.push({name: 'missionLevel'})">完成</buttonPrimarySmall>
@@ -16,39 +19,34 @@
 </template>
 
 <script>
+import { mapState, mapGetters } from "vuex";
 import buttonPrimarySmall from "@/components/buttonPrimarySmall.vue";
 export default {
   components: {
     buttonPrimarySmall
   },
   computed: {
-    missionLevelChinese() {
-      return this.$store.getters.chineseMissionLevel;
-    },
-    missionLevel() {
-      return this.$store.state.user.missionLevel;
-    },
-    userID() {
-      return this.$store.getters.setUserSymbol;
-    },
-    userName() {
-      return this.$store.state.user.name;
-    },
-    messionMessage() {
+    ...mapState({
+      missionLevel: state => state.user.missionLevel,
+      name: state => state.user.name
+    }),
+    ...mapGetters(["userSymbol", "chineseMissionLevel"]),
+    messionMessage(state) {
       return this.$store.getters.setMissionTime.map(value => {
         let time = {
           second: value % 60,
           minute: (value - (value % 60)) / 60
         };
+
         let unitDigit = /^\b(?=\d$)/;
-        time.second = time.second.toString().replace(unitDigit, "0");
-        time.minute = time.minute.toString().replace(unitDigit, "0");
+        time.second = (time.second).toString().replace(unitDigit, "0");
+        time.minute = (time.minute).toString().replace(unitDigit, "0");
+
         return time;
       });
     }
   },
-  methods:{
-  }
+  methods: {}
 };
 </script>
 
