@@ -64,9 +64,9 @@ export default {
     }
     h5 {
       display: inline-block;
-      margin-left: -4px;
       @include fontstyle(100, 12px, 1, $font, #b7b7b7);
-      -webkit-transform: scale(0.83);
+      transform: scale(0.83);
+      transform-origin: top left;
     }
     p {
       margin-bottom: 8.5px;
