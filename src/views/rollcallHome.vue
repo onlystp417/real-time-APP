@@ -1,10 +1,9 @@
 <template>
   <div class="rollcall-home">
-    <componentTitle>點名紀錄</componentTitle>
     <section class="list-card">
       <h4>最近點名紀錄</h4>
       <div class="button-wrap">
-        <buttonSecondary>查看</buttonSecondary>
+        <buttonSecondary></buttonSecondary>
       </div>
     </section>
     <section class="list-card">
@@ -49,10 +48,9 @@ export default {
   width: 379px;
   margin: auto;
   padding-top: 15px;
-  // h3 {
-  //   margin-bottom: 9px;
-  //   @include fontstyle(700, 24px, 1.2, $font, #474747);
-  // }
+  h4 {
+    line-height: 50px;
+  }
 }
 
 .button-wrap {

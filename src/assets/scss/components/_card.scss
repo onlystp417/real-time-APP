@@ -28,19 +28,19 @@
 .list-card {
   background: $white;
   margin-bottom: 13px;
-  padding: 13.5px 10px 12.5px 15px;
+  padding: 0 10px 0 15px;
   box-shadow: #00000029 0px 3px 6px;
   h4 {
     display: inline-block;
     width: 75%;
-    @include fontstyle(700, 18px, 22px, $font, #474747);
+    @include fontstyle(500, 18px, 22px, $font, #474747);
   }
   span {
     display: inline-block;
     width: 25%;
     text-align: right;
     padding-right: 14px;
-    @include fontstyle(700, 18px, 22px, $font, #474747);
+    @include fontstyle(500, 18px, 22px, $font, #474747);
   }
 }
 
