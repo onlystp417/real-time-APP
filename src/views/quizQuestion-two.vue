@@ -1,6 +1,6 @@
 <template>
   <div class="quiz-question">
-    <section class="question-card quiz-card-content">
+    <section class="question-card quiz-card-content normal-card">
       <h4>單選題</h4>
       <h5>第二題</h5>
       <p>一般而言，人類的短期記憶能力有其限制，其限制為多少?</p>

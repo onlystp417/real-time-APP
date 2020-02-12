@@ -1,3 +1,8 @@
+.normal-card {
+  background: $white;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
 .mission-instruction-card {
   width: 360px;
   margin: auto;
@@ -26,10 +31,8 @@
 }
 
 .list-card {
-  background: $white;
   margin-bottom: 13px;
   padding: 0 10px 0 15px;
-  box-shadow: #00000029 0px 3px 6px;
   h4 {
     display: inline-block;
     width: 75%;
@@ -47,7 +50,6 @@
 .quiz-card-content {
   margin-bottom: 14px;
   padding: 8px 0px 17px 0px;
-  background: $white;
   h4,
   h5,
   p {
@@ -69,7 +71,6 @@
   width: 379px;
   margin: 15px auto 36px auto;
   padding-bottom: 5px;
-  box-shadow: 0px 3px 6px #00000029;
   p {
     height: 65px;
   }

@@ -6,9 +6,9 @@
     <!-- <deepMainMenu></deepMainMenu> -->
     <!-- <quizHome></quizHome> -->
     <!-- <quizQuestionOne></quizQuestionOne> -->
-    <!-- <quizQuestionTwo></quizQuestionTwo> -->
-    <filterPopover></filterPopover>
-    <quizPopover></quizPopover>
+    <quizQuestionTwo></quizQuestionTwo>
+    <!-- <filterPopover></filterPopover> -->
+    <!-- <quizPopover></quizPopover> -->
     <shallowMenu></shallowMenu>
   </div>
 </template>

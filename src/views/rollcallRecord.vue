@@ -1,7 +1,7 @@
 <template>
   <div class="rollcall-record">
     <componentTitle>點名紀錄</componentTitle>
-    <ul>
+    <ul class="normal-card">
       <li>
         <time>2020/01/05 13:00</time>
         <span class="rollcall-ontime">準時</span>
@@ -44,10 +44,8 @@ export default {
   margin: auto;
   padding-top: 15px;
   > ul {
-    background: $white;
     margin-bottom: 46px;
     padding: 17.5px 33px 4.5px 23px;
-    box-shadow: 0px 3px 6px #00000029;
     list-style: none;
   }
   li {
