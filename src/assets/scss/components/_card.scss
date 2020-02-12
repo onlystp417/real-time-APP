@@ -38,7 +38,7 @@
   h4 {
     display: inline-block;
     width: 75%;
-    @include fontstyle(500, 18px, 22px, $font, #474747);
+    @include fontstyle(500, 18px, 50px, $font, #474747);
   }
   span {
     display: inline-block;

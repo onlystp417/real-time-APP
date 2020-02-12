@@ -46,9 +46,6 @@ export default {
 <style lang="scss" scoped>
 .rollcall-home {
   padding-top: 15px;
-  h4 {
-    line-height: 50px;
-  }
 }
 
 .button-wrap {

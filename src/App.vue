@@ -12,6 +12,7 @@
       <router-link to="/rollcall">rollcall</router-link>|
       <router-link to="/course">course</router-link>|
       <router-link to="/quiz">quiz</router-link>|
+      <router-link to="/grade">grade</router-link>|
       <router-link to="/privateMessage">private-m</router-link>|
       <router-link to="/publicMessage">public-m</router-link>|
     </div>
