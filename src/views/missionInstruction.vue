@@ -61,7 +61,8 @@ export default {
 }
 
 .mission-instruction-card {
-  width: 360px;
+  width: 87.5%;
+  max-width: 495px;
   margin: auto;
   .card {
     background: $white;

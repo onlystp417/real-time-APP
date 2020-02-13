@@ -23,7 +23,8 @@ export default {};
 }
 .register {
   .user {
-    width: 331px;
+    width: 80%;
+    max-width: 475px;
     margin: auto;
     background: $white;
     margin-bottom: 26px;

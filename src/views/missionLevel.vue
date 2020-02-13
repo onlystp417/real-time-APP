@@ -34,12 +34,13 @@ export default {
   padding-bottom: 40px;
   > div {
     background: $white;
-    width: 331px;
-    border-radius: 13px;
+    width: 80%;
+    max-width: 475px;
     margin: auto;
     margin-bottom: 21px;
     padding-top: 10px;
     padding-bottom: 16px;
+    border-radius: 13px;
     box-shadow: #00000029 0px 1px 3px 0px;
   }
   h3 {

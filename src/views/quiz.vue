@@ -4,10 +4,10 @@
     <!-- <deepSubMenuGradeCourse></deepSubMenuGradeCourse> -->
     <!-- <deepSubMenuMessage></deepSubMenuMessage> -->
     <!-- <deepMainMenu></deepMainMenu> -->
-    <quizHome></quizHome>
+    <!-- <quizHome></quizHome> -->
     <!-- <quizQuestionOne></quizQuestionOne> -->
-    <!-- <quizQuestionTwo></quizQuestionTwo> -->
-    <!-- <quizPopover></quizPopover> -->
+    <quizQuestionTwo></quizQuestionTwo>
+    <quizPopover></quizPopover>
     <shallowMenu></shallowMenu>
   </div>
 </template>

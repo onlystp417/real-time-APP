@@ -32,9 +32,9 @@ export default {
 <style lang="scss" scoped>
 .quiz-popover {
   position: absolute;
-  top: 237px;
-  right: 42px;
-  left: 42px;
+  top: 32.2vh;
+  right: 10vw;
+  left: 10vw;
   z-index: 99999;
   text-align: center;
   > h5 {

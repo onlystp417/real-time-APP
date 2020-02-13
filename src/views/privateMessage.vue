@@ -24,7 +24,7 @@
       </section>
       <buttonQuaternary></buttonQuaternary>
     </div>
-    <!-- <messageIcon></messageIcon> -->
+    <messageIcon></messageIcon>
     <!-- <messageTyping></messageTyping> -->
   </div>
 </template>

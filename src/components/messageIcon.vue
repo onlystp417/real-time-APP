@@ -38,11 +38,11 @@ export default {
 <style lang="scss" scoped>
 .message-icon {
   position: absolute;
-  top: 57vh;
-  right: 16.5px;
-  left: 16.5px;
+  bottom: 11vh;
+  right: 2.8vh;
+  left: 2.8vh;
   background: $white;
-  padding: 16px 24.5px 15px 24.5px;
+  padding: 16px 23px 15px 23px;
   border-radius: 5px;
   z-index: 99999;
   h4 {

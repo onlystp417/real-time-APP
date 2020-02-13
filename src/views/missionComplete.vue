@@ -31,7 +31,8 @@ export default {
 }
 
 .missionComplete {
-  width: 360px;
+  width: 87.5%;
+  max-width: 495px;
   margin: 0 auto;
   &-title {
     margin-bottom: 18px;
