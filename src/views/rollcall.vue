@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="rollcall content-area main-menu-placeholder">
     <!-- <deepSubMenuRollcallQuiz></deepSubMenuRollcallQuiz> -->
     <!-- <deepSubMenuGradeCourse></deepSubMenuGradeCourse> -->
     <!-- <deepSubMenuMessage></deepSubMenuMessage> -->

@@ -1,5 +1,5 @@
 <template>
-  <div class="mission-level">
+  <div class="mission-level content-area">
     <div>
       <h3>任務一</h3>
       <buttonPrimarySmall class="finished">已完成</buttonPrimarySmall>
@@ -30,8 +30,8 @@ export default {
 
 <style lang="scss" scoped>
 .mission-level {
-  height: calc(100vh - 102px);
-  padding-top: 63.5px - 22px;
+  padding-top: 63.5px;
+  padding-bottom: 40px;
   > div {
     background: $white;
     width: 331px;

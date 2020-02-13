@@ -1,5 +1,5 @@
 <template>
-  <div class="mission-home">
+  <div class="mission-home content-area main-menu-placeholder">
     <form class="register" action>
       <div class="user">
         <label>編號：M13</label>
@@ -19,19 +19,22 @@ export default {};
 
 <style lang="scss" scoped>
 .mission-home {
-  width: 331px;
   padding-top: 212px;
-  margin: auto;
 }
 .register {
-  > .user {
+  .user {
+    width: 331px;
+    margin: auto;
     background: $white;
-    width: 100%;
     margin-bottom: 26px;
     padding: 15px 37px 27px 34px;
     border-radius: 13px;
     box-shadow: 0px 1px 3px #00000029;
     text-align: center;
+  }
+  .action {
+    width: 331px;
+    margin: auto;
   }
   label {
     display: block;

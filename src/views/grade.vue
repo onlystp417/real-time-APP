@@ -1,5 +1,5 @@
 <template>
-  <div class="grade">
+  <div class="grade content-area main-menu-placeholder">
     <!-- <deepSubMenuRollcallQuiz></deepSubMenuRollcallQuiz> -->
     <!-- <deepSubMenuGradeCourse></deepSubMenuGradeCourse> -->
     <!-- <deepSubMenuMessage></deepSubMenuMessage> -->

@@ -1,8 +1,8 @@
 <template>
-  <div class="private-message">
+  <div class="private-message content-area main-menu-placeholder">
     <!-- <deepSubMenuRollcallQuiz></deepSubMenuRollcallQuiz> -->
     <!-- <deepSubMenuGradeCourse></deepSubMenuGradeCourse> -->
-    <!-- <deepSubMenuMessage></deepSubMenuMessage> -->
+    <deepSubMenuMessage></deepSubMenuMessage>
     <!-- <deepMainMenu></deepMainMenu> -->
     <shallowMenu></shallowMenu>
     <div class="message-list">
@@ -24,7 +24,7 @@
       </section>
       <buttonQuaternary></buttonQuaternary>
     </div>
-    <messageIcon></messageIcon>
+    <!-- <messageIcon></messageIcon> -->
     <!-- <messageTyping></messageTyping> -->
   </div>
 </template>

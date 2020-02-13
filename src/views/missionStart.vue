@@ -1,9 +1,11 @@
 <template>
-  <div class="missionStart">
-    <a href>
-      <div>即時反饋系統APP · 現在</div>
-      <div>輕觸即可開啓課程</div>
-    </a>
+  <div class="content-area">
+    <div class="missionStart">
+      <a href>
+        <div>即時反饋系統APP · 現在</div>
+        <div>輕觸即可開啓課程</div>
+      </a>
+    </div>
   </div>
 </template>
 

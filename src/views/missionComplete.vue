@@ -12,10 +12,7 @@
         :key="index"
       >任務{{ $store.getters.missionLevel }}-{{ index }}：{{ item.minute }}分{{item.second}}秒</p>
     </section>
-    <div class="missionComplete-button">
-      <buttonPrimarySmall @click="$router.push({name: 'missionLevel'})">完成</buttonPrimarySmall>
-    </div>
-  </section>
+  </div>
 </template>
 
 <script>
@@ -29,9 +26,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.mission-complete-wrapper {
+  padding-top: 111px;
+}
+
 .missionComplete {
   width: 360px;
-  padding-top: 111px;
   margin: 0 auto;
   &-title {
     margin-bottom: 18px;

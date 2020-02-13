@@ -1,5 +1,5 @@
 <template>
-  <div class="quiz">
+  <div class="quiz content-area main-menu-placeholder">
     <!-- <deepSubMenuRollcallQuiz></deepSubMenuRollcallQuiz> -->
     <!-- <deepSubMenuGradeCourse></deepSubMenuGradeCourse> -->
     <!-- <deepSubMenuMessage></deepSubMenuMessage> -->
@@ -7,7 +7,7 @@
     <!-- <quizHome></quizHome> -->
     <quizQuestionOne></quizQuestionOne>
     <!-- <quizQuestionTwo></quizQuestionTwo> -->
-    <quizPopover></quizPopover>
+    <!-- <quizPopover></quizPopover> -->
     <shallowMenu></shallowMenu>
   </div>
 </template>

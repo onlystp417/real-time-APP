@@ -4,7 +4,6 @@
       <h3>任務{{ $store.getters.chineseMissionLevel }}</h3>
       <p v-for="(item, index) in missionLevelMessage" :key="index" v-html="item"></p>
     </div>
-    <buttonPrimarySmall @click="$router.push({name: 'rollcall'})">開始</buttonPrimarySmall>
   </div>
 </template>
 
@@ -56,4 +55,34 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.mission-instruction {
+  padding-top: 136px;
+  padding-bottom: 90px;
+}
+
+.mission-instruction-card {
+  width: 360px;
+  margin: auto;
+  .card {
+    background: $white;
+    border-radius: 13px;
+    box-shadow: #00000029 0px 1px 3px;
+    padding: 15px 30px 21px 30px;
+    margin-bottom: 48px;
+    h3 {
+      margin-bottom: 15px;
+      @include fontstyle(regular, 26px, 1.5, $font, #757575);
+      text-align: center;
+    }
+    p {
+      padding-left: 34px;
+      margin-top: 10px;
+      @include fontstyle(regular, 16px, 1.5, $font, #757575);
+    }
+    p + p {
+      border-top: #707070 1px solid;
+      padding-top: 10px;
+    }
+  }
+}
 </style>

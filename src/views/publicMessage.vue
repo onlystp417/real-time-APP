@@ -1,5 +1,5 @@
 <template>
-  <div class="public-message">
+  <div class="public-message content-area main-menu-placeholder">
     <!-- <deepSubMenuRollcallQuiz></deepSubMenuRollcallQuiz> -->
     <!-- <deepSubMenuGradeCourse></deepSubMenuGradeCourse> -->
     <!-- <deepSubMenuMessage></deepSubMenuMessage> -->
@@ -69,7 +69,6 @@ export default {
 
 <style lang="scss" scoped>
 .public-message {
-  height: calc(100vh - 135px);
   position: relative;
   padding-top: 28px;
 }
