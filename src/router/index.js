@@ -13,7 +13,6 @@ import quiz from '../views/quiz.vue'
 import privateMessage from '../views/privateMessage.vue'
 import publicMessage from '../views/publicMessage.vue'
 
-
 Vue.use(VueRouter)
 
 const routes = [
