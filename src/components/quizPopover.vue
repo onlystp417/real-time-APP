@@ -1,14 +1,17 @@
 <template>
-  <div class="quiz-popover">
-    <h5>答題結果</h5>
-    <div>
-      <answerResult>
-        <!-- <img slot="image" src="../assets/images/correct.png" alt="correct" /> -->
-        <img slot="image" src="../assets/images/wrong.png" alt="correct" />
-        <!-- <p class="correct-text" slot="text">正確</p> -->
-        <p class="wrong-text" slot="text">錯誤</p>
-      </answerResult>
-      <buttonPrimaryBig>確認</buttonPrimaryBig>
+  <div class="quiz-popover-wrapper">
+    <filterPopover></filterPopover>
+    <div class="quiz-popover">
+      <h5>答題結果</h5>
+      <div>
+        <answerResult>
+          <!-- <img slot="image" src="../assets/images/correct.png" alt="correct" /> -->
+          <img slot="image" src="../assets/images/wrong.png" alt="correct" />
+          <!-- <p class="correct-text" slot="text">正確</p> -->
+          <p class="wrong-text" slot="text">錯誤</p>
+        </answerResult>
+        <buttonPrimaryBig>確認</buttonPrimaryBig>
+      </div>
     </div>
   </div>
 </template>
@@ -16,8 +19,10 @@
 <script>
 import answerResult from "@/components/answerResult.vue";
 import buttonPrimaryBig from "@/components/buttonPrimaryBig.vue";
+import filterPopover from "@/components/filterPopover.vue";
 export default {
   components: {
+    filterPopover,
     answerResult,
     buttonPrimaryBig
   }

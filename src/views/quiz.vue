@@ -7,7 +7,6 @@
     <!-- <quizHome></quizHome> -->
     <quizQuestionOne></quizQuestionOne>
     <!-- <quizQuestionTwo></quizQuestionTwo> -->
-    <filterPopover></filterPopover>
     <quizPopover></quizPopover>
     <shallowMenu></shallowMenu>
   </div>
@@ -22,7 +21,6 @@ import deepSubMenuGradeCourse from "@/components/deepSubMenu_grade_course.vue";
 import quizHome from "@/views/quizHome.vue";
 import quizQuestionOne from "@/views/quizQuestion-one.vue";
 import quizQuestionTwo from "@/views/quizQuestion-two.vue";
-import filterPopover from "@/components/filterPopover.vue";
 import quizPopover from "@/components/quizPopover.vue";
 export default {
   components: {
@@ -34,7 +32,6 @@ export default {
     quizHome,
     quizQuestionOne,
     quizQuestionTwo,
-    filterPopover,
     quizPopover
   }
 };
