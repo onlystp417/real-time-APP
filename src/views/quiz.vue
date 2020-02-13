@@ -7,8 +7,8 @@
     <!-- <quizHome></quizHome> -->
     <quizQuestionOne></quizQuestionOne>
     <!-- <quizQuestionTwo></quizQuestionTwo> -->
-    <!-- <filterPopover></filterPopover> -->
-    <!-- <quizPopover></quizPopover> -->
+    <filterPopover></filterPopover>
+    <quizPopover></quizPopover>
     <shallowMenu></shallowMenu>
   </div>
 </template>

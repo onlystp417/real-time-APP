@@ -30,7 +30,7 @@ export default {
   top: 237px;
   right: 42px;
   left: 42px;
-  z-index: 99;
+  z-index: 99999;
   text-align: center;
   > h5 {
     background: $light-blue;
