@@ -10,6 +10,6 @@ export default {};
 
 <style lang="scss" scoped>
 .rollcall-ontime {
-  padding-top: 284px;
+  padding-top: 38.8vh;
 }
 </style>

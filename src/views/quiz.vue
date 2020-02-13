@@ -4,8 +4,8 @@
     <!-- <deepSubMenuGradeCourse></deepSubMenuGradeCourse> -->
     <!-- <deepSubMenuMessage></deepSubMenuMessage> -->
     <!-- <deepMainMenu></deepMainMenu> -->
-    <!-- <quizHome></quizHome> -->
-    <quizQuestionOne></quizQuestionOne>
+    <quizHome></quizHome>
+    <!-- <quizQuestionOne></quizQuestionOne> -->
     <!-- <quizQuestionTwo></quizQuestionTwo> -->
     <!-- <quizPopover></quizPopover> -->
     <shallowMenu></shallowMenu>

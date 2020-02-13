@@ -5,8 +5,8 @@
     <!-- <deepSubMenuMessage></deepSubMenuMessage> -->
     <!-- <deepMainMenu></deepMainMenu> -->
     <shallowMenu></shallowMenu>
-    <courseHome></courseHome>
-    <!-- <courseSuspension></courseSuspension> -->
+    <!-- <courseHome></courseHome> -->
+    <courseSuspension></courseSuspension>
     <!-- <courseHomework></courseHomework> -->
   </div>
 </template>

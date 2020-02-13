@@ -56,8 +56,8 @@ export default {
 
 <style lang="scss" scoped>
 .mission-instruction {
-  padding-top: 136px;
-  padding-bottom: 90px;
+  padding-top: 18.6vh;
+  padding-bottom: 12vh;
 }
 
 .mission-instruction-card {

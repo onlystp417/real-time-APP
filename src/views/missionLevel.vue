@@ -30,7 +30,7 @@ export default {
 
 <style lang="scss" scoped>
 .mission-level {
-  padding-top: 63.5px;
+  padding-top: 9vh;
   padding-bottom: 40px;
   > div {
     background: $white;

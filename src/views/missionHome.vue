@@ -19,7 +19,7 @@ export default {};
 
 <style lang="scss" scoped>
 .mission-home {
-  padding-top: 212px;
+  padding-top: 32.5vh;
 }
 .register {
   .user {

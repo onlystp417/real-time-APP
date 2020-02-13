@@ -27,7 +27,7 @@ export default {
 
 <style lang="scss" scoped>
 .mission-complete-wrapper {
-  padding-top: 111px;
+  padding-top: 15vh;
 }
 
 .missionComplete {

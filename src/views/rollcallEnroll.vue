@@ -17,7 +17,7 @@ export default {
 
 <style lang="scss">
 .rollcall-enroll {
-  padding-top: 217px;
+  padding-top: 29.6vh;
   .rollcall-time {
     display: block;
     margin-bottom: 26px;

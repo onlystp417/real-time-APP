@@ -21,9 +21,10 @@ export default {};
   left: 0;
   right: 0;
   bottom: 0;
+  z-index: 999;
   a {
     display: block;
-    margin: 348px auto 0px auto;
+    margin: 47vh auto 0px auto;
     width: 400px;
     div {
       padding-left: 17px;

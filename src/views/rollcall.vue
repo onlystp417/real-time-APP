@@ -5,8 +5,8 @@
     <!-- <deepSubMenuMessage></deepSubMenuMessage> -->
     <!-- <rollcallHome></rollcallHome> -->
     <!-- <rollcallEnroll></rollcallEnroll> -->
-    <!-- <rollcallOntime></rollcallOntime> -->
-    <rollcallRecord></rollcallRecord>
+    <rollcallOntime></rollcallOntime>
+    <!-- <rollcallRecord></rollcallRecord> -->
     <!-- <deepMainMenu></deepMainMenu> -->
     <shallowMenu></shallowMenu>
   </div>
