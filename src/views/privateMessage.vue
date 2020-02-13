@@ -24,8 +24,10 @@
       </section>
       <buttonQuaternary></buttonQuaternary>
     </div>
-    <messageIcon></messageIcon>
-    <!-- <messageTyping></messageTyping> -->
+    <!-- <messageIcon></messageIcon> -->
+    <messageTyping>
+      <input class="content" type="text" placeholder="輸入文字或上傳圖片給老師" />
+    </messageTyping>
   </div>
 </template>
 
