@@ -1,11 +1,9 @@
 <template>
-  <div class="content-area">
-    <div class="missionStart">
-      <a href>
-        <div>即時反饋系統APP · 現在</div>
-        <div>輕觸即可開啓課程</div>
-      </a>
-    </div>
+  <div class="missionStart">
+    <a href>
+      <div>即時反饋系統APP · 現在</div>
+      <div>輕觸即可開啓課程</div>
+    </a>
   </div>
 </template>
 
@@ -15,6 +13,8 @@ export default {};
 
 <style lang="scss" scoped>
 .missionStart {
+  height: 100vh;
+  background-color: #1b4084;
   background: url(../assets/images/desktop.png) top left/cover no-repeat;
   position: absolute;
   top: 0;
@@ -25,7 +25,8 @@ export default {};
   a {
     display: block;
     margin: 47vh auto 0px auto;
-    width: 400px;
+    width: 97%;
+    max-width: 510px;
     div {
       padding-left: 17px;
     }
