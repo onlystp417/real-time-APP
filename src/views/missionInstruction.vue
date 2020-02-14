@@ -84,6 +84,9 @@ export default {
       border-top: #707070 1px solid;
       padding-top: 10px;
     }
+    pre {
+      white-space: pre-wrap;
+    }
   }
 }
 </style>
