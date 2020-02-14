@@ -4,9 +4,9 @@
       <section>
         <div class="header">
           <img src="../assets/images/back-black.png" alt="preview" />
-          <p>傳送訊息</p>
+          <slot name="title"></slot>
         </div>
-        <slot></slot>
+        <slot name="input"></slot>
       </section>
       <buttonPrimaryBig>傳送</buttonPrimaryBig>
     </form>
@@ -39,6 +39,7 @@ export default {
   }
   .header {
     position: relative;
+    margin-bottom: 22px;
     img {
       width: 31px;
       height: 34px;
@@ -54,7 +55,7 @@ export default {
     background: $white;
     display: block;
     width: 100%;
-    padding: 33px 29px 33px 29px;
+    padding: 12px 29px 12px 29px;
     @include fontstyle(400, 16px, 1.5, $font, #474747);
     &::placeholder {
       color: #b4b4b4;

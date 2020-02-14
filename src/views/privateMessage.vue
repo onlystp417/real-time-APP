@@ -26,7 +26,8 @@
     </div>
     <!-- <messageIcon></messageIcon> -->
     <messageTyping>
-      <input class="content" type="text" placeholder="輸入文字或上傳圖片給老師" />
+      <p slot="title">傳送訊息</p>
+      <input slot="input" class="content" type="text" placeholder="輸入文字或上傳圖片給老師" />
     </messageTyping>
   </div>
 </template>

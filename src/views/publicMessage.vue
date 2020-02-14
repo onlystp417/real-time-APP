@@ -42,7 +42,11 @@
       </section>
       <buttonQuaternary></buttonQuaternary>
     </div>
-    <messageTyping></messageTyping>
+    <messageTyping>
+      <p slot="title">新增討論</p>
+      <input slot="input" class="content" type="text" placeholder="輸入標題" />
+      <input slot="input" class="content" type="text" placeholder="輸入內容" />
+    </messageTyping>
   </div>
 </template>
 
@@ -69,7 +73,6 @@ export default {
 
 <style lang="scss" scoped>
 .public-message {
-  position: relative;
   padding-top: 28px;
 }
 
