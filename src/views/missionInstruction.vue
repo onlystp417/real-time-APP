@@ -1,9 +1,12 @@
 <template>
-  <div class="mission-instruction mission-instruction-card">
-    <div class="card instruction-card-space instruction-card-font">
-      <h3>任務{{ $store.getters.chineseMissionLevel }}</h3>
-      <p v-for="(item, index) in missionLevelMessage" :key="index" v-html="item"></p>
+  <div class="mission-instruction main-menu-placeholder content-area">
+    <div class="mission-instruction-card">
+      <div class="card instruction-card-space instruction-card-font">
+        <h3>任務{{ $store.getters.chineseMissionLevel }}</h3>
+        <p v-for="(item, index) in missionLevelMessage" :key="index" v-html="item"></p>
+      </div>
     </div>
+    <buttonPrimarySmall>開始</buttonPrimarySmall>
   </div>
 </template>
 
@@ -57,7 +60,6 @@ export default {
 <style lang="scss" scoped>
 .mission-instruction {
   padding-top: 18.6vh;
-  padding-bottom: 12vh;
 }
 
 .mission-instruction-card {
