@@ -51,11 +51,11 @@
     height: 65px;
   }
   ol {
-    padding-left: 0;
+    padding: 0 16px;
     counter-reset: item;
     li {
-      width: 347px;
-      margin: auto;
+      // width: 347px;
+      // margin: auto;
       margin-bottom: 10px;
       background: #F6F6F6;
       padding-left: 15px;
