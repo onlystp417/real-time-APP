@@ -51,12 +51,12 @@ export default {
   }
   time {
     display: inline-block;
-    width: 50%;
+    width: 70%;
     @include fontstyle(500, 18px, 22px, $font, #474747);
   }
   span {
     display: inline-block;
-    width: 50%;
+    width: 30%;
     text-align: right;
   }
   .rollcall-ontime {
