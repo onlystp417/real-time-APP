@@ -1,34 +1,58 @@
 <template>
   <nav class="main-menu">
-    <a @click.prevent="$router.push({name: 'rollcall'}).catch(err => {})" class="rollcall" href :class="{current:activeComponent === 'rollcall'}">
+    <a
+      @click.prevent="$router.push({name: 'rollcall'}).catch(err => {})"
+      class="rollcall"
+      href
+      :class="{current: $route.name === 'rollcall'}"
+    >
       <h2>點名</h2>
     </a>
-    <a @click.prevent="$router.push({name: 'quiz'}).catch(err => {})" class="quiz" href :class="{ current:activeComponent === 'quiz'}">
+    <a
+      @click.prevent="$router.push({name: 'quiz'}).catch(err => {})"
+      class="quiz"
+      href
+      :class="{current: $route.name === 'quiz'}"
+    >
       <h2>問答</h2>
     </a>
-    <a @click.prevent="$router.push({name: 'grade'}).catch(err => {})" class="grade" href :class="{ current:activeComponent === 'grade'}">
+    <a
+      @click.prevent="$router.push({name: 'grade'}).catch(err => {})"
+      class="grade"
+      href
+      :class="{current: $route.name === 'grade'}"
+    >
       <h2>成績</h2>
     </a>
-    <a @click.prevent="$router.push({name: 'course'}).catch(err => {})" class="course" href :class="{current:activeComponent === 'course'}">
+    <a
+      @click.prevent="$router.push({name: 'course'}).catch(err => {})"
+      class="course"
+      href
+      :class="{current: $route.name === 'course'}"
+    >
       <h2>課程資訊</h2>
     </a>
-    <a @click.prevent="$router.push({name: 'privateMessage'}).catch(err => {})" class="privateMessage" href :class="{current:activeComponent === 'privateMessage'}">
+    <a
+      @click.prevent="$router.push({name: 'privateMessage'}).catch(err => {})"
+      class="privateMessage"
+      href
+      :class="{current: $route.name === 'privateMessage'}"
+    >
       <h2>私訊老師</h2>
     </a>
-    <a @click.prevent="$router.push({name: 'publicMessage'}).catch(err => {})" class="publicMessage" href :class="{current:activeComponent === 'publicMessage'}">
+    <a
+      @click.prevent="$router.push({name: 'publicMessage'}).catch(err => {})"
+      class="publicMessage"
+      href
+      :class="{current: $route.name === 'publicMessage'}"
+    >
       <h2>公開討論</h2>
     </a>
   </nav>
 </template>
 
 <script>
-export default {
-  computed:{
-    activeComponent(){
-      return this.$route.name
-    }
-  }
-};
+export default {};
 </script>
 
 <style lang="scss" scoped>

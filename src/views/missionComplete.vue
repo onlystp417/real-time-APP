@@ -13,16 +13,16 @@
       >任務{{ $store.getters.missionLevel }}-{{ index }}：{{ item.minute }}分{{item.second}}秒</p>
     </section>
     <div class="missionComplete-button">
-      <buttonPrimarySmall @click="$router.push({name: 'missionLevel'})">完成</buttonPrimarySmall>
+      <buttonPrimary @click="$router.push({name: 'missionLevel'})">完成</buttonPrimary>
     </div>
   </section>
 </template>
 
 <script>
-import buttonPrimarySmall from "@/components/buttonPrimarySmall.vue";
+import buttonPrimary from "@/components/buttonPrimary.vue";
 export default {
   components: {
-    buttonPrimarySmall
+    buttonPrimary
   },
   computed: {}
 };

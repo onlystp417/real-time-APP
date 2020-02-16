@@ -11,15 +11,15 @@
         <li>19±2</li>
       </ol>
     </section>
-    <buttonPrimaryBig>確定</buttonPrimaryBig>
+    <buttonQuinary>確定</buttonQuinary>
   </div>
 </template>
 
 <script>
-import buttonPrimaryBig from "@/components/buttonPrimaryBig.vue";
+import buttonQuinary from "@/components/buttonQuinary.vue";
 export default {
   components: {
-    buttonPrimaryBig
+    buttonQuinary
   }
 };
 </script>
@@ -32,7 +32,6 @@ export default {
   background: $white;
   box-shadow: 0px 3px 6px #00000029;
 }
-
 
 .quiz-card-content {
   margin-bottom: 14px;
@@ -68,7 +67,7 @@ export default {
       // width: 347px;
       // margin: auto;
       margin-bottom: 10px;
-      background: #F6F6F6;
+      background: #f6f6f6;
       padding-left: 15px;
       list-style-type: none;
       counter-increment: num;

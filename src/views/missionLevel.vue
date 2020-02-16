@@ -2,28 +2,28 @@
   <section class="missionLevel">
     <div class="missionLevel-card">
       <h3 class="missionLevel-title">任務一</h3>
-      <buttonPrimarySmall  @click="$router.push({name: 'missionInstruction'})" class="finished">已完成</buttonPrimarySmall>
+      <buttonPrimary @click="$router.push({name: 'missionInstruction'})" class="finished">已完成</buttonPrimary>
     </div>
     <div class="missionLevel-card">
       <h3 class="missionLevel-title">任務二</h3>
-      <buttonPrimarySmall>開始</buttonPrimarySmall>
+      <buttonPrimary>開始</buttonPrimary>
     </div>
     <div class="missionLevel-card">
       <h3 class="missionLevel-title">任務三</h3>
-      <buttonPrimarySmall>開始</buttonPrimarySmall>
+      <buttonPrimary>開始</buttonPrimary>
     </div>
     <div class="missionLevel-card">
       <h3 class="missionLevel-title">任務四</h3>
-      <buttonPrimarySmall>開始</buttonPrimarySmall>
+      <buttonPrimary>開始</buttonPrimary>
     </div>
   </section>
 </template>
 
 <script>
-import buttonPrimarySmall from "@/components/buttonPrimarySmall.vue";
+import buttonPrimary from "@/components/buttonPrimary.vue";
 export default {
   components: {
-    buttonPrimarySmall
+    buttonPrimary
   }
 };
 </script>

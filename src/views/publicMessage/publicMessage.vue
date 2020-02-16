@@ -3,7 +3,7 @@
     <div class="message-list">
       <section class="public-message-card">
         <header class="message-header">
-          <img src="../assets/images/user.png" alt="user graphy" />
+          <img src="@/assets/images/user.png" alt="user graphy" />
           <div>
             <h5>王小明</h5>
             <time>2019-06-11 16:00</time>
@@ -20,7 +20,7 @@
       </section>
       <section class="public-message-card">
         <header class="message-header">
-          <img src="../assets/images/user.png" alt="user graphy" />
+          <img src="@/assets/images/user.png" alt="user graphy" />
           <div>
             <h5>王小明</h5>
             <time>2020-01-05 03:30</time>

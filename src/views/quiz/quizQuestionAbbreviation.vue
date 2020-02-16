@@ -16,12 +16,12 @@
 </template>
 
 <script>
-import buttonPrimaryBig from "@/components/buttonPrimaryBig.vue";
+import buttonQuinary from "@/components/buttonQuinary.vue";
 import buttonTertiary from "@/components/buttonTertiary.vue";
 
 export default {
   components: {
-    buttonPrimaryBig,
+    buttonQuinary,
     buttonTertiary
   }
 };

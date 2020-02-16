@@ -5,16 +5,16 @@
       <p>下周作業為顧客旅程地圖一張</p>
     </div>
     <div class="anousement-button">
-      <buttonPrimaryBig>了解</buttonPrimaryBig>
+      <buttonQuinary>了解</buttonQuinary>
     </div>
   </div>
 </template>
 
 <script>
-import buttonPrimaryBig from "@/components/buttonPrimaryBig.vue";
+import buttonQuinary from "@/components/buttonQuinary.vue";
 export default {
   components: {
-    buttonPrimaryBig
+    buttonQuinary
   }
 };
 </script>

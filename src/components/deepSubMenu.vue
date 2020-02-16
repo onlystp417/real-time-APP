@@ -1,13 +1,13 @@
 <template>
-    <nav class="deep-sub-menu">
+    <nav class="deep-submenu">
       <a @click.prevent="$emit('click', $event)" :class="{current: isActive}" href>
         <span>
-          <slot name="first"></slot>
+          <slot name="first">第一分類</slot>
         </span>
       </a>
       <a @click.prevent="$emit('linkclick', $event)" :class="{current: isActive}" href>
         <span>
-          <slot name="second"></slot>
+          <slot name="second">第二分類</slot>
         </span>
       </a>
     </nav>
@@ -22,7 +22,7 @@ export default {
 </script>
 
 <style lang="scss" scope>
-.deep-sub-menu {
+.deep-submenu {
   position: absolute;
   top: 56px;
   right: 0;

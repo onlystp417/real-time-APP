@@ -3,16 +3,16 @@
     <time class="rollcall-time">2020/1/5 13:28</time>
     <p class="rollcall-declare">正在點名！</p>
     <div class="rollcall-button">
-      <buttonPrimaryBig>我到了</buttonPrimaryBig>
+      <buttonQuinary>我到了</buttonQuinary>
     </div>
   </div>
 </template>
 
 <script>
-import buttonPrimaryBig from "@/components/buttonPrimaryBig.vue";
+import buttonQuinary from "@/components/buttonQuinary.vue";
 export default {
   components: {
-    buttonPrimaryBig
+    buttonQuinary
   }
 };
 </script>

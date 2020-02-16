@@ -1,26 +1,26 @@
 <template>
-  <div class="course-home">
-    <section class="information">
-      <h2>課程資訊</h2>
-      <div class="information-card normal-card">
+  <div class="courseHome">
+    <section class="courseHome-information">
+      <h2 class="courseHome-title">課程資訊</h2>
+      <div class="information-card">
         <div>
           <h5>授課教師</h5>
-          <p class="font-style">測試員-老師</p>
+          <p>測試員-老師</p>
         </div>
         <div>
           <h5>修課人數</h5>
-          <p class="font-style">54</p>
+          <p>54</p>
         </div>
         <div>
           <h5>修課日期</h5>
-          <p class="font-style">108/9/10 ~ 109/1/10</p>
+          <p>108/9/10 ~ 109/1/10</p>
         </div>
       </div>
     </section>
-    <section class="annousemenet">
-      <h2>公告</h2>
-      <div class="annousemenet-card normal-card">
-        <h5 class="font-style">12/3停課一周</h5>
+    <section class="courseHome-annousemenet">
+      <h2 class="courseHome-title">公告</h2>
+      <div class="annousemenet-card">
+        <h5>12/3停課一周</h5>
         <div class="button-wrapper">
           <buttonSecondary></buttonSecondary>
         </div>
@@ -29,8 +29,8 @@
           <br />11/13，11/20，11/27三週上課時改......
         </p>
       </div>
-      <div class="annousemenet-card normal-card">
-        <h5 class="font-style">下周作業</h5>
+      <div class="annousemenet-card">
+        <h5>下周作業</h5>
         <div class="button-wrapper">
           <buttonSecondary></buttonSecondary>
         </div>
@@ -50,14 +50,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.course-home {
+.courseHome {
   padding-top: 13px;
-  h2 {
+  &-title {
     margin-bottom: 9px;
     @include fontstyle(500, 24px, 1.2, $font, #474747);
   }
-  .information {
-    &-card {
+  &-information {
+    .information-card {
       background: $white;
       box-shadow: 0px 3px 6px #00000029;
       padding: 10px 16px 6.5px 16px;
@@ -75,26 +75,27 @@ export default {
       margin-top: -4px;
     }
   }
-  .annousemenet-card {
-    position: relative;
-    padding: 8px 16px 6px 16px;
-    margin-bottom: 15px;
-    h5 {
-      margin-bottom: 9px;
-    }
-    p {
-      height: 45px;
-      @include fontstyle(300, 12px, 16px, $font, #474747);
-    }
-    .button-wrapper {
-      position: absolute;
-      top: 8px;
-      right: 12px;
+  &-annousemenet {
+    .annousemenet-card {
+      position: relative;
+      padding: 8px 16px 6px 16px;
+      margin-bottom: 15px;
+      background: $white;
+      box-shadow: 0px 3px 6px #00000029;
+      h5 {
+        margin-bottom: 9px;
+        @include fontstyle(700, 14px, 22px, $font, #474747);
+      }
+      p {
+        height: 45px;
+        @include fontstyle(300, 12px, 16px, $font, #474747);
+      }
+      .button-wrapper {
+        position: absolute;
+        top: 8px;
+        right: 12px;
+      }
     }
   }
-}
-
-.font-style {
-  @include fontstyle(700, 14px, 22px, $font, #474747);
 }
 </style>

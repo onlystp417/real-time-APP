@@ -2,7 +2,7 @@
   <div class="private-message">
     <div class="message-list">
       <section class="private-message-card">
-        <img src="../assets/images/understand.png" alt="smile face" />
+        <img src="@/assets/images/understand.png" alt="smile face" />
         <div>
           <p>我懂了</p>
           <span>已送出</span>
@@ -10,7 +10,7 @@
         </div>
       </section>
       <section class="private-message-card">
-        <img src="../assets/images/typing.png" alt="smile face" />
+        <img src="@/assets/images/typing.png" alt="smile face" />
         <div>
           <p>課程流暢</p>
           <span>已送出</span>

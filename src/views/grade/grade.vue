@@ -30,20 +30,11 @@
         <span>100%</span>
       </li>
     </section>
-    <shallowMenu></shallowMenu>
   </div>
 </template>
 
 <script>
-import shallowMenu from "@/components/shallowMenu.vue";
-import deepMainMenu from "@/components/deepMainMenu.vue";
-import deepSubMenu from "@/components/deepSubMenu.vue";
 export default {
-  components: {
-    shallowMenu,
-    deepMainMenu,
-    deepSubMenu,
-  }
 };
 </script>
 

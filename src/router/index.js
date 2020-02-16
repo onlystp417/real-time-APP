@@ -55,7 +55,7 @@ const routes = [
       {
         path: "grade",
         name: "grade",
-        component: () => import("@/views/grade.vue")
+        component: () => import("@/views/grade/grade.vue")
       },
       {
         path: "course",
@@ -65,12 +65,12 @@ const routes = [
       {
         path: "privateMessage",
         name: "privateMessage",
-        component: () => import("@/views/privateMessage.vue")
+        component: () => import("@/views/privateMessage/privateMessage.vue")
       },
       {
         path: "publicMessage",
         name: "publicMessage",
-        component: () => import("@/views/publicMessage.vue")
+        component: () => import("@/views/publicMessage/publicMessage.vue")
       }
     ]
   }

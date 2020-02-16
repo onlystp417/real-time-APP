@@ -24,16 +24,16 @@
       </li>
     </ul>
     <div class="record-button">
-      <buttonPrimaryBig>確認</buttonPrimaryBig>
+      <buttonQuinary>確認</buttonQuinary>
     </div>
   </div>
 </template>
 
 <script>
-import buttonPrimaryBig from "@/components/buttonPrimaryBig.vue";
+import buttonQuinary from "@/components/buttonQuinary.vue";
 export default {
   components: {
-    buttonPrimaryBig
+    buttonQuinary
   }
 };
 </script>

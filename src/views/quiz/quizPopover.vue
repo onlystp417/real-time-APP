@@ -10,7 +10,7 @@
           <!-- <p class="correct-text" slot="text">正確</p> -->
           <p class="wrong-text" slot="text">錯誤</p>
         </answerResult>
-        <buttonPrimaryBig>確認</buttonPrimaryBig>
+        <buttonQuinary>確認</buttonQuinary>
       </div>
     </div>
   </div>
@@ -18,13 +18,13 @@
 
 <script>
 import answerResult from "@/components/answerResult.vue";
-import buttonPrimaryBig from "@/components/buttonPrimaryBig.vue";
+import buttonQuinary from "@/components/buttonQuinary.vue";
 import filterPopover from "@/components/filterPopover.vue";
 export default {
   components: {
     filterPopover,
     answerResult,
-    buttonPrimaryBig
+    buttonQuinary
   }
 };
 </script>

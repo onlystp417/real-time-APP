@@ -29,18 +29,18 @@
       </li>
     </ul>
     <div class="rollcallHome-button">
-      <buttonPrimaryBig>我要點名</buttonPrimaryBig>
+      <buttonQuinary>我要點名</buttonQuinary>
     </div>
   </section>
 </template>
 
 <script>
-import buttonPrimaryBig from "@/components/buttonPrimaryBig.vue";
+import buttonQuinary from "@/components/buttonQuinary.vue";
 import buttonSecondary from "@/components/buttonSecondary.vue";
 export default {
   components: {
-    buttonPrimaryBig,
-    buttonSecondary,
+    buttonQuinary,
+    buttonSecondary
   }
 };
 </script>

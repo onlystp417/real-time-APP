@@ -5,16 +5,16 @@
       <p v-for="(item, index) in missionLevelMessage" :key="index" v-html="item"></p>
     </div>
     <div class="missionInstruction-button">
-      <buttonPrimarySmall @click.prevent="$router.push({name: 'missionStart'})">開始</buttonPrimarySmall>
+      <buttonPrimary @click.prevent="$router.push({name: 'missionStart'})">開始</buttonPrimary>
     </div>
   </div>
 </template>
 
 <script>
-import buttonPrimarySmall from "@/components/buttonPrimarySmall.vue";
+import buttonPrimary from "@/components/buttonPrimary.vue";
 export default {
   components: {
-    buttonPrimarySmall
+    buttonPrimary
   },
   data: function() {
     return {

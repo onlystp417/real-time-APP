@@ -25,6 +25,7 @@ export default {
   padding-top: 56px;
   height: 100vh;
   position: relative;
+  background: #F0F1F3;
 }
 .app-container {
   height: 100%;

@@ -9,24 +9,24 @@
         <slot name="input"></slot>
       </section>
       <div class="typing-button">
-        <buttonPrimaryBig>傳送</buttonPrimaryBig>
+        <buttonQuinary>傳送</buttonQuinary>
       </div>
     </form>
   </div>
 </template>
 
 <script>
-import buttonPrimaryBig from "@/components/buttonPrimaryBig.vue";
+import buttonQuinary from "@/components/buttonQuinary.vue";
 export default {
   components: {
-    buttonPrimaryBig
+    buttonQuinary
   }
 };
 </script>
 
 <style lang="scss" scoped>
 .message-typing {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
@@ -63,7 +63,7 @@ export default {
       color: #b4b4b4;
     }
   }
-  .typing-button{
+  .typing-button {
     text-align: center;
   }
 }

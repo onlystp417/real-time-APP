@@ -1,5 +1,5 @@
 <template>
-  <a class="secondary-button">查看</a>
+  <a class="secondary-button"><slot>查看</slot></a>
 </template>
 
 <script>
@@ -18,7 +18,7 @@ export default {};
   text-align: center;
   border: $light-blue 2px solid;
   @include fontstyle(400, 16px, 30px, $font, $white);
-  &:active {
+  &:active,&:focus {
     background: $white;
     color: $light-blue;
     border: $light-blue 2px solid;
