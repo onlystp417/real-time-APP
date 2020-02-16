@@ -1,6 +1,6 @@
 <template>
   <section class="missionHome">
-    <form @submit="$router.push({name:'missionLevel'})" class="missionHome-register" action>
+    <form @submit.prevent="$router.push({name:'missionLevel'})" class="missionHome-register" action>
       <div class="register-user">
         <h3>編號：M13</h3>
         <input type="text" required placeholder="姓名：王小明"/>

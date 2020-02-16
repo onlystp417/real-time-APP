@@ -1,5 +1,6 @@
 <template>
   <div class="rollcall">
+    <!-- <component :is="componentId"></component> -->
     <rollcallHome></rollcallHome>
     <!-- <rollcallEnroll></rollcallEnroll> -->
     <!-- <rollcallOntime></rollcallOntime> -->
@@ -18,7 +19,8 @@ export default {
     rollcallEnroll,
     rollcallOntime,
     rollcallRecord
-  }
+  },
+  // data: function() {}
 };
 </script>
 

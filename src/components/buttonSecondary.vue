@@ -16,6 +16,7 @@ export default {};
   box-sizing: border-box;
   box-shadow: 0px 1px 6px #00000029;
   text-align: center;
+  border: $light-blue 2px solid;
   @include fontstyle(400, 16px, 30px, $font, $white);
   &:active {
     background: $white;

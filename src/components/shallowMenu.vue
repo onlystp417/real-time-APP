@@ -39,7 +39,6 @@ export default {
   right: 0;
   z-index: 999;
   background: #fff;
-  padding-bottom: 5px;
   border-top: 1px solid #b7b7b7;
   font-size: 0;
   h2 {
@@ -47,7 +46,7 @@ export default {
   }
   a {
     display: inline-block;
-    padding-top: 37px;
+    padding: 37px 0px 5px 0px;
     text-align: center;
     width: 16.66667%;
   }

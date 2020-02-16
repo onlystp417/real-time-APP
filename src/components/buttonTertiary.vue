@@ -17,17 +17,23 @@ export default {};
   width: 52px;
   height: 28px;
   border-radius: 7px;
-  @include fontstyle(400, 16px, 28px, $font, $white);
+  @include fontstyle(400, 16px, 1.5, $font, $white);
   text-align: center;
+  border: $light-blue 2px solid;
+  &:active {
+    background: $white;
+    color: $light-blue;
+    border: $light-blue 2px solid;
+  }
   .correct {
     background: $white;
     border: 1px solid $success;
-    @include fontstyle(400, 16px, 26px, $font, $success);
+    @include fontstyle(400, 16px, 1.5, $font, $success);
   }
   .wrong {
     background: $white;
     border: 1px solid $warning;
-    @include fontstyle(400, 16px, 26px, $font, $warning);
+    @include fontstyle(400, 16px, 1.5, $font, $warning);
   }
 }
 </style>

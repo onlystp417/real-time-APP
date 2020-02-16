@@ -1,111 +1,41 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import home from "../views/home.vue";
-import missionHome from "../views/missionHome.vue";
-import missionInstruction from "../views/missionInstruction.vue";
-import missionLevel from "../views/missionLevel.vue";
-import missionStart from "../views/missionStart.vue";
-import missionComplete from "../views/missionComplete.vue";
+import home from "@/views/home.vue"
 
 Vue.use(VueRouter);
 
 const routes = [
-  // {
-  //   path: '/',
-  //   name: 'home',
-  //   component: home
-  // },
-  // {
-  //   path: '/missionHome',
-  //   name: 'missionHome',
-  //   component: missionHome
-  // },
-  // {
-  //   path: '/missionInstruction',
-  //   name: 'missionInstruction',
-  //   component: missionInstruction
-  // },
-  // {
-  //   path: '/missionLevel',
-  //   name: 'missionLevel',
-  //   component: missionLevel
-  // },
-  // {
-  //   path: '/missionStart',
-  //   name: 'missionStart',
-  //   component: missionStart
-  // },
-  // {
-  //   path: '/missionComplete',
-  //   name: 'missionComplete',
-  //   component: missionComplete
-  // }
-  // ,
-  // {
-  //   path: '/rollcall',
-  //   name: 'rollcall',
-  //   component: rollcall
-  // },
-  // {
-  //   path: '/rollcallQuiz',
-  //   name: 'rollcallQuiz',
-  //   component: rollcallQuiz
-  // },
-  // {
-  //   path: '/grade',
-  //   name: 'grade',
-  //   component: grade
-  // },
-  // {
-  //   path: '/course',
-  //   name: 'course',
-  //   component: course
-  // },
-  // {
-  //   path: '/quiz',
-  //   name: 'quiz',
-  //   component: quiz
-  // },
-  // {
-  //   path: '/privateMessage',
-  //   name: 'privateMessage',
-  //   component: privateMessage
-  // },
-  // {
-  //   path: '/publicMessage',
-  //   name: 'publicMessage',
-  //   component: publicMessage
-  // }
   {
     path: "/",
     name: "home",
+    // 首頁尚未添加，預先導向下一頁
     redirect: '/missionHome',
     component: home
   },
   {
     path: "/missionHome",
     name: "missionHome",
-    component: missionHome
+    component: () => import("@/views/missionHome.vue")
   },
   {
     path: "/missionInstruction",
     name: "missionInstruction",
-    component: missionInstruction
+    component: () => import("@/views/missionInstruction.vue")
   },
   {
     path: "/missionLevel",
     name: "missionLevel",
-    component: missionLevel
+    component: () => import("@/views/missionLevel.vue")
   },
   {
     path: "/missionStart",
     name: "missionStart",
-    component: missionStart
+    component: () => import("@/views/missionStart.vue")
   },
   {
     path: "/missionComplete",
     name: "missionComplete",
-    component: missionComplete
+    component: () => import("@/views/missionComplete.vue")
   },
   {
     path: "/missionShallow",

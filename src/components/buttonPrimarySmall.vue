@@ -13,7 +13,6 @@ export default {};
   background: $light-blue;
   border-radius: 21px;
   margin: auto;
-  padding: 0;
   width: 228px;
   height: 42px;
   color: $white;
