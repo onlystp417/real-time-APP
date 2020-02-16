@@ -1,22 +1,22 @@
 <template>
-  <div class="mission-level content-area">
-    <div>
-      <h3>任務一</h3>
-      <buttonPrimarySmall class="finished">已完成</buttonPrimarySmall>
+  <section class="missionLevel">
+    <div class="missionLevel-card">
+      <h3 class="missionLevel-title">任務一</h3>
+      <buttonPrimarySmall  @click="$router.push({name: 'missionInstruction'})" class="finished">已完成</buttonPrimarySmall>
     </div>
-    <div>
-      <h3>任務二</h3>
+    <div class="missionLevel-card">
+      <h3 class="missionLevel-title">任務二</h3>
       <buttonPrimarySmall>開始</buttonPrimarySmall>
     </div>
-    <div>
-      <h3>任務三</h3>
+    <div class="missionLevel-card">
+      <h3 class="missionLevel-title">任務三</h3>
       <buttonPrimarySmall>開始</buttonPrimarySmall>
     </div>
-    <div>
-      <h3>任務四</h3>
+    <div class="missionLevel-card">
+      <h3 class="missionLevel-title">任務四</h3>
       <buttonPrimarySmall>開始</buttonPrimarySmall>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -29,36 +29,27 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.mission-level {
-  padding-top: 9vh;
-  padding-bottom: 40px;
-  > div {
+.missionLevel {
+  padding-top: 8.6vh;
+  width: 80.5%;
+  max-width: 475px;
+  margin: auto;
+  text-align: center;
+  &-card {
     background: $white;
-    width: 80%;
-    max-width: 475px;
-    margin: auto;
     margin-bottom: 21px;
-    padding-top: 10px;
-    padding-bottom: 16px;
+    padding: 10px 50px 16px 50px;
     border-radius: 13px;
     box-shadow: #00000029 0px 1px 3px 0px;
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
-  h3 {
+  &-title {
+    @include fontstyle(500, 26px, 1.34, $font, #757575);
     margin-bottom: 9px;
-    font-family: "SF Pro Text", "SF Pro Text";
-    font-size: 26px;
     text-align: center;
-    color: #757575;
   }
-  svg {
-    width: 50px;
-  }
-}
-
-.finished {
-  background: $white;
-  border: #bcbcbc 2px solid;
-  color: #bcbcbc;
 }
 </style>
 

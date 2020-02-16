@@ -18,8 +18,23 @@ export default {};
 
 <style lang="scss" scoped>
 .main-menu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background: #fff;
+  padding-bottom: 5px;
+  border-top: 1px solid #b7b7b7;
+  font-size: 0;
   a {
+    display: inline-block;
+    padding-top: 37px;
+    text-align: center;
     width: 33.3333%;
+  }
+  h2 {
+    @include fontstyle(400, 12px, 1, $font, #b7b7b7);
   }
   .rollcall-quiz {
     background: url(../assets/images/rollcall.png) top center/53px no-repeat;

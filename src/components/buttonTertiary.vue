@@ -19,5 +19,15 @@ export default {};
   border-radius: 7px;
   @include fontstyle(400, 16px, 28px, $font, $white);
   text-align: center;
+  .correct {
+    background: $white;
+    border: 1px solid $success;
+    @include fontstyle(400, 16px, 26px, $font, $success);
+  }
+  .wrong {
+    background: $white;
+    border: 1px solid $warning;
+    @include fontstyle(400, 16px, 26px, $font, $warning);
+  }
 }
 </style>

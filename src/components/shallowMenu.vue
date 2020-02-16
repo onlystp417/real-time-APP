@@ -1,100 +1,120 @@
 <template>
   <nav class="main-menu">
-    <a class="rollcall rollcall-current" href>
+    <a @click.prevent="$router.push({name: 'rollcall'}).catch(err => {})" class="rollcall" href :class="{current:activeComponent === 'rollcall'}">
       <h2>點名</h2>
     </a>
-    <a class="quiz" href>
+    <a @click.prevent="$router.push({name: 'quiz'}).catch(err => {})" class="quiz" href :class="{ current:activeComponent === 'quiz'}">
       <h2>問答</h2>
     </a>
-    <a class="grade" href>
+    <a @click.prevent="$router.push({name: 'grade'}).catch(err => {})" class="grade" href :class="{ current:activeComponent === 'grade'}">
       <h2>成績</h2>
     </a>
-    <a class="course-info" href>
+    <a @click.prevent="$router.push({name: 'course'}).catch(err => {})" class="course" href :class="{current:activeComponent === 'course'}">
       <h2>課程資訊</h2>
     </a>
-    <a class="private" href>
+    <a @click.prevent="$router.push({name: 'privateMessage'}).catch(err => {})" class="privateMessage" href :class="{current:activeComponent === 'privateMessage'}">
       <h2>私訊老師</h2>
     </a>
-    <a class="public" href>
+    <a @click.prevent="$router.push({name: 'publicMessage'}).catch(err => {})" class="publicMessage" href :class="{current:activeComponent === 'publicMessage'}">
       <h2>公開討論</h2>
     </a>
   </nav>
 </template>
 
 <script>
-export default {};
+export default {
+  computed:{
+    activeComponent(){
+      return this.$route.name
+    }
+  }
+};
 </script>
 
 <style lang="scss" scoped>
 .main-menu {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background: #fff;
+  padding-bottom: 5px;
+  border-top: 1px solid #b7b7b7;
+  font-size: 0;
+  h2 {
+    @include fontstyle(400, 12px, 1, $font, #b7b7b7);
+  }
   a {
+    display: inline-block;
+    padding-top: 37px;
+    text-align: center;
     width: 16.66667%;
   }
   .rollcall {
     background: url(../assets/images/s-rollcall.png) top center/53px no-repeat;
+    &.current {
+      background: url(../assets/images/s-rollcall-active.png) top center/53px
+        no-repeat;
+      color: $light-blue;
+      h2 {
+        color: $light-blue;
+      }
+    }
   }
   .quiz {
     background: url(../assets/images/s-quiz.png) top center/53px no-repeat;
+    &.current {
+      background: url(../assets/images/s-quiz-active.png) top center/53px
+        no-repeat;
+      color: $light-blue;
+      h2 {
+        color: $light-blue;
+      }
+    }
   }
   .grade {
     background: url(../assets/images/s-grade.png) top center/53px no-repeat;
+    &.current {
+      background: url(../assets/images/s-grade-active.png) top center/53px
+        no-repeat;
+      color: $light-blue;
+      h2 {
+        color: $light-blue;
+      }
+    }
   }
-  .course-info {
+  .course {
     background: url(../assets/images/s-course.png) top center/53px no-repeat;
+    &.current {
+      background: url(../assets/images/s-course-active.png) top center/53px
+        no-repeat;
+      color: $light-blue;
+      h2 {
+        color: $light-blue;
+      }
+    }
   }
-  .private {
+  .privateMessage {
     background: url(../assets/images/s-private.png) top center/53px no-repeat;
+    &.current {
+      background: url(../assets/images/s-private-active.png) center 7px/32px
+        no-repeat;
+      color: $light-blue;
+      h2 {
+        color: $light-blue;
+      }
+    }
   }
-  .public {
+  .publicMessage {
     background: url(../assets/images/message.png) top center/53px no-repeat;
-  }
-
-  .rollcall-current {
-    background: url(../assets/images/s-rollcall-active.png) top center/53px
-      no-repeat;
-    color: $light-blue;
-    h2 {
+    &.current {
+      background: url(../assets/images/message-active.png) top center/53px
+        no-repeat;
       color: $light-blue;
-    }
-  }
-  .quiz-current {
-    background: url(../assets/images/s-quiz-active.png) top center/53px
-      no-repeat;
-    color: $light-blue;
-    h2 {
-      color: $light-blue;
-    }
-  }
-  .grade-current {
-    background: url(../assets/images/s-grade-active.png) top center/53px
-      no-repeat;
-    color: $light-blue;
-    h2 {
-      color: $light-blue;
-    }
-  }
-  .course-info-current {
-    background: url(../assets/images/s-course-active.png) top center/53px
-      no-repeat;
-    color: $light-blue;
-    h2 {
-      color: $light-blue;
-    }
-  }
-  .private-current {
-    background: url(../assets/images/s-private-active.png) center 7px/32px
-      no-repeat;
-    color: $light-blue;
-    h2 {
-      color: $light-blue;
-    }
-  }
-  .public-current {
-    background: url(../assets/images/message-active.png) top center/53px
-      no-repeat;
-    color: $light-blue;
-    h2 {
-      color: $light-blue;
+      h2 {
+        color: $light-blue;
+      }
     }
   }
 }

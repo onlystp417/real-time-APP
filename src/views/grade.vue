@@ -1,73 +1,87 @@
 <template>
-  <div class="grade content-area main-menu-placeholder">
-    <!-- <deepSubMenuRollcallQuiz></deepSubMenuRollcallQuiz> -->
-    <!-- <deepSubMenuGradeCourse></deepSubMenuGradeCourse> -->
-    <!-- <deepSubMenuMessage></deepSubMenuMessage> -->
-    <!-- <deepMainMenu></deepMainMenu> -->
+  <div class="grade">
+    <section class="grade-answer">
+      <h3>答題表現</h3>
+      <li class="answer-item">
+        <h4>題目回答率</h4>
+        <span>100%</span>
+      </li>
+      <li class="answer-item">
+        <h4>題目正確率</h4>
+        <span>100%</span>
+      </li>
+      <li class="answer-item">
+        <h4>回答題數</h4>
+        <span>5/5</span>
+      </li>
+      <li class="answer-item">
+        <h4>正確題數</h4>
+        <span>4/4</span>
+      </li>
+      <li class="answer-item">
+        <h4>全班排名</h4>
+        <span>11/28</span>
+      </li>
+    </section>
+    <section class="grade-discussion">
+      <h3>討論表現</h3>
+      <li class="answer-item">
+        <h4>發表文章數</h4>
+        <span>100%</span>
+      </li>
+    </section>
     <shallowMenu></shallowMenu>
-    <div class="grade-content">
-      <section class="grade-answer">
-        <componentTitle>答題表現</componentTitle>
-        <li class="normal-card list-card">
-          <h4>題目回答率</h4>
-          <span>100%</span>
-        </li>
-        <li class="normal-card list-card">
-          <h4>題目正確率</h4>
-          <span>100%</span>
-        </li>
-        <li class="normal-card list-card">
-          <h4>回答題數</h4>
-          <span>5/5</span>
-        </li>
-        <li class="normal-card list-card">
-          <h4>正確題數</h4>
-          <span>4/4</span>
-        </li>
-        <li class="normal-card list-card">
-          <h4>全班排名</h4>
-          <span>11/28</span>
-        </li>
-      </section>
-      <section class="grade-discussion">
-        <componentTitle>討論表現</componentTitle>
-        <li class="normal-card list-card">
-          <h4>發表文章數</h4>
-          <span>100%</span>
-        </li>
-      </section>
-    </div>
   </div>
 </template>
 
 <script>
 import shallowMenu from "@/components/shallowMenu.vue";
 import deepMainMenu from "@/components/deepMainMenu.vue";
-import deepSubMenuRollcallQuiz from "@/components/deepSubMenu_rollcall_quiz.vue";
-import deepSubMenuMessage from "@/components/deepSubMenu_message.vue";
-import deepSubMenuGradeCourse from "@/components/deepSubMenu_grade_course.vue";
-import componentTitle from "@/components/componentTitle.vue";
+import deepSubMenu from "@/components/deepSubMenu.vue";
 export default {
   components: {
     shallowMenu,
     deepMainMenu,
-    deepSubMenuRollcallQuiz,
-    deepSubMenuGradeCourse,
-    deepSubMenuMessage,
-    componentTitle
+    deepSubMenu,
   }
 };
 </script>
 
 <style lang="scss" scoped>
-.grade-content {
+.grade {
   padding-top: 28px;
+  width: 92%;
+  max-width: 510px;
+  margin: auto;
+  &-answer {
+    margin-bottom: 18px;
+  }
   li {
     list-style: none;
   }
+  h3 {
+    margin: auto;
+    margin-bottom: 9px;
+    @include fontstyle(500, 24px, 1.2, $font, #474747);
+  }
 }
 
-.grade-answer {
-  margin-bottom: 18px;
+.answer-item {
+  background: $white;
+  box-shadow: 0px 3px 6px #00000029;
+  margin-bottom: 13px;
+  padding: 0 10px 0 15px;
+  h4 {
+    display: inline-block;
+    width: 75%;
+    @include fontstyle(500, 18px, 50px, $font, #474747);
+  }
+  span {
+    display: inline-block;
+    width: 25%;
+    text-align: right;
+    padding-right: 14px;
+    @include fontstyle(500, 18px, 22px, $font, #474747);
+  }
 }
 </style>

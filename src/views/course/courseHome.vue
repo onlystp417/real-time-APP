@@ -1,7 +1,7 @@
 <template>
   <div class="course-home">
     <section class="information">
-      <componentTitle>課程資訊</componentTitle>
+      <h2>課程資訊</h2>
       <div class="information-card normal-card">
         <div>
           <h5>授課教師</h5>
@@ -18,7 +18,7 @@
       </div>
     </section>
     <section class="annousemenet">
-      <componentTitle>公告</componentTitle>
+      <h2>公告</h2>
       <div class="annousemenet-card normal-card">
         <h5 class="font-style">12/3停課一周</h5>
         <div class="button-wrapper">
@@ -41,11 +41,9 @@
 </template>
 
 <script>
-import componentTitle from "@/components/componentTitle.vue";
 import buttonSecondary from "@/components/buttonSecondary.vue";
 export default {
   components: {
-    componentTitle,
     buttonSecondary
   }
 };
@@ -53,9 +51,15 @@ export default {
 
 <style lang="scss" scoped>
 .course-home {
-  padding-top: 28px;
+  padding-top: 13px;
+  h2 {
+    margin-bottom: 9px;
+    @include fontstyle(500, 24px, 1.2, $font, #474747);
+  }
   .information {
     &-card {
+      background: $white;
+      box-shadow: 0px 3px 6px #00000029;
       padding: 10px 16px 6.5px 16px;
       margin-bottom: 18px;
       > div + div {

@@ -10,12 +10,12 @@ export default {};
 
 <style lang="scss" scoped>
 .primary-button-big {
-  display: block;
+  width: 48.6vw;
+  max-width: 250px;
   background: $light-blue;
   border-radius: 21px;
-  margin: auto;
   padding: 0;
-  width: 200px;
+  width: 100%;
   height: 44px;
   color: $white;
   font-size: 20px;

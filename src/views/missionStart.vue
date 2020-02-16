@@ -1,6 +1,6 @@
 <template>
   <div class="missionStart">
-    <a href>
+    <a @click.prevent="$router.push({name: 'rollcall'})" href>
       <div>即時反饋系統APP · 現在</div>
       <div>輕觸即可開啓課程</div>
     </a>

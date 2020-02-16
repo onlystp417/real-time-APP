@@ -1,12 +1,12 @@
 <template>
-  <div class="mission-instruction main-menu-placeholder content-area">
-    <div class="mission-instruction-card">
-      <div class="card instruction-card-space instruction-card-font">
-        <h3>任務{{ $store.getters.chineseMissionLevel }}</h3>
-        <p v-for="(item, index) in missionLevelMessage" :key="index" v-html="item"></p>
-      </div>
+  <div class="missionInstruction">
+    <div class="missionInstruction-card">
+      <h3>任務{{ $store.getters.chineseMissionLevel }}</h3>
+      <p v-for="(item, index) in missionLevelMessage" :key="index" v-html="item"></p>
     </div>
-    <buttonPrimarySmall>開始</buttonPrimarySmall>
+    <div class="missionInstruction-button">
+      <buttonPrimarySmall @click.prevent="$router.push({name: 'missionStart'})">開始</buttonPrimarySmall>
+    </div>
   </div>
 </template>
 
@@ -58,29 +58,26 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.mission-instruction {
+.missionInstruction {
   padding-top: 18.6vh;
-}
-
-.mission-instruction-card {
   width: 87.5%;
   max-width: 495px;
   margin: auto;
-  .card {
+  &-card {
     background: $white;
     border-radius: 13px;
     box-shadow: #00000029 0px 1px 3px;
     padding: 15px 30px 21px 30px;
     margin-bottom: 48px;
     h3 {
+      @include fontstyle(500, 26px, 1.5, $font, #757575);
       margin-bottom: 15px;
-      @include fontstyle(regular, 26px, 1.5, $font, #757575);
       text-align: center;
     }
     p {
+      @include fontstyle(400, 16px, 1.5, $font, #757575);
       padding-left: 34px;
       margin-top: 10px;
-      @include fontstyle(regular, 16px, 1.5, $font, #757575);
     }
     p + p {
       border-top: #707070 1px solid;
@@ -89,6 +86,9 @@ export default {
     pre {
       white-space: pre-wrap;
     }
+  }
+  &-button {
+    text-align: center;
   }
 }
 </style>

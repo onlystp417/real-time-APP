@@ -10,7 +10,6 @@ export default {};
 
 <style lang="scss" scoped>
 .primary-button-small {
-  display: block;
   background: $light-blue;
   border-radius: 21px;
   margin: auto;
@@ -20,10 +19,16 @@ export default {};
   color: $white;
   font-size: 16px;
   box-sizing: border-box;
-  &:active {
+  &:active, &:focus {
     background: $white;
     color: $light-blue;
     border: $light-blue 2px solid;
+    outline: none;
   }
+  &.finished {
+  background: $white;
+  border: #bcbcbc 2px solid;
+  color: #bcbcbc;
+}
 }
 </style>

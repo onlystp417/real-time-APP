@@ -1,38 +1,38 @@
 <template>
   <div class="rollcall-record">
-    <componentTitle>點名紀錄</componentTitle>
-    <ul class="normal-card">
+    <h2 class="record-title">點名紀錄</h2>
+    <ul>
       <li>
         <time>2020/01/05 13:00</time>
-        <span class="rollcall-ontime">準時</span>
+        <span class="record-ontime">準時</span>
       </li>
       <li>
         <time>2020/01/04 18:00</time>
-        <span class="rollcall-ontime">準時</span>
+        <span class="record-ontime">準時</span>
       </li>
       <li>
         <time>2020/01/03 10:00</time>
-        <span class="rollcall-ontime">準時</span>
+        <span class="record-ontime">準時</span>
       </li>
       <li>
         <time>2020/01/02 15:00</time>
-        <span class="rollcall-late">遲到</span>
+        <span class="record-late">遲到</span>
       </li>
       <li>
         <time>2020/12/30 13:00</time>
-        <span class="rollcall-ontime">準時</span>
+        <span class="record-ontime">準時</span>
       </li>
     </ul>
-    <buttonPrimaryBig>確認</buttonPrimaryBig>
+    <div class="record-button">
+      <buttonPrimaryBig>確認</buttonPrimaryBig>
+    </div>
   </div>
 </template>
 
 <script>
-import componentTitle from "@/components/componentTitle.vue";
 import buttonPrimaryBig from "@/components/buttonPrimaryBig.vue";
 export default {
   components: {
-    componentTitle,
     buttonPrimaryBig
   }
 };
@@ -40,8 +40,9 @@ export default {
 
 <style lang="scss" scoped>
 .rollcall-record {
-  padding-top: 15px;
   > ul {
+    background: $white;
+    box-shadow: 0px 3px 6px #00000029;
     margin-bottom: 46px;
     padding: 17.5px 33px 4.5px 23px;
     list-style: none;
@@ -59,11 +60,23 @@ export default {
     width: 30%;
     text-align: right;
   }
-  .rollcall-ontime {
-    @include fontstyle(500, 18px, 22px, $font, $success);
-  }
-  .rollcall-late {
-    @include fontstyle(500, 18px, 22px, $font, $warning);
+  .record {
+    &-title {
+      margin-bottom: 9px;
+      @include fontstyle(500, 24px, 1.2, $font, #474747);
+    }
+    &-ontime {
+      @include fontstyle(500, 18px, 22px, $font, $success);
+    }
+    &-late {
+      @include fontstyle(500, 18px, 22px, $font, $warning);
+    }
+    &-button {
+      margin: 0 auto;
+      margin-top: 6.2vh;
+      width: 48.6vw;
+      max-width: 250px;
+    }
   }
 }
 </style>

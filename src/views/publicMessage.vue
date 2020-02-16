@@ -1,12 +1,7 @@
 <template>
-  <div class="public-message content-area main-menu-placeholder">
-    <!-- <deepSubMenuRollcallQuiz></deepSubMenuRollcallQuiz> -->
-    <!-- <deepSubMenuGradeCourse></deepSubMenuGradeCourse> -->
-    <!-- <deepSubMenuMessage></deepSubMenuMessage> -->
-    <deepMainMenu></deepMainMenu>
-    <!-- <shallowMenu></shallowMenu> -->
+  <div class="public-message">
     <div class="message-list">
-      <section class="public-message-card normal-card">
+      <section class="public-message-card">
         <header class="message-header">
           <img src="../assets/images/user.png" alt="user graphy" />
           <div>
@@ -23,7 +18,7 @@
           <span class="unit">則回應</span>
         </div>
       </section>
-      <section class="public-message-card normal-card">
+      <section class="public-message-card">
         <header class="message-header">
           <img src="../assets/images/user.png" alt="user graphy" />
           <div>
@@ -42,29 +37,19 @@
       </section>
       <buttonQuaternary></buttonQuaternary>
     </div>
-    <messageTyping>
+    <!-- <messageTyping>
       <p slot="title">新增討論</p>
       <input slot="input" class="content" type="text" placeholder="輸入標題" />
       <input slot="input" class="content" type="text" placeholder="輸入內容" />
-    </messageTyping>
+    </messageTyping>-->
   </div>
 </template>
 
 <script>
-import shallowMenu from "@/components/shallowMenu.vue";
-import deepMainMenu from "@/components/deepMainMenu.vue";
-import deepSubMenuRollcallQuiz from "@/components/deepSubMenu_rollcall_quiz.vue";
-import deepSubMenuMessage from "@/components/deepSubMenu_message.vue";
-import deepSubMenuGradeCourse from "@/components/deepSubMenu_grade_course.vue";
 import messageTyping from "@/components/messageTyping.vue";
 import buttonQuaternary from "@/components/buttonQuaternary.vue";
 export default {
   components: {
-    shallowMenu,
-    deepMainMenu,
-    deepSubMenuRollcallQuiz,
-    deepSubMenuGradeCourse,
-    deepSubMenuMessage,
     messageTyping,
     buttonQuaternary
   }
@@ -73,60 +58,63 @@ export default {
 
 <style lang="scss" scoped>
 .public-message {
+  margin: 0 auto;
+  width: 92%;
+  max-width: 500px;
   padding-top: 28px;
-}
-
-.public-message-card {
-  position: relative;
-  padding: 9px 12px;
-  margin-bottom: 26px;
-  min-height: 170px;
-}
-
-.message-header {
-  display: block;
-  margin-bottom: 10px;
-  img {
-    display: inline-block;
-    width: 29px;
-    height: 29px;
-    vertical-align: top;
-    margin-right: 5px;
-  }
-  > div {
-    display: inline-block;
-    width: calc(100% - 34px);
-    vertical-align: top;
-  }
-  h5 {
-    @include fontstyle(500, 16px, 1, $font, #474747);
-    margin-bottom: -3px;
-  }
-  time {
-    display: inline-block;
-    @include fontstyle(400, 10px, 1, $font, #474747);
+  &-card {
+    background: #fff;
+    position: relative;
+    padding: 9px 12px;
+    margin-bottom: 26px;
+    min-height: 170px;
+    box-shadow: 0px 3px 6px #00000029;
+    &:last-child {
+      margin-bottom: 119px;
+    }
   }
 }
 
-.message-content {
-  h5 {
-    margin-bottom: 3px;
-    @include fontstyle(500, 14px, 1.2, $font, #474747);
+.message {
+  &-header {
+    display: block;
+    margin-bottom: 10px;
+    img {
+      display: inline-block;
+      width: 29px;
+      height: 29px;
+      vertical-align: top;
+      margin-right: 5px;
+    }
+    > div {
+      display: inline-block;
+      width: calc(100% - 34px);
+      vertical-align: top;
+    }
+    h5 {
+      @include fontstyle(500, 16px, 1, $font, #474747);
+      margin-bottom: -3px;
+    }
+    time {
+      display: inline-block;
+      @include fontstyle(400, 10px, 1, $font, #474747);
+    }
   }
-  p {
-    display: inline-block;
-    @include fontstyle(400, 10px, 1.5, $font, #474747);
+  &-content {
+    h5 {
+      margin-bottom: 3px;
+      @include fontstyle(500, 14px, 1.2, $font, #474747);
+    }
+    p {
+      display: inline-block;
+      @include fontstyle(400, 10px, 1.5, $font, #474747);
+    }
   }
-}
-
-.message-response {
-  position: absolute;
-  right: 16px;
-  bottom: 9px;
-  @include fontstyle(300px, 10px, 1, $font, #b7b7b7);
-}
-
-.public-message-card:last-child {
-  margin-bottom: 119px;
+  &-response {
+    position: absolute;
+    right: 16px;
+    bottom: 9px;
+    @include fontstyle(300px, 10px, 1, $font, #b7b7b7);
+  }
 }
 </style>

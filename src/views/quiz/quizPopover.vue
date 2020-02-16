@@ -6,7 +6,7 @@
       <div>
         <answerResult>
           <!-- <img slot="image" src="../assets/images/correct.png" alt="correct" /> -->
-          <img slot="image" src="../assets/images/wrong.png" alt="correct" />
+          <img slot="image" src="@/assets/images/wrong.png" alt="correct" />
           <!-- <p class="correct-text" slot="text">正確</p> -->
           <p class="wrong-text" slot="text">錯誤</p>
         </answerResult>

@@ -8,7 +8,9 @@
         </div>
         <slot name="input"></slot>
       </section>
-      <buttonPrimaryBig>傳送</buttonPrimaryBig>
+      <div class="typing-button">
+        <buttonPrimaryBig>傳送</buttonPrimaryBig>
+      </div>
     </form>
   </div>
 </template>
@@ -60,6 +62,9 @@ export default {
     &::placeholder {
       color: #b4b4b4;
     }
+  }
+  .typing-button{
+    text-align: center;
   }
 }
 </style>

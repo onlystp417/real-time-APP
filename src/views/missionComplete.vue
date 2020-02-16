@@ -1,21 +1,21 @@
 <template>
-  <div class="mission-complete-wrapper content-area main-menu-placeholder">
-    <section class="missionComplete">
-      <h2 class="missionComplete-title">任務{{ $store.getters.chineseMissionLevel }}完成！</h2>
-      <section class="missionComplete-card">
-        <h3 class="card-title">
-          <span>編號：{{ $store.getters.userSymbol }}</span>
-          {{ $store.getters.name }}
-        </h3>
-        <p
-          class="card-text"
-          v-for="(item, index) in $store.getters.messionMessage"
-          :key="index"
-        >任務{{ $store.getters.missionLevel }}-{{ index }}：{{ item.minute }}分{{item.second}}秒</p>
-      </section>
+  <section class="missionComplete">
+    <h2 class="missionComplete-title">任務{{ $store.getters.chineseMissionLevel }}完成！</h2>
+    <section class="missionComplete-card">
+      <h3 class="card-title">
+        <span>編號：{{ $store.getters.userSymbol }}</span>
+        {{ $store.getters.name }}
+      </h3>
+      <p
+        class="card-text"
+        v-for="(item, index) in $store.getters.messionMessage"
+        :key="index"
+      >任務{{ $store.getters.missionLevel }}-{{ index }}：{{ item.minute }}分{{item.second}}秒</p>
     </section>
-    <buttonPrimarySmall>下一個任務</buttonPrimarySmall>
-  </div>
+    <div class="missionComplete-button">
+      <buttonPrimarySmall @click="$router.push({name: 'missionLevel'})">完成</buttonPrimarySmall>
+    </div>
+  </section>
 </template>
 
 <script>
@@ -29,15 +29,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.mission-complete-wrapper {
-  padding-top: 15vh;
-}
-
 .missionComplete {
-  width: 87.5%;
-  max-width: 495px;
-  margin: 0 auto 42px auto;
-  box-shadow: 0px 1px 3px #00000029;
+  width: 360px;
+  padding-top: 111px;
+  margin: 0 auto;
   &-title {
     margin-bottom: 18px;
     text-align: center;
