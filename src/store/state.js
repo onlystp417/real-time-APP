@@ -1,9 +1,9 @@
 export default {
   compelete: [],
   user: {
-    id: null,
-    gender: "",
-    name: "",
+    id: 23,
+    gender: "male",
+    name: "王小明",
     missionState: [true, false, false, false],
     missionLevel: 1,
     missionLevelState: [
