@@ -1,23 +1,34 @@
 <template>
   <section class="missionHome">
-    <form @submit.prevent="$router.push({name:'missionLevel'})" class="missionHome-register" action>
+    <form @submit.prevent="storeNameAndPushRouter" class="missionHome-register" action>
       <div class="register-user">
-        <h3>編號：M13</h3>
-        <input type="text" required placeholder="姓名：王小明"/>
+        <h3>編號：{{ $store.getters.userSymbol }}</h3>
+        <input type="text" required placeholder="姓名：王小明" v-model="userName"/>
       </div>
       <div class="register-action">
+        <!-- 沒有寫回到前頁，請注意 -->
         <button @click.prevent="{}" class="negtive">取消</button>
-        <button
-          class="positive"
-          type="submit"
-        >開始</button>
+        <button class="positive" type="submit">開始</button>
       </div>
     </form>
   </section>
 </template>
 
 <script>
-export default {};
+export default {
+  data: function(){
+    return {
+      // 這個方法好嗎？之前是確定輸入完成才存入，在清單中，方法是如何？
+      userName: ""
+    }
+  },
+  methods: {
+    storeNameAndPushRouter(){
+      this.$store.commit('setUserName', this.userName)
+      this.$router.push({name:'missionLevel'})
+    }
+  }
+};
 </script>
 
 <style lang="scss" scoped>

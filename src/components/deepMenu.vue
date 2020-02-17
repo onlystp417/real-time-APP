@@ -1,12 +1,27 @@
 <template>
   <nav class="main-menu">
-    <a class="rollcall-quiz rollcall-quiz-current" href>
+    <a
+      class="rollcall-quiz"
+      @click.prevent="$router.push({name: 'rollcallAndQuiz'}).catch(err => {})"
+      :class="{current: $route.name ==='rollcallAndQuiz'}"
+      href
+    >
       <h2>點名與問答</h2>
     </a>
-    <a class="course" href>
+    <a
+      class="course"
+      @click.prevent="$router.push({name: 'gradeAndCourse'}).catch(err => {})"
+      :class="{current: $route.name ==='gradeAndCourse'}"
+      href
+    >
       <h2>課程資訊</h2>
     </a>
-    <a class="contact" href>
+    <a
+      class="contact"
+      @click.prevent="$router.push({name: 'privateMessageAndPublicMessage'}).catch(err => {})"
+      :class="{current: $route.name ==='privateMessageAndPublicMessage'}"
+      href
+    >
       <h2>師生交流</h2>
     </a>
   </nav>
@@ -42,12 +57,28 @@ export default {};
       background: url(../assets/images/rollcall-active.png) top center/53px
         no-repeat;
     }
+    &.current {
+      background: url(../assets/images/rollcall-active.png) top center/53px
+        no-repeat;
+      color: $light-blue;
+      h2 {
+        color: $light-blue;
+      }
+    }
   }
   .course {
     background: url(../assets/images/info.png) top center/53px no-repeat;
     &:active {
       background: url(../assets/images/info-active.png) top center/53px
         no-repeat;
+    }
+    &.current {
+      background: url(../assets/images/info-active.png) top center/53px
+        no-repeat;
+      color: $light-blue;
+      h2 {
+        color: $light-blue;
+      }
     }
   }
   .contact {
@@ -56,29 +87,13 @@ export default {};
       background: url(../assets/images/message-active.png) top center/53px
         no-repeat;
     }
-  }
-
-  .rollcall-quiz-current {
-    background: url(../assets/images/rollcall-active.png) top center/53px
-      no-repeat;
-    color: $light-blue;
-    h2 {
+    &.current {
+      background: url(../assets/images/message-active.png) top center/53px
+        no-repeat;
       color: $light-blue;
-    }
-  }
-  .course-current {
-    background: url(../assets/images/info-active.png) top center/53px no-repeat;
-    color: $light-blue;
-    h2 {
-      color: $light-blue;
-    }
-  }
-  .contact-current {
-    background: url(../assets/images/message-active.png) top center/53px
-      no-repeat;
-    color: $light-blue;
-    h2 {
-      color: $light-blue;
+      h2 {
+        color: $light-blue;
+      }
     }
   }
 }

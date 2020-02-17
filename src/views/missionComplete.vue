@@ -23,8 +23,7 @@ import buttonPrimary from "@/components/buttonPrimary.vue";
 export default {
   components: {
     buttonPrimary
-  },
-  computed: {}
+  }
 };
 </script>
 

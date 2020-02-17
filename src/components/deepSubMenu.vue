@@ -1,23 +1,25 @@
 <template>
-    <nav class="deep-submenu">
-      <a @click.prevent="$emit('click', $event)" :class="{current: isActive}" href>
-        <span>
-          <slot name="first">第一分類</slot>
-        </span>
-      </a>
-      <a @click.prevent="$emit('linkclick', $event)" :class="{current: isActive}" href>
-        <span>
-          <slot name="second">第二分類</slot>
-        </span>
-      </a>
-    </nav>
+  <nav class="deep-submenu">
+    <a
+      @click.prevent="$emit('subMenuClick', page.pages[0])"
+      :class="{current: page.pages[0] === page.currentPage}"
+      href
+    >
+      <span>
+        <slot name="first">第一分類</slot>
+      </span>
+    </a>
+    <a @click.prevent="$emit('subMenuClick', page.pages[1])" :class="{current: page.pages[1] === page.currentPage}" href>
+      <span>
+        <slot name="second">第二分類</slot>
+      </span>
+    </a>
+  </nav>
 </template>
 
 <script>
 export default {
-  props: {
-    isActive: Boolean
-  }
+  props: ['page']
 };
 </script>
 

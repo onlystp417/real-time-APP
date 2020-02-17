@@ -19,7 +19,7 @@ export default {
     rollcallEnroll,
     rollcallOntime,
     rollcallRecord
-  },
+  }
   // data: function() {}
 };
 </script>

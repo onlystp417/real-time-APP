@@ -73,6 +73,28 @@ const routes = [
         component: () => import("@/views/publicMessage/publicMessage.vue")
       }
     ]
+  },
+  {
+    path: "/missionDeep",
+    name: "missionDeep",
+    component: () => import("@/views/missionDeep.vue"),
+    children: [
+      {
+        path: "rollcallAndQuiz",
+        name: "rollcallAndQuiz",
+        component: () => import("@/views/rollcallAndQuiz/rollcallAndQuiz.vue")
+      },
+      {
+        path: "gradeAndCourse",
+        name: "gradeAndCourse",
+        component: () => import("@/views/gradeAndCourse/gradeAndCourse.vue")
+      },
+      {
+        path: "privateMessageAndPublicMessage",
+        name: "privateMessageAndPublicMessage",
+        component: () => import("@/views/privateMessageAndPublicMessage/privateMessageAndPublicMessage.vue")
+      }
+    ]
   }
 ];
 

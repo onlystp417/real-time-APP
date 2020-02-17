@@ -1,6 +1,5 @@
 <template>
   <div class="missionDeep">
-    <deepSubMenu></deepSubMenu>
     <router-view></router-view>
     <deepMenu></deepMenu>
   </div>

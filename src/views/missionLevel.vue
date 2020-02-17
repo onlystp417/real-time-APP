@@ -38,7 +38,7 @@ export default {
   &-card {
     background: $white;
     margin-bottom: 21px;
-    padding: 10px 50px 16px 50px;
+    padding: 10px 0px 16px 0px;
     border-radius: 13px;
     box-shadow: #00000029 0px 1px 3px 0px;
     &:last-child {
