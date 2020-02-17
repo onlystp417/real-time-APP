@@ -49,14 +49,14 @@ export default {
 }
 section.rollcall {
   flex: 0 0 100%;
-  transition: all 0.6s;
+  transition: all 0.3s;
   &.change {
     transform: translateX(-100vw);
   }
 }
 section.quiz {
   flex: 0 0 100%;
-  transition: all 0.6s;
+  transition: all 0.3s;
   &.change {
     transform: translateX(-100vw);
   }

@@ -1,34 +1,12 @@
 export default {
   compelete: [],
   user: {
-    id: 23,
-    gender: "male",
-    name: "黃庭偉",
-    missionState: [false, false, false, false],
-    missionLevel: 2,
+    id: null,
+    gender: "",
+    name: "",
+    missionState: [true, false, false, false],
+    missionLevel: 1,
     missionLevelState: [
-      [
-        {
-          finish: false,
-          startTime: null,
-          endTime: null
-        },
-        {
-          finish: false,
-          startTime: null,
-          endTime: null
-        },
-        {
-          finish: false,
-          startTime: null,
-          endTime: null
-        },
-        {
-          finish: false,
-          startTime: null,
-          endTime: null
-        }
-      ],
       [
         {
           finish: true,
@@ -49,6 +27,28 @@ export default {
           finish: false,
           startTime: new Date(2020, 2, 1, 1, 44),
           endTime: new Date(2020, 2, 1, 1, 54)
+        }
+      ],
+      [
+        {
+          finish: false,
+          startTime: null,
+          endTime: null
+        },
+        {
+          finish: false,
+          startTime: null,
+          endTime: null
+        },
+        {
+          finish: false,
+          startTime: null,
+          endTime: null
+        },
+        {
+          finish: false,
+          startTime: null,
+          endTime: null
         }
       ],
       [

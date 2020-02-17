@@ -19,6 +19,6 @@ export default {
 
 <style lang="scss" scoped>
 .missionDeep{
-  padding-top: 39px;
+    padding-top: 39px;
 }
 </style>

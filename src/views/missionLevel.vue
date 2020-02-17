@@ -1,20 +1,8 @@
 <template>
   <section class="missionLevel">
-    <div class="missionLevel-card">
-      <h3 class="missionLevel-title">任務一</h3>
-      <buttonPrimary @click="$router.push({name: 'missionInstruction'})" class="finished">已完成</buttonPrimary>
-    </div>
-    <div class="missionLevel-card">
-      <h3 class="missionLevel-title">任務二</h3>
-      <buttonPrimary>開始</buttonPrimary>
-    </div>
-    <div class="missionLevel-card">
-      <h3 class="missionLevel-title">任務三</h3>
-      <buttonPrimary>開始</buttonPrimary>
-    </div>
-    <div class="missionLevel-card">
-      <h3 class="missionLevel-title">任務四</h3>
-      <buttonPrimary>開始</buttonPrimary>
+    <div class="missionLevel-card" v-for="(item, index) in $store.getters.missionState" :key="index">
+      <h3 class="missionLevel-title">任務{{ (index + 1).toLocaleString("zh-u-nu-hanidec") }}</h3>
+      <buttonPrimary @click="routerLinkToCorrectLevel(index)" :class="{finished: item}">{{ item ? '已完成' : '開始'}}</buttonPrimary>
     </div>
   </section>
 </template>
@@ -22,6 +10,21 @@
 <script>
 import buttonPrimary from "@/components/buttonPrimary.vue";
 export default {
+  methods:{
+    routerLinkToCorrectLevel(index){
+      console.log(this.$store.getters.missionLevel)
+      if(index === this.$store.getters.missionLevel) {
+        this.$router.push({name: 'missionInstruction'})
+        return
+      }
+      if(index < this.$store.getters.missionLevel) {
+        alert('本關卡任務已完成，將顯示本關卡任務完成時間！')
+        this.$router.push({name: 'missionComplete'})
+        return
+      }
+      alert('請依序完成任務！')
+    }
+  },
   components: {
     buttonPrimary
   }

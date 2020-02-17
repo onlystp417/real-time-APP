@@ -1,7 +1,7 @@
 <template>
   <div class="missionInstruction">
     <div class="missionInstruction-card">
-      <h3>任務{{ $store.getters.chineseMissionLevel }}</h3>
+      <h3>任務{{ $store.getters.chineseMissionLevelDisplay }}</h3>
       <p v-for="(item, index) in missionLevelMessage" :key="index" v-html="item"></p>
     </div>
     <div class="missionInstruction-button">
@@ -50,7 +50,7 @@ export default {
   computed: {
     missionLevelMessage() {
       return this.messionMessage.find(
-        (value, index) => index === this.$store.getters.missionLevel - 1
+        (value, index) => index === this.$store.getters.missionLevel
       );
     }
   }

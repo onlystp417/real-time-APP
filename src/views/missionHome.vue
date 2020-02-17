@@ -1,13 +1,13 @@
 <template>
   <section class="missionHome">
-    <form @submit.prevent="storeNameAndPushRouter" class="missionHome-register" action>
+    <form @submit.prevent="storeNameAndPushRouter" class="missionHome-register" method="post" action="">
       <div class="register-user">
         <h3>編號：{{ $store.getters.userSymbol }}</h3>
-        <input type="text" required placeholder="姓名：王小明" v-model="userName"/>
+        <input pattern="\D{1,}" title="請輸入非數字中英文姓名，謝謝"  type="text" required placeholder="姓名：王小明" v-model="userName" />
       </div>
       <div class="register-action">
         <!-- 沒有寫回到前頁，請注意 -->
-        <button @click.prevent="{}" class="negtive">取消</button>
+        <button class="negtive">取消</button>
         <button class="positive" type="submit">開始</button>
       </div>
     </form>
@@ -16,16 +16,16 @@
 
 <script>
 export default {
-  data: function(){
+  data: function() {
     return {
       // 這個方法好嗎？之前是確定輸入完成才存入，在清單中，方法是如何？
       userName: ""
-    }
+    };
   },
   methods: {
-    storeNameAndPushRouter(){
-      this.$store.commit('setUserName', this.userName)
-      this.$router.push({name:'missionLevel'})
+    storeNameAndPushRouter() {
+      this.$store.commit("setUserName", this.userName);
+      this.$router.push({ name: "missionLevel" });
     }
   }
 };

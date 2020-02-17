@@ -1,6 +1,6 @@
 <template>
-  <section class="missionComplete">
-    <h2 class="missionComplete-title">任務{{ $store.getters.chineseMissionLevel }}完成！</h2>
+  <!-- <section class="missionComplete">
+    <h2 class="missionComplete-title">任務{{ $store.getters.chineseMissionLevelDislpay }}完成！</h2>
     <section class="missionComplete-card">
       <h3 class="card-title">
         <span>編號：{{ $store.getters.userSymbol }}</span>
@@ -15,7 +15,7 @@
     <div class="missionComplete-button">
       <buttonPrimary @click="$router.push({name: 'missionLevel'})">完成</buttonPrimary>
     </div>
-  </section>
+  </section> -->
 </template>
 
 <script>

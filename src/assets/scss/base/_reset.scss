@@ -19,11 +19,20 @@ h1,h2,h3,h4,h5,p,ul,ol,pre,ul {
 
 a {
   text-decoration-line: none;
+  // 取消按壓時的藍色背景
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-user-select: none;
+  -moz-user-focus: none;
+  -moz-user-select: none;
 }
 
 input, button {
   border: none;
   cursor: pointer;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-user-select: none;
+  -moz-user-focus: none;
+  -moz-user-select: none;
 }
 
 input:focus, button:focus {

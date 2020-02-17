@@ -9,7 +9,11 @@
         <slot name="first">第一分類</slot>
       </span>
     </a>
-    <a @click.prevent="$emit('subMenuClick', page.pages[1])" :class="{current: page.pages[1] === page.currentPage}" href>
+    <a
+      @click.prevent="$emit('subMenuClick', page.pages[1])"
+      :class="{current: page.pages[1] === page.currentPage}"
+      href
+    >
       <span>
         <slot name="second">第二分類</slot>
       </span>
