@@ -45,19 +45,21 @@ export default {
 .privateMessageAndpublicMessage {
   display: flex;
   width: 100%;
+  height: calc(100vh - 150px);
   overflow-x: hidden;
-  align-items: stretch;
 }
 section.privateMessage {
   flex: 0 0 100%;
-  transition: all 0.6s;
+  transition: all 0.3s;
+  height: 100%;
   &.change {
     transform: translateX(-100vw);
   }
 }
 section.publicMessage {
   flex: 0 0 100%;
-  transition: all 0.6s;
+  transition: all 0.3s;
+  height: 100%;
   &.change {
     transform: translateX(-100vw);
   }

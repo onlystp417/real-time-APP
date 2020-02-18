@@ -49,6 +49,8 @@ export default {
   max-width: 500px;
   margin: 0 auto;
   padding-top: 28px;
+    height: 100%;
+  position: relative;
   &-button {
     text-align: center;
   }

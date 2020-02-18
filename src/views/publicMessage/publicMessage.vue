@@ -62,6 +62,8 @@ export default {
   width: 92%;
   max-width: 500px;
   padding-top: 28px;
+  height: 100%;
+  position: relative;
   &-card {
     background: #fff;
     position: relative;
