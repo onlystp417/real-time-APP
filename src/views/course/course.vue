@@ -1,8 +1,6 @@
 <template>
-  <div class="course">
-    <courseHome></courseHome>
-    <!-- <courseSuspension></courseSuspension> -->
-    <!-- <courseHomework></courseHomework> -->
+  <div class="course" >
+    <component @click="setCourse" :is="componentId"></component>
   </div>
 </template>
 
@@ -12,6 +10,16 @@ import courseSuspension from "@/views/course/courseSuspension.vue";
 import courseHomework from "@/views/course/courseHomework.vue";
 
 export default {
+  data: function() {
+    return {
+      componentId: "courseHome"
+    };
+  },
+  methods: {
+    setCourse(data) {
+      this.componentId = data;
+    }
+  },
   components: {
     courseHome,
     courseSuspension,
@@ -21,7 +29,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.course{
+.course {
   width: 92%;
   max-width: 500px;
   margin: 0 auto;

@@ -1,6 +1,6 @@
 <template>
   <div class="quiz-question">
-    <section class="question-card quiz-card-content normal-card">
+    <section class="question-card quiz-card-content">
       <h4>單選題</h4>
       <h5>第二題</h5>
       <p>一般而言，人類的短期記憶能力有其限制，其限制為多少?</p>
@@ -11,7 +11,9 @@
         <li>19±2</li>
       </ol>
     </section>
-    <buttonQuinary>確定</buttonQuinary>
+    <div class="quiz-button">
+      <buttonQuinary @click="$emit('click')">確定</buttonQuinary>
+    </div>
   </div>
 </template>
 
@@ -25,13 +27,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.normal-card {
-  width: 92%;
-  max-width: 510px;
-  margin: auto;
-  background: $white;
-  box-shadow: 0px 3px 6px #00000029;
-}
 
 .quiz-card-content {
   margin-bottom: 14px;
@@ -54,7 +49,8 @@ export default {
 }
 
 .question-card {
-  margin-top: 15px;
+  background: $white;
+  box-shadow: 0px 3px 6px #00000029;
   margin-bottom: 36px;
   padding-bottom: 5px;
   p {
@@ -89,5 +85,9 @@ export default {
       color: $white;
     }
   }
+}
+
+.quiz-button {
+  text-align: center;
 }
 </style>

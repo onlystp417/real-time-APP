@@ -1,5 +1,5 @@
 <template>
-  <button class="plus-button">
+  <button class="plus-button" @click.prevent="$emit('click')">
     <img src="../assets/images/plus.png" alt="plus message" />
   </button>
 </template>

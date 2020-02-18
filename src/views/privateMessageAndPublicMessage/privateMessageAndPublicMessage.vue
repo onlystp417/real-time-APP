@@ -46,6 +46,7 @@ export default {
   display: flex;
   width: 100%;
   overflow-x: hidden;
+  align-items: stretch;
 }
 section.privateMessage {
   flex: 0 0 100%;

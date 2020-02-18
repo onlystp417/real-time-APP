@@ -22,7 +22,7 @@
       <div class="annousemenet-card">
         <h5>12/3停課一周</h5>
         <div class="button-wrapper">
-          <buttonSecondary></buttonSecondary>
+          <buttonSecondary @click="$emit('click', 'courseSuspension')"></buttonSecondary>
         </div>
         <p>
           因老師12/4要出國參加國際會議，
@@ -32,7 +32,7 @@
       <div class="annousemenet-card">
         <h5>下周作業</h5>
         <div class="button-wrapper">
-          <buttonSecondary></buttonSecondary>
+          <buttonSecondary @click="$emit('click', 'courseSuspension')"></buttonSecondary>
         </div>
         <p>下周作業為顧客旅程地圖一張</p>
       </div>

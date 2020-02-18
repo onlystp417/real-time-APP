@@ -1,5 +1,5 @@
 <template>
-  <button class="primary-button-big">
+  <button class="primary-button-big" @click.prevent="$emit('click')">
     <slot></slot>
   </button>
 </template>

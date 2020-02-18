@@ -1,5 +1,5 @@
 <template>
-  <a class="button-tertiary" href>
+  <a @click.prevent="$emit('click')" class="button-tertiary" href>
     <slot></slot>
   </a>
 </template>

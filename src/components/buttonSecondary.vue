@@ -1,5 +1,5 @@
 <template>
-  <a class="secondary-button"><slot>查看</slot></a>
+  <a class="secondary-button" @click.prevent="$emit('click')"><slot>查看</slot></a>
 </template>
 
 <script>

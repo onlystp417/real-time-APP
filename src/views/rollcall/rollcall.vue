@@ -1,7 +1,7 @@
 <template>
   <div class="rollcall">
-    <!-- <component :is="componentId"></component> -->
-    <rollcallHome></rollcallHome>
+    <component @click="setComponentId" :is="componentId"></component>
+    <!-- <rollcallHome></rollcallHome> -->
     <!-- <rollcallEnroll></rollcallEnroll> -->
     <!-- <rollcallOntime></rollcallOntime> -->
     <!-- <rollcallRecord></rollcallRecord> -->
@@ -14,13 +14,22 @@ import rollcallEnroll from "@/views/rollcall/rollcallEnroll.vue";
 import rollcallOntime from "@/views/rollcall/rollcallOntime.vue";
 import rollcallRecord from "@/views/rollcall/rollcallRecord.vue";
 export default {
+  data: function() {
+    return {
+      componentId: "rollcallHome"
+    };
+  },
+  methods: {
+    setComponentId(data) {
+      this.componentId = data;
+    }
+  },
   components: {
     rollcallHome,
     rollcallEnroll,
     rollcallOntime,
     rollcallRecord
   }
-  // data: function() {}
 };
 </script>
 

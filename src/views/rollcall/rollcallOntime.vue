@@ -1,6 +1,6 @@
 <template>
   <div class="rollcall-ontime">
-    <p class="ontime-declare">準時！</p>
+    <p @click="$emit('click', 'rollcallHome')" class="ontime-declare">準時！</p>
   </div>
 </template>
 

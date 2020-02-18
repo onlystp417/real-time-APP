@@ -23,7 +23,9 @@
 
 <script>
 export default {
-  props: ['page']
+  props: {
+    page: Object
+  }
 };
 </script>
 
