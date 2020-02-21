@@ -12,7 +12,7 @@ export default {
     return state.user.gender === "male" ? "M" : "F";
   },
   userSymbol: (state, getters) => {
-    return getters.setGenderAbbreviation + state.user.id.toString();
+    return getters.setGenderAbbreviation + (state.user.id + 1).toString();
   },
   missionState: state => {
     return state.user.missionState;

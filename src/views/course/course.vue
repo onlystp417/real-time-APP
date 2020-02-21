@@ -10,7 +10,7 @@ import courseSuspension from "@/views/course/courseSuspension.vue";
 import courseHomework from "@/views/course/courseHomework.vue";
 
 export default {
-  data: function() {
+  data: function(){
     return {
       componentId: "courseHome"
     };

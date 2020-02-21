@@ -43,13 +43,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 .private-message {
   width: 92%;
   max-width: 500px;
   margin: 0 auto;
   padding-top: 28px;
-    height: 100%;
+  height: 100%;
   position: relative;
   &-button {
     text-align: center;
@@ -58,7 +57,7 @@ export default {
     padding: 9px 12px 8px 12px;
     margin-bottom: 18px;
     background-color: #fff;
-     box-shadow: 0px 3px 6px #00000029;
+    box-shadow: 0px 3px 6px #00000029;
     &:last-child {
       margin-bottom: 119px;
     }

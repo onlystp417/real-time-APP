@@ -1,8 +1,8 @@
 <template>
   <section class="missionLevel">
     <div class="missionLevel-card" v-for="(item, index) in $store.getters.missionState" :key="index">
-      <h3 class="missionLevel-title">任務{{ (index + 1).toLocaleString("zh-u-nu-hanidec") }}</h3>
-      <buttonPrimary @click="routerLinkToCorrectLevel(index)" :class="{finished: item}">{{ item ? '已完成' : '開始'}}</buttonPrimary>
+      <h3 class="missionLevel-title">任務{{ index | indexChineseDisplay }}</h3>
+      <buttonPrimary @click="nextPage(index)" :class="{finished: item}">{{ item ? '已完成' : '開始'}}</buttonPrimary>
     </div>
   </section>
 </template>
@@ -11,8 +11,7 @@
 import buttonPrimary from "@/components/buttonPrimary.vue";
 export default {
   methods:{
-    routerLinkToCorrectLevel(index){
-      console.log(this.$store.getters.missionLevel)
+    nextPage(index){
       if(index === this.$store.getters.missionLevel) {
         this.$router.push({name: 'missionInstruction'})
         return
@@ -23,6 +22,14 @@ export default {
         return
       }
       alert('請依序完成任務！')
+    }
+  },
+  filters: {
+    indexDisplay(index) {
+      return index + 1;
+    },
+    indexChineseDisplay(index) {
+      return (index + 1).toLocaleString("zh-u-nu-hanidec");
     }
   },
   components: {

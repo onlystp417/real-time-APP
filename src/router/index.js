@@ -8,9 +8,14 @@ const routes = [
   {
     path: "/",
     name: "home",
-    // 首頁尚未添加，預先導向下一頁
-    redirect: '/missionHome',
-    component: home
+    component: home,
+    // 嘗試登陸鎖定，用是否有儲存姓名判定，但拭不出來，因為無法叫出 store 在這裏
+    // beforeEnter: (to, from, next) => {
+    //   if(this.$store.state.user.name){
+    //     next();
+    //   }
+    //   next(false)
+    // }
   },
   {
     path: "/missionHome",
