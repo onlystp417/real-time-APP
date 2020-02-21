@@ -6,7 +6,7 @@
         <input pattern="\D{1,}" title="請輸入非數字中英文姓名，謝謝"  type="text" required placeholder="姓名：王小明" v-model="userName" />
       </div>
       <div class="register-action">
-        <button class="negtive" @click.prevent="$router.push({name: 'home'})">取消</button>
+        <button class="negtive" @click.prevent="$router.push({name: 'home'})" type="button">取消</button>
         <button class="positive" type="submit">開始</button>
       </div>
     </form>
