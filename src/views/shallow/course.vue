@@ -5,9 +5,9 @@
 </template>
 
 <script>
-import courseHome from "@/views/course/courseHome.vue";
-import courseSuspension from "@/views/course/courseSuspension.vue";
-import courseHomework from "@/views/course/courseHomework.vue";
+import courseHome from "@/components/course/courseHome.vue";
+import courseSuspension from "@/components/course/courseSuspension.vue";
+import courseHomework from "@/components/course/courseHomework.vue";
 
 export default {
   data: function(){

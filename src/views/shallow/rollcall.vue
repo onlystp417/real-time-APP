@@ -9,10 +9,10 @@
 </template>
 
 <script>
-import rollcallHome from "@/views/rollcall/rollcallHome.vue";
-import rollcallEnroll from "@/views/rollcall/rollcallEnroll.vue";
-import rollcallOntime from "@/views/rollcall/rollcallOntime.vue";
-import rollcallRecord from "@/views/rollcall/rollcallRecord.vue";
+import rollcallHome from "@/components/rollcall/rollcallHome.vue";
+import rollcallEnroll from "@/components/rollcall/rollcallEnroll.vue";
+import rollcallOntime from "@/components/rollcall/rollcallOntime.vue";
+import rollcallRecord from "@/components/rollcall/rollcallRecord.vue";
 export default {
   data: function() {
     return {

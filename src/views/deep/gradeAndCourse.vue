@@ -1,30 +1,30 @@
 <template>
   <div>
     <deepSubMenu @subMenuClick="setCurrentPage" :page="page">
-      <template v-slot:first>點名</template>
-      <template v-slot:second>問答</template>
+      <template v-slot:first>成績</template>
+      <template v-slot:second>課程資訊</template>
     </deepSubMenu>
-    <div class="rollcallAndQuiz">
-      <section class="rollcall" :class="{change: page.currentPage === 'quiz'}">
-        <rollcall></rollcall>
+    <div class="gradeAndcourse">
+      <section class="grade" :class="{change: page.currentPage === 'course'}">
+        <grade></grade>
       </section>
-      <section class="quiz" :class="{change: page.currentPage === 'quiz'}">
-        <quiz></quiz>
+      <section class="course" :class="{change: page.currentPage === 'course'}">
+        <course></course>
       </section>
     </div>
   </div>
 </template>
 
 <script>
-import rollcall from "@/views/rollcall/rollcall.vue";
-import quiz from "@/views/quiz/quiz.vue";
+import grade from "@/views/shallow/grade.vue";
+import course from "@/views/shallow/course.vue";
 import deepSubMenu from "@/components/deepSubMenu.vue";
 export default {
   data: function() {
     return {
       page: {
-        pages: ["rollcall", "quiz"],
-        currentPage: "rollcall"
+        pages: ["grade", "course"],
+        currentPage: "grade"
       }
     };
   },
@@ -34,27 +34,27 @@ export default {
     }
   },
   components: {
-    rollcall,
-    quiz,
+    grade,
+    course,
     deepSubMenu
   }
 };
 </script>
 
 <style lang="scss" scoped>
-.rollcallAndQuiz {
+.gradeAndcourse {
   display: flex;
   width: 100%;
   overflow-x: hidden;
 }
-section.rollcall {
+section.grade {
   flex: 0 0 100%;
   transition: all 0.3s;
   &.change {
     transform: translateX(-100vw);
   }
 }
-section.quiz {
+section.course {
   flex: 0 0 100%;
   transition: all 0.3s;
   &.change {

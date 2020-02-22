@@ -5,10 +5,10 @@
 </template>
 
 <script>
-import quizQuestionAbbreviation from "@/views/quiz/quizQuestionAbbreviation.vue";
-import quizQuestion from "@/views/quiz/quizQuestionTwo.vue";
-import quizQuestionTwo from "@/views/quiz/quizQuestion.vue";
-import quizPopover from "@/views/quiz/quizPopover.vue";
+import quizQuestionAbbreviation from "@/components/quiz/quizQuestionAbbreviation.vue";
+import quizQuestion from "@/components/quiz/quizQuestionTwo.vue";
+import quizQuestionTwo from "@/components/quiz/quizQuestion.vue";
+import quizPopover from "@/components/quiz/quizPopover.vue";
 
 export default {
   data: function() {

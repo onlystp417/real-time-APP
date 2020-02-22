@@ -8,8 +8,10 @@
 </template>
 
 <script>
+import mixin from "@/mixins/mixin"
 import buttonPrimary from "@/components/buttonPrimary.vue";
 export default {
+  mixins: [mixin],
   methods:{
     nextPage(index){
       if(index === this.$store.getters.missionLevel) {
@@ -22,14 +24,6 @@ export default {
         return
       }
       alert('請依序完成任務！')
-    }
-  },
-  filters: {
-    indexDisplay(index) {
-      return index + 1;
-    },
-    indexChineseDisplay(index) {
-      return (index + 1).toLocaleString("zh-u-nu-hanidec");
     }
   },
   components: {

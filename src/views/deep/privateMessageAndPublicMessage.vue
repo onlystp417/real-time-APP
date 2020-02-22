@@ -16,8 +16,8 @@
 </template>
 
 <script>
-import privateMessage from "@/views/privateMessage/privateMessage.vue";
-import publicMessage from "@/views/publicMessage/publicMessage.vue";
+import privateMessage from "@/views/shallow/privateMessage.vue";
+import publicMessage from "@/views/shallow/publicMessage.vue";
 import deepSubMenu from "@/components/deepSubMenu.vue";
 export default {
   data: function() {

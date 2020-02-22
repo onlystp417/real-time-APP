@@ -1,6 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import home from "@/views/home.vue"
+import home from "@/views/home.vue";
 
 Vue.use(VueRouter);
 
@@ -8,7 +8,7 @@ const routes = [
   {
     path: "/",
     name: "home",
-    component: home,
+    component: home
     // 嘗試登陸鎖定，用是否有儲存姓名判定，但拭不出來，因為無法叫出 store 在這裏
     // beforeEnter: (to, from, next) => {
     //   if(this.$store.state.user.name){
@@ -50,32 +50,32 @@ const routes = [
       {
         path: "rollcall",
         name: "rollcall",
-        component: () => import("@/views/rollcall/rollcall.vue")
+        component: () => import("@/views/shallow/rollcall.vue")
       },
       {
         path: "quiz",
         name: "quiz",
-        component: () => import("@/views/quiz/quiz.vue")
+        component: () => import("@/views/shallow/quiz.vue")
       },
       {
         path: "grade",
         name: "grade",
-        component: () => import("@/views/grade/grade.vue")
+        component: () => import("@/views/shallow/grade.vue")
       },
       {
         path: "course",
         name: "course",
-        component: () => import("@/views/course/course.vue")
+        component: () => import("@/views/shallow/course.vue")
       },
       {
         path: "privateMessage",
         name: "privateMessage",
-        component: () => import("@/views/privateMessage/privateMessage.vue")
+        component: () => import("@/views/shallow/privateMessage.vue")
       },
       {
         path: "publicMessage",
         name: "publicMessage",
-        component: () => import("@/views/publicMessage/publicMessage.vue")
+        component: () => import("@/views/shallow/publicMessage.vue")
       }
     ]
   },
@@ -87,17 +87,18 @@ const routes = [
       {
         path: "rollcallAndQuiz",
         name: "rollcallAndQuiz",
-        component: () => import("@/views/rollcallAndQuiz/rollcallAndQuiz.vue")
+        component: () => import("@/views/deep/rollcallAndQuiz.vue")
       },
       {
         path: "gradeAndCourse",
         name: "gradeAndCourse",
-        component: () => import("@/views/gradeAndCourse/gradeAndCourse.vue")
+        component: () => import("@/views/deep/gradeAndCourse.vue")
       },
       {
         path: "privateMessageAndPublicMessage",
         name: "privateMessageAndPublicMessage",
-        component: () => import("@/views/privateMessageAndPublicMessage/privateMessageAndPublicMessage.vue")
+        component: () =>
+          import("@/views/deep/privateMessageAndPublicMessage.vue")
       }
     ]
   }
