@@ -1,23 +1,24 @@
 export default {
   setGender: (state, playload) => {
-    if (playload.index % 24 < 12) state.user.gender = "female";
-    if (12 <= playload.index % 24) state.user.gender = "male";
+    if (playload.index % 24 < 12) state.gender = "female";
+    if (12 <= playload.index % 24) state.gender = "male";
   },
   setId: (state, playload) => {
-    state.user.id = playload.index;
+    state.id = playload.index;
   },
   setMissionDepth: (state, playload) => {
-    state.user.MissionDepth = playload.level;
+    state.missionDepth = playload.level;
   },
   setMissionLevel: (state, payload) => {
-    state.user.missionLevel = payload.level;
+    state.missionLevel = payload;
+    Object.assign({}, state.missionLevel)
   },
   setUserName: (state, playload) => {
-    state.user.name = playload;
+    state.name = playload;
   },
   setMissionTime: (state, playload) => {
-    state.user.missionLevelState
-      .find((value, index) => index === state.user.missionLevel)
+    state.missionLevelState
+      .find((value, index) => index === state.missionLevel)
       .map(
         value => (value.endTime.getTime() - value.startTime.getTime()) / 1000
       );

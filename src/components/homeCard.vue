@@ -12,7 +12,7 @@
         <p>震動{{ index | indexChineseDisplay }}</p>
         <div class="card-button">
           <button
-            @click.prevent="$emit('click', itemindex)"
+            @click.prevent="$emit('click', itemindex + index * 24)"
             v-for="(item, itemindex) in items"
             :key="itemindex"
             :class="{'finished': item.value }"

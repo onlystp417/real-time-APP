@@ -1,7 +1,7 @@
 <template>
   <div class="missionInstruction">
     <div class="missionInstruction-card">
-      <h3>任務{{ $store.getters.chineseMissionLevelDisplay }}</h3>
+      <h3>任務{{ $store.getters.missionLevel | indexChineseDisplay  }}</h3>
       <p v-for="(item, index) in missionLevelMessage" :key="index" v-html="item"></p>
     </div>
     <div class="missionInstruction-button">
@@ -11,8 +11,10 @@
 </template>
 
 <script>
+import mixin from "@/mixins/mixin";
 import buttonPrimary from "@/components/buttonPrimary.vue";
 export default {
+  mixins: [mixin],
   components: {
     buttonPrimary
   },

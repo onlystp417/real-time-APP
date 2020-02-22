@@ -1,6 +1,6 @@
 <template>
   <div class="missionStart">
-    <a @click.prevent="$router.push({name: 'rollcall'})">
+    <a @click.prevent="nextPage()">
       <div>即時反饋系統APP · 現在</div>
       <div>輕觸即可開啓課程</div>
     </a>
@@ -8,7 +8,14 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    nextPage(){
+      if(this.$store.getters.missionDepth === 'deep') this.$router.push({name: 'rollcallAndQuiz'})
+      if(this.$store.getters.missionDepth === 'shallow') this.$router.push({name: 'rollcall'})
+    }
+  }
+};
 </script>
 
 <style lang="scss" scoped>

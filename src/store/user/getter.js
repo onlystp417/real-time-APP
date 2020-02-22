@@ -1,20 +1,23 @@
 export default {
-  name: state => state.user.name,
-  missionLevel: state => state.user.missionLevel,
-  missionLevelDisplay: state => state.user.missionLevel + 1,
+  name: state => state.name,
+  missionLevel: state => state.missionLevel,
+  missionLevelDisplay: state => state.missionLevel + 1,
   chineseMissionLevel: state => {
-    return state.user.missionLevel.toLocaleString("zh-u-nu-hanidec");
+    return state.missionLevel.toLocaleString("zh-u-nu-hanidec");
   },
   chineseMissionLevelDisplay: state => {
-    return (state.user.missionLevel + 1).toLocaleString("zh-u-nu-hanidec");
+    return (state.missionLevel + 1).toLocaleString("zh-u-nu-hanidec");
   },
   setGenderAbbreviation: state => {
-    return state.user.gender === "male" ? "M" : "F";
+    return state.gender === "male" ? "M" : "F";
+  },
+  missionDepth: state => {
+    return state.missionDepth;
   },
   userSymbol: (state, getters) => {
-    return getters.setGenderAbbreviation + (state.user.id + 1).toString();
+    return getters.setGenderAbbreviation + (state.id + 1).toString();
   },
   missionState: state => {
-    return state.user.missionState;
+    return state.missionState;
   }
 };
