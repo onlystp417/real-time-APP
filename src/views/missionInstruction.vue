@@ -1,11 +1,11 @@
 <template>
   <div class="missionInstruction">
     <div class="missionInstruction-card">
-      <h3>任務{{ $store.getters.missionLevel | indexChineseDisplay  }}</h3>
+      <h3>任務{{ $store.getters.missionLevel | $_indexChineseDisplay }}</h3>
       <p v-for="(item, index) in missionLevelMessage" :key="index" v-html="item"></p>
     </div>
     <div class="missionInstruction-button">
-      <buttonPrimary @click.prevent="$router.push({name: 'missionStart'})">開始</buttonPrimary>
+      <buttonPrimary @click.prevent="nextPage">開始</buttonPrimary>
     </div>
   </div>
 </template>
@@ -54,6 +54,16 @@ export default {
       return this.messionMessage.find(
         (value, index) => index === this.$store.getters.missionLevel
       );
+    }
+  },
+  methods: {
+    nextPage() {
+      this.$store.commit("setMissionLevelDetail", 0);
+      this.$store.commit("setMissionLevelState", {
+        missionTime: "startTime",
+        missionDate: new Date()
+      });
+      this.$router.push({ name: "missionStart" });
     }
   }
 };

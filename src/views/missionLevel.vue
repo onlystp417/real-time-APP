@@ -5,7 +5,7 @@
       v-for="(item, index) in $store.getters.missionState"
       :key="index"
     >
-      <h3 class="missionLevel-title">任務{{ index | indexChineseDisplay }}</h3>
+      <h3 class="missionLevel-title">任務{{ index | $_indexChineseDisplay }}</h3>
       <buttonPrimary @click="nextPage(index)" :class="{finished: item}">{{ item ? '已完成' : '開始'}}</buttonPrimary>
     </div>
   </section>
@@ -18,8 +18,10 @@ export default {
   mixins: [mixin],
   methods: {
     nextPage(index) {
-      !this.$store.getters.missionLevel && this.$store.commit("setMissionLevel", 0)
-      if (index === this.$store.getters.missionLevel) this.$router.push({ name: "missionInstruction" });
+      !this.$store.getters.missionLevel &&
+        this.$store.commit("setMissionLevel", 0);
+      if (index === this.$store.getters.missionLevel)
+        this.$router.push({ name: "missionInstruction" });
       if (index > this.$store.getters.missionLevel) alert("請依序完成任務！");
       if (index < this.$store.getters.missionLevel) alert("本關卡任務已完成");
     }

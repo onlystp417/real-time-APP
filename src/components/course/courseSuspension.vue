@@ -8,7 +8,7 @@
       </p>
     </div>
     <div class="anousement-button">
-      <buttonQuinary @click="$emit('click', 'courseHome')">了解</buttonQuinary>
+      <buttonQuinary @click="$emit('click', {page: 'courseHome'})">了解</buttonQuinary>
     </div>
   </div>
 </template>

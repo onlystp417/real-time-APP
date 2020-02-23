@@ -9,14 +9,14 @@
         v-for="(items, index) in usersDisplay(userCompleteDepth)"
         :key="index"
       >
-        <p>震動{{ index | indexChineseDisplay }}</p>
+        <p>震動{{ index | $_indexChineseDisplay }}</p>
         <div class="card-button">
           <button
             @click.prevent="$emit('click', itemindex + index * 24)"
             v-for="(item, itemindex) in items"
             :key="itemindex"
             :class="{'finished': item.value }"
-          >{{ item.index | indexDisplay }}</button>
+          >{{ item.index | $_indexDisplay }}</button>
         </div>
       </div>
     </div>
@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import mixin from "@/mixins/mixin"
+import mixin from "@/mixins/mixin";
 export default {
   // mixin 中包含了 filter，看得出來嗎？
   mixins: [mixin],
@@ -49,7 +49,6 @@ export default {
             return accumulator;
           }
           // 疑惑這一點，為什麼要再回傳
-          console.log(accumulator)
           return accumulator;
         },
         [[], [], []]

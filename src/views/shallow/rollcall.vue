@@ -1,10 +1,6 @@
 <template>
   <div class="rollcall">
-    <component @click="setComponentId" :is="componentId"></component>
-    <!-- <rollcallHome></rollcallHome> -->
-    <!-- <rollcallEnroll></rollcallEnroll> -->
-    <!-- <rollcallOntime></rollcallOntime> -->
-    <!-- <rollcallRecord></rollcallRecord> -->
+    <component @click="missionProgress" :is="componentId"></component>
   </div>
 </template>
 
@@ -20,8 +16,25 @@ export default {
     };
   },
   methods: {
-    setComponentId(data) {
-      this.componentId = data;
+    missionProgress(data) {
+      this.componentId = data.page;
+      if (this.$store.getters.missionLevel !== 0) return;
+      if (data.missionLevelStateTime === "endTime") {
+        const TIME = new Date();
+        this.$store.commit("setMissionLevelDetail", data.missionLevelDetail);
+        this.$store.commit("setMissionLevelState", {
+          missionTime: data.missionLevelStateTime,
+          missionDate: TIME
+        });
+        this.$store.commit(
+          "setMissionLevelDetail",
+          data.missionLevelDetail + 1
+        );
+        this.$store.commit("setMissionLevelState", {
+          missionTime: data.missionLevelStateTime && "startTime",
+          missionDate: TIME
+        });
+      }
     }
   },
   components: {

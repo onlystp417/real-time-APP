@@ -37,7 +37,7 @@ export default {
 
 <style lang="scss" scoped>
 .message-icon {
-  position: absolute;
+  position: fixed;
   bottom: 11vh;
   right: 2.8vh;
   left: 2.8vh;

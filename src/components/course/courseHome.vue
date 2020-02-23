@@ -2,7 +2,7 @@
   <div class="courseHome">
     <section class="courseHome-information">
       <h2 class="courseHome-title">課程資訊</h2>
-      <div class="information-card">
+      <div class="information-card" @click="$emit('click', {missionLevelDetail: 1, missionLevelStateTime: 'endTime'})">
         <div>
           <h5>授課教師</h5>
           <p>測試員-老師</p>
@@ -22,7 +22,7 @@
       <div class="annousemenet-card">
         <h5>12/3停課一周</h5>
         <div class="button-wrapper">
-          <buttonSecondary @click="$emit('click', 'courseSuspension')"></buttonSecondary>
+          <buttonSecondary @click="$emit('click', {page: 'courseSuspension'})"></buttonSecondary>
         </div>
         <p>
           因老師12/4要出國參加國際會議，
@@ -32,7 +32,7 @@
       <div class="annousemenet-card">
         <h5>下周作業</h5>
         <div class="button-wrapper">
-          <buttonSecondary @click="$emit('click', 'courseSuspension')"></buttonSecondary>
+          <buttonSecondary @click="$emit('click', {page: 'courseHomework'})"></buttonSecondary>
         </div>
         <p>下周作業為顧客旅程地圖一張</p>
       </div>

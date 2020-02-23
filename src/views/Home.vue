@@ -3,13 +3,13 @@
     <!-- emit  傳出的參數轉型別在哪裡轉比較明示 -->
     <homeCard
       @click="signIn({index: parseInt($event), level: 'shallow'})"
-      :userCompleteDepth="$store.state.usersComplete.usersComplete.shallow"
+      :userCompleteDepth="$store.getters.usersCompleteShallow"
     >
       <template v-slot:title>資訊架構-淺</template>
     </homeCard>
     <homeCard
       @click="signIn({index: parseInt($event), level: 'deep'})"
-      :userCompleteDepth="$store.state.usersComplete.usersComplete.deep"
+      :userCompleteDepth="$store.getters.usersCompleteDeep"
     >
       <template v-slot:title>資訊架構-深</template>
     </homeCard>

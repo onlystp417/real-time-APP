@@ -16,7 +16,6 @@
 <script>
 
 export default {
-
   data: function() {
     return {
       userName: ""

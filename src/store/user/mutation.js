@@ -16,18 +16,18 @@ export default {
   setUserName: (state, playload) => {
     state.name = playload;
   },
-  setMissionTime: (state, playload) => {
+  setMissionLevelState: (state, playload) => {
+    state.missionLevelState[state.missionLevel][state.missionLevelDetail][playload.missionTime] = playload.missionDate
+  },
+  setMissionLevelDetail: (state, playload) => {
+    state.missionLevelDetail = playload
+  },
+  setMissionCuttercTime: (state, playload) => {
     state.missionLevelState
       .find((value, index) => index === state.missionLevel)
       .map(
         value => (value.endTime.getTime() - value.startTime.getTime()) / 1000
       );
-  },
-  setmissionUserState: (state, playload) => {
-    state.complete.usersComplete[playload] = !state.complete.usersComplete[
-      playload
-    ];
-    state.complete.usersComplete = [...state.complete.usersComplete];
   },
   messionMessage: (state, getters) => {
     getters.setMissionTime.map(value => {

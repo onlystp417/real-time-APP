@@ -18,10 +18,10 @@
         </div>
       </section>
       <div class="private-Message-button">
-        <buttonQuaternary></buttonQuaternary>
+        <buttonQuaternary @click="setMessageIconActive"></buttonQuaternary>
       </div>
     </div>
-    <!-- <messageIcon></messageIcon> -->
+    <messageIcon v-if="isMessageIconActive" @click></messageIcon>
     <!-- <messageTyping>
       <p slot="title">傳送訊息</p>
       <input slot="input" class="content" type="text" placeholder="輸入文字或上傳圖片給老師" />
@@ -34,6 +34,20 @@ import messageIcon from "@/components/messageIcon.vue";
 import messageTyping from "@/components/messageTyping.vue";
 import buttonQuaternary from "@/components/buttonQuaternary.vue";
 export default {
+  data: function() {
+    return {
+      isMessageIconActive: false,
+      pageMessage: [
+        { text: "我懂了", imgUrl: "@/assets/images/understand.png" },
+        { text: "聽不懂", imgUrl: "@/assets/images/understand.png" }
+      ]
+    };
+  },
+  methods: {
+    setMessageIconActive() {
+      this.isMessageIconActive = !this.isMessageIconActive;
+    }
+  },
   components: {
     messageIcon,
     messageTyping,

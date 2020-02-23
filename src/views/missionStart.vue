@@ -1,6 +1,6 @@
 <template>
   <div class="missionStart">
-    <a @click.prevent="nextPage()">
+    <a @click.prevent="nextPage">
       <div>即時反饋系統APP · 現在</div>
       <div>輕觸即可開啓課程</div>
     </a>
@@ -10,9 +10,21 @@
 <script>
 export default {
   methods: {
-    nextPage(){
-      if(this.$store.getters.missionDepth === 'deep') this.$router.push({name: 'rollcallAndQuiz'})
-      if(this.$store.getters.missionDepth === 'shallow') this.$router.push({name: 'rollcall'})
+    nextPage() {
+      const TIME = new Date()
+      this.$store.commit("setMissionLevelState", {
+        missionTime: "endTime",
+        missionDate: TIME
+      })
+      this.$store.commit("setMissionLevelDetail", 1);
+      this.$store.commit("setMissionLevelState", {
+        missionTime: "stratTime",
+        missionDate: TIME
+      });
+      if (this.$store.getters.missionDepth === "deep")
+        this.$router.push({ name: "rollcallAndQuiz" });
+      if (this.$store.getters.missionDepth === "shallow")
+        this.$router.push({ name: "rollcall" });
     }
   }
 };

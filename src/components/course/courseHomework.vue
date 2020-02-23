@@ -5,7 +5,7 @@
       <p>下周作業為顧客旅程地圖一張</p>
     </div>
     <div class="anousement-button">
-      <buttonQuinary>了解</buttonQuinary>
+      <buttonQuinary @click="$emit('click', {page: 'courseHome'})">了解</buttonQuinary>
     </div>
   </div>
 </template>

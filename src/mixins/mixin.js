@@ -1,10 +1,10 @@
-export default{
+export default {
   filters: {
-    indexDisplay(index) {
+    $_indexDisplay(index) {
       return index + 1;
     },
-    indexChineseDisplay(index) {
+    $_indexChineseDisplay(index) {
       return (index + 1).toLocaleString("zh-u-nu-hanidec");
     }
   }
-}
+};

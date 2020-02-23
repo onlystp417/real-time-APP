@@ -1,6 +1,8 @@
 <template>
-  <div class="course" >
-    <component @click="setCourse" :is="componentId"></component>
+  <div class="course">
+    <keep-alive>
+      <component @click="missionProgress" :is="componentId"></component>
+    </keep-alive>
   </div>
 </template>
 
@@ -10,14 +12,31 @@ import courseSuspension from "@/components/course/courseSuspension.vue";
 import courseHomework from "@/components/course/courseHomework.vue";
 
 export default {
-  data: function(){
+  data: function() {
     return {
       componentId: "courseHome"
     };
   },
   methods: {
-    setCourse(data) {
-      this.componentId = data;
+    missionProgress(data) {
+      if (data.page) this.componentId = data.page;
+      if (this.$store.getters.missionLevel !== 0) return;
+      if (data.missionLevelStateTime === "endTime") {
+        const TIME = new Date();
+        this.$store.commit("setMissionLevelDetail", data.missionLevelDetail);
+        this.$store.commit("setMissionLevelState", {
+          missionTime: data.missionLevelStateTime,
+          missionDate: TIME
+        });
+        this.$store.commit(
+          "setMissionLevelDetail",
+          data.missionLevelDetail + 1
+        );
+        this.$store.commit("setMissionLevelState", {
+          missionTime: data.missionLevelStateTime && "startTime",
+          missionDate: TIME
+        });
+      }
     }
   },
   components: {
