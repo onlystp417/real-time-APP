@@ -21,7 +21,7 @@
         <buttonQuaternary @click="setMessageIconActive"></buttonQuaternary>
       </div>
     </div>
-    <messageIcon v-if="isMessageIconActive" @click></messageIcon>
+    <messageIcon v-show="isMessageIconActive"></messageIcon>
     <!-- <messageTyping>
       <p slot="title">傳送訊息</p>
       <input slot="input" class="content" type="text" placeholder="輸入文字或上傳圖片給老師" />

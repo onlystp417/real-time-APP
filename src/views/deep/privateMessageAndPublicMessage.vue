@@ -6,10 +6,12 @@
     </deepSubMenu>
     <div class="privateMessageAndpublicMessage">
       <section class="privateMessage" :class="{change: page.currentPage === 'publicMessage'}">
-        <privateMessage></privateMessage>
+        <privateMessage>
+        </privateMessage>
       </section>
-      <section class="publicMessage" :class="{change: page.currentPage === 'publicMessage'}">
-        <publicMessage></publicMessage>
+      <section class="publicMessage button" :class="{change: page.currentPage === 'publicMessage'}">
+        <publicMessage>
+        </publicMessage>
       </section>
     </div>
   </div>
@@ -19,6 +21,7 @@
 import privateMessage from "@/views/shallow/privateMessage.vue";
 import publicMessage from "@/views/shallow/publicMessage.vue";
 import deepSubMenu from "@/components/deepSubMenu.vue";
+import buttonQuaternary from "@/components/buttonQuaternary.vue";
 export default {
   data: function() {
     return {
@@ -36,7 +39,8 @@ export default {
   components: {
     privateMessage,
     publicMessage,
-    deepSubMenu
+    deepSubMenu,
+    buttonQuaternary
   }
 };
 </script>
@@ -50,16 +54,20 @@ export default {
 }
 section.privateMessage {
   flex: 0 0 100%;
-  transition: all 0.3s;
-  height: 100%;
+  transition: transform 0.3s;
+  height: calc(100vh - 100px);
+  transform: translateX(0px);
+  padding-bottom: 55px;
   &.change {
     transform: translateX(-100vw);
   }
 }
 section.publicMessage {
   flex: 0 0 100%;
-  transition: all 0.3s;
-  height: 100%;
+  transition: transform 0.3s;
+  height: calc(100vh - 100px);
+  transform: translateX(0px);
+  padding-bottom: 55px;
   &.change {
     transform: translateX(-100vw);
   }
