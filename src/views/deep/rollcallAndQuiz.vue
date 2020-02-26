@@ -43,22 +43,33 @@ export default {
 
 <style lang="scss" scoped>
 .rollcallAndQuiz {
-  display: flex;
-  width: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
+  white-space: nowrap;
 }
 section.rollcall {
-  flex: 0 0 100%;
+  display: inline-block;
+  white-space: normal;
+  width: 100%;
   transition: all 0.3s;
+  position: relative;
+  vertical-align: top;
+  left: 0px;
+  z-index: 99;
   &.change {
-    transform: translateX(-100vw);
+    left: -100vw;
   }
 }
 section.quiz {
-  flex: 0 0 100%;
+  display: inline-block;
+  white-space: normal;
+  width: 100%;
   transition: all 0.3s;
+  position: relative;
+  vertical-align: top;
+  left: 0px;
+  z-index: 99;
   &.change {
-    transform: translateX(-100vw);
+    left: -100vw;
   }
 }
 </style>

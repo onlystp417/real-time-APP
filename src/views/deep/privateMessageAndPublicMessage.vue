@@ -9,7 +9,7 @@
         <privateMessage>
         </privateMessage>
       </section>
-      <section class="publicMessage button" :class="{change: page.currentPage === 'publicMessage'}">
+      <section class="publicMessage" :class="{change: page.currentPage === 'publicMessage'}">
         <publicMessage>
         </publicMessage>
       </section>
@@ -47,29 +47,35 @@ export default {
 
 <style lang="scss" scoped>
 .privateMessageAndpublicMessage {
-  display: flex;
-  width: 100%;
-  height: calc(100vh - 150px);
-  overflow-x: hidden;
+  overflow: hidden;
+  white-space: nowrap;
 }
 section.privateMessage {
-  flex: 0 0 100%;
-  transition: transform 0.3s;
-  height: calc(100vh - 100px);
-  transform: translateX(0px);
-  padding-bottom: 55px;
+  display: inline-block;
+  width: 100%;
+  transition: all 0.3s;
+  position: relative;
+  vertical-align: top;
+  left: 0px;
+    white-space: normal;
+  z-index: 99;
   &.change {
-    transform: translateX(-100vw);
+    z-index: 1;
+    left: -100vw;
   }
 }
 section.publicMessage {
-  flex: 0 0 100%;
-  transition: transform 0.3s;
-  height: calc(100vh - 100px);
-  transform: translateX(0px);
-  padding-bottom: 55px;
+  display: inline-block;
+  width: 100%;
+    white-space: normal;
+  transition: all 0.3s;
+  position: relative;
+  vertical-align: top;
+  left: 0px;
+  z-index: 1;
   &.change {
-    transform: translateX(-100vw);
+    left: -100vw;
+    z-index: 99;
   }
 }
 </style>

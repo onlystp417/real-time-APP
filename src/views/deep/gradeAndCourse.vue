@@ -43,22 +43,33 @@ export default {
 
 <style lang="scss" scoped>
 .gradeAndcourse {
-  display: flex;
-  width: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
+  white-space: nowrap;
 }
 section.grade {
-  flex: 0 0 100%;
+  display: inline-block;
+  width: 100%;
   transition: all 0.3s;
+  position: relative;
+  vertical-align: top;
+  white-space: normal;
+  left: 0px;
+  z-index: 99;
   &.change {
-    transform: translateX(-100vw);
+    left: -100vw;
   }
 }
 section.course {
-  flex: 0 0 100%;
+  display: inline-block;
+  width: 100%;
   transition: all 0.3s;
+  white-space: normal;
+  position: relative;
+  vertical-align: top;
+  left: 0px;
+  z-index: 99;
   &.change {
-    transform: translateX(-100vw);
+    left: -100vw;
   }
 }
 </style>
