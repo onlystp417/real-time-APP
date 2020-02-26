@@ -1,9 +1,7 @@
 <template>
   <div id="app">
     <bar></bar>
-    <div class="app-container">
-      <router-view></router-view>
-    </div>
+    <router-view class="app-container"></router-view>
   </div>
 </template>
 
@@ -30,6 +28,6 @@ export default {
 .app-container {
   height: 100%;
   overflow: scroll;
-  padding-bottom: 80px;
+  padding-bottom: 54px;
 }
 </style>
