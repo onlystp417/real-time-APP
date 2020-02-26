@@ -1,27 +1,26 @@
 <template>
   <div class="message-typing">
-    <form action>
+    <form>
       <section>
         <div class="header">
-          <img src="../assets/images/back-black.png" alt="preview" />
+          <img
+            src="../assets/images/back-black.png"
+            alt="preview"
+            @click="$emit('messageTypingNextPage')"
+          />
           <slot name="title"></slot>
         </div>
         <slot name="input"></slot>
       </section>
       <div class="typing-button">
-        <buttonQuinary>傳送</buttonQuinary>
+        <slot name="button"></slot>
       </div>
     </form>
   </div>
 </template>
 
 <script>
-import buttonQuinary from "@/components/buttonQuinary.vue";
-export default {
-  components: {
-    buttonQuinary
-  }
-};
+export default {};
 </script>
 
 <style lang="scss" scoped>
@@ -32,7 +31,7 @@ export default {
   bottom: 0;
   left: 0;
   background: #f0f1f3;
-  z-index: 999;
+  z-index: 9;
   section {
     background: $white;
     padding-top: 7.2vh;

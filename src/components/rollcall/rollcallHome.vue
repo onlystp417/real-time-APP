@@ -4,7 +4,8 @@
       <li class="rollcallHome-item">
         <h4>最近點名紀錄</h4>
         <div class="item-wrap">
-          <buttonSecondary @click="$emit('click', {page: 'rollcallRecord'})"></buttonSecondary>
+          <buttonSecondary
+          @click="$emit('rollcallHomeNextPageRecord', 'rollcallRecord')"></buttonSecondary>
         </div>
       </li>
       <li class="rollcallHome-item">
@@ -29,7 +30,8 @@
       </li>
     </ul>
     <div class="rollcallHome-button">
-      <buttonQuinary @click="$emit('click', {page: 'rollcallEnroll'})">我要點名</buttonQuinary>
+      <buttonQuinary
+      @click="$emit('rollcallHomeNextPageEnroll', 'rollcallEnroll')">我要點名</buttonQuinary>
     </div>
   </section>
 </template>

@@ -1,23 +1,23 @@
 <template>
   <div class="message-icon-wrapper">
-    <filterPopover></filterPopover>
+    <filterPopover @click="$emit('setMessageIconActive')"></filterPopover>
     <section class="message-icon">
       <h4>與老師互動</h4>
       <p>你可以透過文字或貼圖與老師進行互動</p>
       <div class="message-item">
-        <button>
+        <button @click.prevent="$emit('addIconMessage', 'understand')">
           <img src="../assets/images/understand.png" alt="smiling face" />
           <span>我懂了</span>
         </button>
-        <button>
+        <button @click.prevent="$emit('addIconMessage', 'frustrat')">
           <img src="../assets/images/frustrat.png" alt="frustrated face" />
           <span>聽不懂</span>
         </button>
-        <button>
+        <button @click.prevent="$emit('addIconMessage', 'confuse')">
           <img src="../assets/images/confuse.png" alt="confused face" />
           <span>太快了</span>
         </button>
-        <button>
+        <button @click.prevent="$emit('addTypingMessage')">
           <img src="../assets/images/typing.png" alt="message" />
           <span>傳訊息</span>
         </button>
@@ -44,7 +44,7 @@ export default {
   background: $white;
   padding: 16px 23px 15px 23px;
   border-radius: 5px;
-  z-index: 99999;
+  z-index: 999;
   h4 {
     margin-bottom: 13px;
     @include fontstyle(500, 22px, 1.2, $font, #474747);

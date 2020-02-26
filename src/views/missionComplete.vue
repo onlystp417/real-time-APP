@@ -1,5 +1,5 @@
 <template>
-  <!-- <section class="missionComplete">
+  <section class="missionComplete">
     <h2 class="missionComplete-title">任務{{ $store.getters.chineseMissionLevelDislpay }}完成！</h2>
     <section class="missionComplete-card">
       <h3 class="card-title">
@@ -13,16 +13,27 @@
       >任務{{ $store.getters.missionLevel }}-{{ index }}：{{ item.minute }}分{{item.second}}秒</p>
     </section>
     <div class="missionComplete-button">
-      <buttonPrimary @click="$router.push({name: 'missionLevel'})">完成</buttonPrimary>
+      <buttonPrimary @click="nextPage">完成</buttonPrimary>
     </div>
-  </section> -->
+  </section>
 </template>
 
 <script>
 import buttonPrimary from "@/components/buttonPrimary.vue";
+
 export default {
   components: {
     buttonPrimary
+  },
+  methods: {
+    nextPage() {
+      this.$store.commit(
+        "setMissionLevel",
+        this.$store.getters.missionLevel + 1
+      );
+      this.$store.commit("setMissionLevelDetail", 0);
+      this.$router.push({ name: "missionLevel" });
+    }
   }
 };
 </script>
@@ -58,6 +69,7 @@ export default {
   }
   &-button {
     margin: 42px auto 0px auto;
+    text-align: center;
   }
 }
 </style>

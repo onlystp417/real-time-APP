@@ -8,23 +8,26 @@
 </template>
 
 <script>
+import mixin from "@/mixins/mixin";
 export default {
+  mixins: [mixin],
   methods: {
     nextPage() {
-      const TIME = new Date()
-      this.$store.commit("setMissionLevelState", {
-        missionTime: "endTime",
-        missionDate: TIME
-      })
-      this.$store.commit("setMissionLevelDetail", 1);
-      this.$store.commit("setMissionLevelState", {
-        missionTime: "stratTime",
-        missionDate: TIME
-      });
-      if (this.$store.getters.missionDepth === "deep")
+      this.$_setMissionEndTimer();
+      this.setNextRouter();
+      this.setMissionLevelDetail();
+      this.$_setMissionStartTimer();
+    },
+    setNextRouter() {
+      if (this.$store.getters.missionDepth === "deep") {
         this.$router.push({ name: "rollcallAndQuiz" });
-      if (this.$store.getters.missionDepth === "shallow")
+      }
+      if (this.$store.getters.missionDepth === "shallow") {
         this.$router.push({ name: "rollcall" });
+      }
+    },
+    setMissionLevelDetail() {
+      this.$store.commit("setMissionLevelDetail", 1);
     }
   }
 };
@@ -40,7 +43,7 @@ export default {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 999;
+  z-index: 9;
   a {
     display: block;
     margin: 47vh auto 0px auto;

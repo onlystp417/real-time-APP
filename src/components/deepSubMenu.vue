@@ -35,7 +35,7 @@ export default {
   top: 56px;
   right: 0;
   left: 0;
-  z-index: 999;
+  z-index: 9;
   background: $white;
   a {
     display: inline-block;

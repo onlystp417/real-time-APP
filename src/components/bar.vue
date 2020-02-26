@@ -15,7 +15,7 @@ export default {
   position: absolute;
   width: 100%;
   top: 0px;
-  z-index: 999;
+  z-index: 9;
   // &-state {
   //   position: absolute;
   //   left: 0;

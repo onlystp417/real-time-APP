@@ -35,6 +35,6 @@ input, button {
   -moz-user-select: none;
 }
 
-input:focus, button:focus {
+input:focus, button:focus, textarea:focus {
   outline: none;
 }

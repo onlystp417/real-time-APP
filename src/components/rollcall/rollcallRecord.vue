@@ -24,7 +24,7 @@
       </li>
     </ul>
     <div class="record-button">
-      <buttonQuinary @click="$emit('click', {page: 'rollcallHome'})">確認</buttonQuinary>
+      <buttonQuinary @click="$emit('click', 'rollcallHome')">確認</buttonQuinary>
     </div>
   </div>
 </template>

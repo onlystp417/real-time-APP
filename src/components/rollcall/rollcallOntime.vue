@@ -1,6 +1,6 @@
 <template>
   <div class="rollcall-ontime">
-    <p @click="$emit('click', {page: 'rollcallHome', missionLevelDetail: 1, missionLevelStateTime: 'endTime'})" class="ontime-declare">準時！</p>
+    <p @click="$emit('rollcallOnTimeNextPageHome', 'rollcallHome')" class="ontime-declare">準時！</p>
   </div>
 </template>
 

@@ -14,16 +14,38 @@
 <script>
 import mixin from "@/mixins/mixin";
 import buttonPrimary from "@/components/buttonPrimary.vue";
+
 export default {
   mixins: [mixin],
   methods: {
+    // 命名不確定好壞，所以要確認接下來的內容是否合適
     nextPage(index) {
-      !this.$store.getters.missionLevel &&
+      // 假如初次進入任務，則會設定任務為 0-0
+      this.setMissionLevel();
+      // 透過目前任務關卡，決定是否要推進下個路由
+      this.setNextRouter(index);
+    },
+    setMissionLevel() {
+      if (!this.$store.getters.missionLevel) {
         this.$store.commit("setMissionLevel", 0);
-      if (index === this.$store.getters.missionLevel)
-        this.$router.push({ name: "missionInstruction" });
-      if (index > this.$store.getters.missionLevel) alert("請依序完成任務！");
-      if (index < this.$store.getters.missionLevel) alert("本關卡任務已完成");
+        this.$store.commit("setMissionLevelDetail", 0);
+      }
+    },
+    setNextRouter(index) {
+      // 這邊先套用 && 大於 if 哪個比較通用呢？先暫時用 && 在比較簡單的情境
+      if(index === this.$store.getters.missionLevel){
+        this.$router.push({ name: "missionInstruction" })
+        return;
+        };
+      // 跳轉警告功能到下個路由
+      if(index > this.$store.getters.missionLevel) {
+        alert("請依序完成任務！");
+        return;
+      }
+      // 跳轉路由到完成任務的關卡
+      if(index < this.$store.getters.missionLevel){
+        this.$router.push({ name: "missionComplete" })
+      };
     }
   },
   components: {

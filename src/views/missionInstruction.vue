@@ -49,6 +49,9 @@ export default {
       ]
     };
   },
+  created() {
+    this.$_setMissionStartTimer;
+  },
   computed: {
     missionLevelMessage() {
       return this.messionMessage.find(
@@ -58,11 +61,10 @@ export default {
   },
   methods: {
     nextPage() {
-      this.$store.commit("setMissionLevelDetail", 0);
-      this.$store.commit("setMissionLevelState", {
-        missionTime: "startTime",
-        missionDate: new Date()
-      });
+      this.$_setMissionStartTimer();
+      this.setNextRouter();
+    },
+    setNextRouter() {
       this.$router.push({ name: "missionStart" });
     }
   }

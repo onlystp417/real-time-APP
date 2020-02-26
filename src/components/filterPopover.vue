@@ -1,5 +1,5 @@
 <template>
-  <div class="filter-popover"></div>
+  <div class="filter-popover" @click="$emit('click')"></div>
 </template>
 
 <script>
@@ -14,6 +14,6 @@ export default {};
   bottom: 0;
   left: 0;
   background: #00000088;
-  z-index: 9999;
+  z-index: 99;
 }
 </style>

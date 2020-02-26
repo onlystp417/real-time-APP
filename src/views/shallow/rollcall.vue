@@ -1,6 +1,12 @@
 <template>
   <div class="rollcall">
-    <component @click="missionProgress" :is="componentId"></component>
+    <component
+      @rollcallHomeNextPageEnroll="rollcallHomeNextPageEnroll"
+      @rollcallHomeNextPageRecord="rollcallHomeNextPageRecord"
+      @rollcallEnrollNextPageOntime="rollcallEnrollNextPageOntime"
+      @rollcallOnTimeNextPageHome="rollcallOnTimeNextPageHome"
+      :is="componentId"
+    ></component>
   </div>
 </template>
 
@@ -9,31 +15,45 @@ import rollcallHome from "@/components/rollcall/rollcallHome.vue";
 import rollcallEnroll from "@/components/rollcall/rollcallEnroll.vue";
 import rollcallOntime from "@/components/rollcall/rollcallOntime.vue";
 import rollcallRecord from "@/components/rollcall/rollcallRecord.vue";
+import mixin from "@/mixins/mixin";
 export default {
+  mixins: [mixin],
   data: function() {
     return {
       componentId: "rollcallHome"
     };
   },
   methods: {
-    missionProgress(data) {
-      this.componentId = data.page;
-      if (this.$store.getters.missionLevel !== 0) return;
-      if (data.missionLevelStateTime === "endTime") {
-        const TIME = new Date();
-        this.$store.commit("setMissionLevelDetail", data.missionLevelDetail);
-        this.$store.commit("setMissionLevelState", {
-          missionTime: data.missionLevelStateTime,
-          missionDate: TIME
-        });
-        this.$store.commit(
-          "setMissionLevelDetail",
-          data.missionLevelDetail + 1
-        );
-        this.$store.commit("setMissionLevelState", {
-          missionTime: data.missionLevelStateTime && "startTime",
-          missionDate: TIME
-        });
+    rollcallHomeNextPageEnroll(data) {
+      this.componentId = data;
+    },
+    rollcallHomeNextPageRecord(data) {
+      this.componentId = data;
+      if (
+        this.$store.state.user.missionLevel === 0 &&
+        this.$store.state.user.missionLevelDetail === 1
+      ) {
+        this.$_setMissionStartTimer();
+      }
+    },
+    rollcallEnrollNextPageOntime(data) {
+      this.componentId = data;
+      // if (
+      //   this.$store.state.user.missionLevel === 0 &&
+      //   this.$store.state.user.missionLevelDepth === 1
+      // ) {
+      //   this.$_setMissionStartTimer();
+      // }
+    },
+    rollcallOnTimeNextPageHome(data) {
+      this.componentId = data;
+      if (
+        this.$store.state.user.missionLevel === 0 &&
+        this.$store.state.user.missionLevelDetail === 1
+      ) {
+        this.$_setMissionEndTimer();
+        this.$store.commit("setMissionLevelDetail", 2);
+        this.$_setMissionStartTimer();
       }
     }
   },

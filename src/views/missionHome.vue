@@ -3,7 +3,7 @@
     <form @submit.prevent="signIn" class="missionHome-register" method="post" action="">
       <div class="register-user">
         <h3>編號：{{ $store.getters.userSymbol }}</h3>
-        <input pattern="\D{1,}" title="請輸入非數字中英文姓名，謝謝"  type="text" required placeholder="姓名：王小明" v-model="userName" />
+        <input pattern="\D{1,}" title="請輸入非數字中英文姓名，謝謝" type="text" required placeholder="姓名：王小明" v-model="userName" />
       </div>
       <div class="register-action">
         <button class="negtive" @click.prevent="$router.push({name: 'home'})" type="button">取消</button>

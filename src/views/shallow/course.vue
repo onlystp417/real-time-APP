@@ -1,8 +1,10 @@
 <template>
   <div class="course">
-    <keep-alive>
-      <component @click="missionProgress" :is="componentId"></component>
-    </keep-alive>
+      <component
+        @courseHomeStoreTime="courseHomeStoreTime"
+        @click="missionProgress"
+        :is="componentId"
+      ></component>
   </div>
 </template>
 
@@ -11,32 +13,32 @@ import courseHome from "@/components/course/courseHome.vue";
 import courseSuspension from "@/components/course/courseSuspension.vue";
 import courseHomework from "@/components/course/courseHomework.vue";
 
+import mixin from "@/mixins/mixin";
 export default {
+  mixins: [mixin],
   data: function() {
     return {
       componentId: "courseHome"
     };
   },
+  created() {
+    this.$_taskTimer;
+  },
   methods: {
-    missionProgress(data) {
-      if (data.page) this.componentId = data.page;
-      if (this.$store.getters.missionLevel !== 0) return;
-      if (data.missionLevelStateTime === "endTime") {
-        const TIME = new Date();
-        this.$store.commit("setMissionLevelDetail", data.missionLevelDetail);
-        this.$store.commit("setMissionLevelState", {
-          missionTime: data.missionLevelStateTime,
-          missionDate: TIME
-        });
-        this.$store.commit(
-          "setMissionLevelDetail",
-          data.missionLevelDetail + 1
-        );
-        this.$store.commit("setMissionLevelState", {
-          missionTime: data.missionLevelStateTime && "startTime",
-          missionDate: TIME
-        });
+    courseHomeStoreTime() {
+      if (
+        this.$store.state.user.missionLevel === 0 &&
+        this.$store.state.user.missionLevelDetail === 2
+      ) {
+        this.$_setMissionEndTimer();
+        this.$store.commit("setMissionLevelDetail", 3);
+        this.$_setMissionStartTimer();
       }
+    },
+    missionProgress(data) {
+      data.page && (this.componentId = data.page);
+      if (this.$store.getters.missionLevel !== 0) return;
+      data.missionLevelStateTime === "endTime" && this.$_taskTimer();
     }
   },
   components: {
