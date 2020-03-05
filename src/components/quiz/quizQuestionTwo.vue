@@ -12,7 +12,7 @@
       </ol>
     </section>
     <div class="quiz-button">
-      <buttonQuinary @click="$emit('click')">確定</buttonQuinary>
+      <buttonQuinary @click="$emit('click', 'quizQuestionAbbreviation')">確定</buttonQuinary>
     </div>
   </div>
 </template>

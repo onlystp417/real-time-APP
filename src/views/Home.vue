@@ -18,17 +18,6 @@
 <script>
 import homeCard from "@/components/homeCard";
 export default {
-  computed: {
-    
-    // 這邊的資料到底要放在子元件看得出來，還是放父元件
-    // 還在疑惑從遠端來的資料格式是否需要開頭命名區別，這邊是打印出遠端資料並且分成畫面視覺格式
-    // usersCompleteShallow() {
-    //   return this.;
-    // },
-    // usersCompleteDeep() {
-    //   return this.;
-    // }
-  },
   methods: {
     signIn(item) {
       // 登入的時候設置性別
@@ -37,6 +26,8 @@ export default {
       this.$store.commit("setId", item);
       // 登入的時候設置深淺
       this.$store.commit("setMissionDepth", item);
+      // 登入的時候設置震動秒數
+      this.$store.commit("setJitterSeconds", item);
       // 切換路由尚未綁定 ID 名稱
       this.$router.push({ name: "missionHome" });
     }

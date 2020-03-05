@@ -1,7 +1,5 @@
 <template>
   <div>
-    <!-- 深路由目前都沒有資料，因為他們只是作為左右切換的頁面。 -->
-    <!-- 修改層次問題，因為 z-index 修改兩個按鈕，但是會造成問題。 -->
     <deepSubMenu @subMenuClick="setCurrentPage" :page="page">
       <template v-slot:first>私訊老師</template>
       <template v-slot:second>公開討論</template>
@@ -59,10 +57,10 @@ section.privateMessage {
   position: relative;
   vertical-align: top;
   left: 0px;
-    white-space: normal;
+  white-space: normal;
   z-index: 99;
   &.change {
-    z-index: 1;
+    opacity: 0;
     left: -100vw;
   }
 }
@@ -77,7 +75,6 @@ section.publicMessage {
   z-index: 1;
   &.change {
     left: -100vw;
-    z-index: 99;
   }
 }
 </style>

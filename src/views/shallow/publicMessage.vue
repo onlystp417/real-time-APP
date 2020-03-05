@@ -36,43 +36,7 @@
           <span class="unit">則回應</span>
         </div>
       </section>
-      <!-- 這是一段跑迴圈的元件 -->
-      <section class="public-message-card">
-        <header class="message-header">
-          <img src="@/assets/images/user.png" alt="user graphy" />
-          <div>
-            <h5>王小明</h5>
-            <time>2020-01-05 03:30</time>
-          </div>
-        </header>
-        <div class="message-content">
-          <!-- 缺一個 hr 線條  -->
-          <h5>實驗測試</h5>
-          <p>即時反饋系統</p>
-        </div>
-        <div class="message-response">
-          <span class="num">0</span>
-          <span class="unit">則回應</span>
-        </div>
-      </section>
-      <!-- 這是一段跑迴圈的元件 -->
-      <buttonQuaternary @click="addMessage"></buttonQuaternary>
     </div>
-    <messageTyping
-      v-show="isMessageTypingActive"
-      @messageTypingNextPage="isMessageTypingActive = !isMessageTypingActive"
-    >
-      <template v-slot:title>
-        <p slot="title">新增討論</p>
-      </template>
-      <template v-slot:input>
-        <input slot="input" class="content" type="text" placeholder="輸入標題" v-model="currentTitle" />
-        <input slot="input" class="content" type="text" placeholder="輸入內容" v-model="currentText" />
-      </template>
-      <template v-slot:button>
-        <buttonQuinary @click="messageTypingNextPage">傳送</buttonQuinary>
-      </template>
-    </messageTyping>
   </div>
 </template>
 
@@ -84,35 +48,12 @@ import buttonQuinary from "@/components/buttonQuinary.vue";
 export default {
   data: function() {
     return {
-      isMessageTypingActive: false,
-      currentTitle: "",
-      currentText: "",
-      message: [
-        {
-          title: "",
-          text: "",
-          time: "",
-          innerMessage: [
-            {
-              title: "",
-              text: "",
-              time: ""
-            }
-          ]
-        }
-      ]
     };
   },
   components: {
     messageTyping,
     buttonQuaternary,
     buttonQuinary
-  },
-  methods: {
-    addMessage() {
-      this.isMessageTypingActive = !this.isMessageTypingActive;
-    },
-    messageTypingNextPage() {}
   }
 };
 </script>

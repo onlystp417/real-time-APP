@@ -158,112 +158,92 @@ export default {
       id: null,
       gender: null,
       name: null,
-      missionLevelState: 'shallow',
+      missionLevelState: "shallow",
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -277,108 +257,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -392,108 +352,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -507,108 +447,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -622,108 +542,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -737,108 +637,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -852,108 +732,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -967,108 +827,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -1082,108 +922,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -1197,108 +1017,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -1312,108 +1112,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -1427,108 +1207,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -1542,108 +1302,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -1657,108 +1397,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -1772,108 +1492,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -1887,108 +1587,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -2002,108 +1682,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -2117,108 +1777,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -2232,108 +1872,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -2347,108 +1967,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -2462,108 +2062,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -2577,108 +2157,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -2692,108 +2252,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -2807,108 +2347,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -2922,108 +2442,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -3037,108 +2537,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -3152,108 +2632,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -3267,108 +2727,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -3382,108 +2822,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -3497,108 +2917,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -3612,108 +3012,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -3727,108 +3107,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -3842,108 +3202,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -3957,108 +3297,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -4072,108 +3392,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -4187,108 +3487,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -4302,108 +3582,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -4417,108 +3677,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -4532,108 +3772,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -4647,108 +3867,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -4762,108 +3962,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -4877,108 +4057,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -4992,108 +4152,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -5107,108 +4247,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -5222,108 +4342,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -5337,108 +4437,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -5452,108 +4532,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -5567,108 +4627,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -5682,108 +4722,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -5797,108 +4817,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -5912,108 +4912,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -6027,108 +5007,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -6142,108 +5102,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -6257,108 +5197,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -6372,108 +5292,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -6487,108 +5387,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -6602,108 +5482,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -6717,108 +5577,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -6832,108 +5672,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -6947,108 +5767,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -7062,108 +5862,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -7177,108 +5957,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -7292,108 +6052,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -7407,108 +6147,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -7522,108 +6242,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -7637,108 +6337,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -7752,108 +6432,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -7867,108 +6527,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -7982,108 +6622,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -8097,108 +6717,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -8212,108 +6812,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -8327,108 +6907,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -8442,112 +7002,92 @@ export default {
       id: null,
       gender: null,
       name: null,
-      missionLevelState: 'shallow',
+      missionLevelState: "shallow",
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -8561,108 +7101,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -8676,108 +7196,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -8791,108 +7291,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -8906,108 +7386,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -9021,108 +7481,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -9136,108 +7576,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -9251,108 +7671,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -9366,108 +7766,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -9481,108 +7861,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -9596,108 +7956,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -9711,108 +8051,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -9826,108 +8146,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -9941,108 +8241,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -10056,108 +8336,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -10171,108 +8431,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -10286,108 +8526,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -10401,108 +8621,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -10516,108 +8716,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -10631,108 +8811,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -10746,108 +8906,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -10861,108 +9001,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -10976,108 +9096,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -11091,108 +9191,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -11206,108 +9286,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -11321,108 +9381,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -11436,108 +9476,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -11551,108 +9571,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -11666,108 +9666,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -11781,108 +9761,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -11896,108 +9856,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -12011,108 +9951,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -12126,108 +10046,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -12241,108 +10141,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -12356,108 +10236,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -12471,108 +10331,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -12586,108 +10426,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -12701,108 +10521,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -12816,108 +10616,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -12931,108 +10711,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -13046,108 +10806,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -13161,108 +10901,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -13276,108 +10996,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -13391,108 +11091,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -13506,108 +11186,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -13621,108 +11281,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -13736,108 +11376,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -13851,108 +11471,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -13966,108 +11566,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -14081,108 +11661,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -14196,108 +11756,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -14311,108 +11851,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -14426,108 +11946,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -14541,108 +12041,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -14656,108 +12136,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -14771,108 +12231,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -14886,108 +12326,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -15001,108 +12421,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -15116,108 +12516,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -15231,108 +12611,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -15346,108 +12706,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -15461,108 +12801,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -15576,108 +12896,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -15691,108 +12991,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -15806,108 +13086,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -15921,108 +13181,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -16036,108 +13276,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -16151,108 +13371,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -16266,108 +13466,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -16381,108 +13561,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -16496,108 +13656,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
@@ -16611,108 +13751,88 @@ export default {
       missionLevelState: [
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }
         ],
         [
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           },
           {
-            finish: false,
             startTime: null,
             endTime: null
           }

@@ -11,111 +11,92 @@ export default {
   // 目前任務關卡小節
   missionLevelDetail: null,
   // 目前任務關卡個小節時間、完成狀態，共有四關。
+  jitterSeconds: { jitterSeconds: null, stopSeconds: null },
   missionLevelState: [
     [
       {
-        finish: false,
         startTime: null,
         endTime: null
       },
       {
-        finish: false,
         startTime: null,
         endTime: null
       },
       {
-        finish: false,
         startTime: null,
         endTime: null
       },
       {
-        finish: false,
         startTime: null,
         endTime: null
       }
     ],
     [
       {
-        finish: false,
         startTime: null,
         endTime: null
       },
       {
-        finish: false,
         startTime: null,
         endTime: null
       },
       {
-        finish: false,
         startTime: null,
         endTime: null
       },
       {
-        finish: false,
         startTime: null,
         endTime: null
       },
       {
-        finish: false,
         startTime: null,
         endTime: null
       },
       {
-        finish: false,
         startTime: null,
         endTime: null
       }
     ],
     [
       {
-        finish: false,
         startTime: null,
         endTime: null
       },
       {
-        finish: false,
         startTime: null,
         endTime: null
       },
       {
-        finish: false,
         startTime: null,
         endTime: null
       },
       {
-        finish: false,
         startTime: null,
         endTime: null
       },
       {
-        finish: false,
         startTime: null,
         endTime: null
       }
     ],
     [
       {
-        finish: false,
         startTime: null,
         endTime: null
       },
       {
-        finish: false,
         startTime: null,
         endTime: null
       },
       {
-        finish: false,
         startTime: null,
         endTime: null
       },
       {
-        finish: false,
         startTime: null,
         endTime: null
       },
       {
-        finish: false,
         startTime: null,
         endTime: null
       }

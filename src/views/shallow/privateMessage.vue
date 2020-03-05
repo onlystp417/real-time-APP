@@ -1,8 +1,12 @@
 <template>
   <div class="private-message">
     <div class="message-list">
-      <section class="private-message-card" v-for="(item, index) in currentMessage" :key="index">
-        <img :src="item.imgUrl" alt="smile face" />
+      <section
+        class="private-message-card"
+        v-for="(item, index) in currentMessage"
+        :key="index"
+      >
+        <img :src="item.imgUrl" alt="emoji" />
         <div>
           <p>{{ item.text }}</p>
           <span>已送出</span>
@@ -12,43 +16,23 @@
       <div class="private-Message-button">
         <!-- 單純的重新賦予數值，可以用什麼方式去命名嘛？ -->
         <!-- 按鈕部分的邏輯要整理過 -->
-        <buttonQuaternary @click="
-        isMessageIconActive = !isMessageIconActive
-        "></buttonQuaternary>
+        <buttonQuaternary
+          @click="isMessageIconActive = !isMessageIconActive"
+        ></buttonQuaternary>
       </div>
     </div>
     <!-- 這邊的結構可以重整嗎？結構重整後想要做到的是兩個任務可以透過一個命名區分出來？ -->
     <messageIcon
       v-show="isMessageIconActive"
-      @setMessageIconActive="
-      isMessageIconActive = !isMessageIconActive;"
+      @setMessageIconActive="isMessageIconActive = !isMessageIconActive"
       @addIconMessage="addMessage"
-      @addTypingMessage="
-        isMessageTypingActive = !isMessageTypingActive;
-        isMessageIconActive = !isMessageIconActive;
-      "
+      @addTypingMessage="isMessageIconActive = !isMessageIconActive"
     ></messageIcon>
-    <messageTyping
-      @setMessageIconActive="
-      isMessageTypingActive = !isMessageTypingActive"
-      v-show="isMessageTypingActive"
-    >
-      <template v-slot:title>
-        <p>傳送訊息</p>
-      </template>
-      <template v-slot:input>
-        <textarea rows="8" class="content" v-model="currentMessageData" placeholder="輸入文字或上傳圖片給老師" />
-      </template>
-      <template v-slot:button>
-        <buttonQuinary @click="messageTypingNextPage">傳送</buttonQuinary>
-      </template>
-    </messageTyping>
   </div>
 </template>
 
 <script>
 import messageIcon from "@/components/messageIcon.vue";
-import messageTyping from "@/components/messageTyping.vue";
 import buttonQuinary from "@/components/buttonQuinary.vue";
 import buttonQuaternary from "@/components/buttonQuaternary.vue";
 import mixin from "@/mixins/mixin";
@@ -58,7 +42,6 @@ export default {
   data: function() {
     return {
       isMessageIconActive: false,
-      isMessageTypingActive: false,
       currentMessageData: null,
       pageMessageData: [
         {
@@ -109,52 +92,14 @@ export default {
         ...this.pageMessageData.filter(value => {
           return (
             value.type === type &&
-            (value.time = new Date()
-              .toLocaleString({ hourCycle: "h24" })
-              .replace(/\//g, "-")
-              .replace(/下午||早上||中午/g, "")
-              .replace(/(?!\d{1,}:\d{1,}):\d{1,}/, "")).replace(
-              /\s(?:\d:)/,
-              "0"
-            )
+            (value.time = this.$moment(new Date).format("YYYY-MM-DD HH:mm"))
           );
         })
       );
-      // console.log(this.currentMessage);
-    },
-
-    addTypingMessage() {
-      this.currentMessage.push(
-        ...this.pageMessageData
-          .filter(value => value.type === "typing")
-          .map(value => {
-            value.text = this.currentMessageData;
-            value.time = new Date()
-              .toLocaleString({ hourCycle: "h24" })
-              .replace(/\//g, "-")
-              .replace(/下午||早上||中午/g, "")
-              .replace(/(?!\d{1,}:\d{1,}):\d{1,}/, "");
-            return value;
-          })
-      );
-      this.currentMessageData = null;
-    },
-    messageTypingNextPage() {
-      this.addTypingMessage();
-      this.isMessageTypingActive = !this.isMessageTypingActive;
-      if (
-        this.$store.state.user.missionLevel === 0 &&
-        this.$store.state.user.missionLevelDetail === 3
-      ) {
-        !this.currentMessageData && this.$_setMissionEndTimer();
-        // alert('任務一已完成，將跳轉回任務關卡頁面。')
-        // this.$router.push({name: 'missionComplete'})
-      }
     }
   },
   components: {
     messageIcon,
-    messageTyping,
     buttonQuinary,
     buttonQuaternary
   }
@@ -167,8 +112,8 @@ export default {
   max-width: 500px;
   margin: 0 auto;
   padding-top: 28px;
-  height: 100%;
   position: relative;
+  margin-bottom: 50px;
   &-button {
     text-align: center;
   }
@@ -208,11 +153,4 @@ export default {
 .content {
   width: 100%;
 }
-// z-index 問題暫時無法解決
-// .fade-enter-active, .fade-leave-active {
-//   transition: opacity .1s ease;
-// }
-// .fade-enter, .fade-leave-to{
-//   opacity: 0;
-// }
 </style>

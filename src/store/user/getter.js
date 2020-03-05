@@ -1,21 +1,12 @@
 export default {
   name: state => state.name,
   missionLevel: state => state.missionLevel,
-  setGenderAbbreviation: state => {
-    return state.gender === "male" ? "M" : "F";
-  },
-  missionLevelState: state => {
-    return state.missionLevelState[state.missionLevel];
-  },
-  missionDepth: state => {
-    return state.missionDepth;
-  },
-  userSymbol: (state, getters) => {
-    return getters.setGenderAbbreviation + (state.id + 1).toString();
-  },
-  missionState: state => {
-    return state.missionState;
-  },
+  setGenderAbbreviation: state => (state.gender === "male" ? "M" : "F"),
+  missionLevelState: state => state.missionLevelState[state.missionLevel],
+  missionDepth: state => state.missionDepth,
+  userSymbol: (state, getters) =>
+    getters.setGenderAbbreviation + (state.id + 1).toString(),
+  missionState: state => state.missionState,
   setMissionCurrentTime: state => {
     return state.missionLevelState
       .find((value, index) => index === state.missionLevel)
