@@ -15,7 +15,7 @@
         <input class="check-itself" type="radio" name="answer" id="answer_2" />
         <label for="answer_2">50%</label>
         <input class="check-itself" type="radio" name="answer" id="answer_3" />
-        <label for="answer_3" class="answer-select">75%</label>
+        <label for="answer_3">75%</label>
         <input class="check-itself" type="radio" name="answer" id="answer_4" />
         <label for="answer_4">100%</label>
       </div>
