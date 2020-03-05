@@ -44,6 +44,7 @@ export default {
 
 <style lang="scss" scoped>
 .gradeAndcourse {
+  // 要調整
   overflow: hidden;
   white-space: nowrap;
 }

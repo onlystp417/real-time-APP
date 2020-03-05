@@ -7,10 +7,13 @@
       <template v-slot:second>問答</template>
     </deepSubMenu>
     <div class="rollcallAndQuiz">
-      <section class="rollcall" :class="{change: page.currentPage === 'quiz'}">
+      <section
+        class="rollcall"
+        :class="{ change: page.currentPage === 'quiz' }"
+      >
         <rollcall></rollcall>
       </section>
-      <section class="quiz" :class="{change: page.currentPage === 'quiz'}">
+      <section class="quiz" :class="{ change: page.currentPage === 'quiz' }">
         <quiz></quiz>
       </section>
     </div>
@@ -46,6 +49,7 @@ export default {
 
 <style lang="scss" scoped>
 .rollcallAndQuiz {
+  // 要調整
   overflow: hidden;
   white-space: nowrap;
 }

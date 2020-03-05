@@ -47,6 +47,7 @@ export default {
 
 <style lang="scss" scoped>
 .privateMessageAndpublicMessage {
+    // 要調整
   overflow: hidden;
   white-space: nowrap;
 }
