@@ -1,6 +1,5 @@
 <template>
   <section class="home">
-    <!-- emit  傳出的參數轉型別在哪裡轉比較明示 -->
     <homeCard
       @click="signIn({index: parseInt($event), level: 'shallow'})"
       :userCompleteDepth="$store.getters.usersCompleteShallow"
@@ -20,6 +19,7 @@
 import homeCard from "@/components/homeCard";
 export default {
   computed: {
+    
     // 這邊的資料到底要放在子元件看得出來，還是放父元件
     // 還在疑惑從遠端來的資料格式是否需要開頭命名區別，這邊是打印出遠端資料並且分成畫面視覺格式
     // usersCompleteShallow() {

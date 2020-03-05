@@ -10,11 +10,14 @@
         </div>
       </section>
       <div class="private-Message-button">
+        <!-- 單純的重新賦予數值，可以用什麼方式去命名嘛？ -->
+        <!-- 按鈕部分的邏輯要整理過 -->
         <buttonQuaternary @click="
         isMessageIconActive = !isMessageIconActive
         "></buttonQuaternary>
       </div>
     </div>
+    <!-- 這邊的結構可以重整嗎？結構重整後想要做到的是兩個任務可以透過一個命名區分出來？ -->
     <messageIcon
       v-show="isMessageIconActive"
       @setMessageIconActive="
@@ -27,7 +30,7 @@
     ></messageIcon>
     <messageTyping
       @setMessageIconActive="
-    isMessageTypingActive = !isMessageTypingActive"
+      isMessageTypingActive = !isMessageTypingActive"
       v-show="isMessageTypingActive"
     >
       <template v-slot:title>
@@ -65,15 +68,15 @@ export default {
           time: null
         },
         {
-          text: "聽不懂",
-          imgUrl: require("@/assets/images/confuse.png"),
-          type: "confuse",
-          time: null
-        },
-        {
           text: "太快了",
           imgUrl: require("@/assets/images/frustrat.png"),
           type: "frustrat",
+          time: null
+        },
+        {
+          text: "聽不懂",
+          imgUrl: require("@/assets/images/confuse.png"),
+          type: "confuse",
           time: null
         },
         {
@@ -119,10 +122,7 @@ export default {
       );
       // console.log(this.currentMessage);
     },
-    setMessageTypingAndIconActive() {
-      this.isMessageIconActive = !this.isMessageIconActive;
-      this.isMessageTypingActive = !this.isMessageTypingActive;
-    },
+
     addTypingMessage() {
       this.currentMessage.push(
         ...this.pageMessageData
@@ -147,8 +147,8 @@ export default {
         this.$store.state.user.missionLevelDetail === 3
       ) {
         !this.currentMessageData && this.$_setMissionEndTimer();
-        alert('任務一已完成，將跳轉回任務關卡頁面。')
-        this.$router.push({name: 'missionComplete'})
+        // alert('任務一已完成，將跳轉回任務關卡頁面。')
+        // this.$router.push({name: 'missionComplete'})
       }
     }
   },

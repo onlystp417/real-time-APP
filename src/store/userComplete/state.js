@@ -74,14 +74,10 @@ export default {
       false,
       false,
       false,
-      false,
-      false,
       false
     ],
     // 深組別是否完成，true 代表完成、false 代表未完成
     deep: [
-      false,
-      false,
       false,
       false,
       false,

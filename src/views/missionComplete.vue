@@ -1,6 +1,6 @@
 <template>
   <section class="missionComplete">
-    <h2 class="missionComplete-title">任務{{ $store.getters.chineseMissionLevelDislpay }}完成！</h2>
+    <h2 class="missionComplete-title">任務{{ $store.getters.missionLevel | $_indexChineseDisplay }}完成！</h2>
     <section class="missionComplete-card">
       <h3 class="card-title">
         <span>編號：{{ $store.getters.userSymbol }}</span>

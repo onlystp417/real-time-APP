@@ -17,6 +17,11 @@ h1,h2,h3,h4,h5,p,ul,ol,pre,ul {
   box-sizing: border-box;
 }
 
+// 隱藏滾動條
+*::-webkit-scrollbar {
+  display: none;
+}
+
 a {
   text-decoration-line: none;
   // 取消按壓時的藍色背景

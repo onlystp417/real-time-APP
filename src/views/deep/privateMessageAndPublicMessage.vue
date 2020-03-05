@@ -1,5 +1,7 @@
 <template>
   <div>
+    <!-- 深路由目前都沒有資料，因為他們只是作為左右切換的頁面。 -->
+    <!-- 修改層次問題，因為 z-index 修改兩個按鈕，但是會造成問題。 -->
     <deepSubMenu @subMenuClick="setCurrentPage" :page="page">
       <template v-slot:first>私訊老師</template>
       <template v-slot:second>公開討論</template>

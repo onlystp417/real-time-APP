@@ -1,10 +1,13 @@
 <template>
   <div class="rollcall">
+    <!-- 當畫面中有許多切換的元件，如何去判定綁定的諸多事件屬於哪個元件？ -->
+    <!-- 這個方法是不是不好的方法，看起來清楚嗎 -->
     <component
       @rollcallHomeNextPageEnroll="rollcallHomeNextPageEnroll"
       @rollcallHomeNextPageRecord="rollcallHomeNextPageRecord"
       @rollcallEnrollNextPageOntime="rollcallEnrollNextPageOntime"
       @rollcallOnTimeNextPageHome="rollcallOnTimeNextPageHome"
+      @rollcallRecordNextPageHome="rollcallOnTimeNextPageHome"
       :is="componentId"
     ></component>
   </div>
@@ -16,6 +19,7 @@ import rollcallEnroll from "@/components/rollcall/rollcallEnroll.vue";
 import rollcallOntime from "@/components/rollcall/rollcallOntime.vue";
 import rollcallRecord from "@/components/rollcall/rollcallRecord.vue";
 import mixin from "@/mixins/mixin";
+
 export default {
   mixins: [mixin],
   data: function() {
@@ -37,6 +41,15 @@ export default {
       }
     },
     rollcallEnrollNextPageOntime(data) {
+      this.componentId = data;
+      // if (
+      //   this.$store.state.user.missionLevel === 0 &&
+      //   this.$store.state.user.missionLevelDepth === 1
+      // ) {
+      //   this.$_setMissionStartTimer();
+      // }
+    },
+    rollcallRecordNextPageOntime(data) {
       this.componentId = data;
       // if (
       //   this.$store.state.user.missionLevel === 0 &&

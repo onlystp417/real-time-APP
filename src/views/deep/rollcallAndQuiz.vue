@@ -1,5 +1,7 @@
 <template>
   <div>
+    <!-- 深路由目前都沒有資料，因為他們只是作為左右切換的頁面。 -->
+    <!-- 在深路由之中，其中包含的高度需要變動，所以需要變動。 -->
     <deepSubMenu @subMenuClick="setCurrentPage" :page="page">
       <template v-slot:first>點名</template>
       <template v-slot:second>問答</template>
@@ -19,6 +21,7 @@
 import rollcall from "@/views/shallow/rollcall.vue";
 import quiz from "@/views/shallow/quiz.vue";
 import deepSubMenu from "@/components/deepSubMenu.vue";
+
 export default {
   data: function() {
     return {

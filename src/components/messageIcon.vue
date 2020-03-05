@@ -9,12 +9,12 @@
           <img src="../assets/images/understand.png" alt="smiling face" />
           <span>我懂了</span>
         </button>
-        <button @click.prevent="$emit('addIconMessage', 'frustrat')">
-          <img src="../assets/images/frustrat.png" alt="frustrated face" />
+        <button @click.prevent="$emit('addIconMessage', 'confuse')">
+          <img src="../assets/images/confuse.png" alt="frustrated face" />
           <span>聽不懂</span>
         </button>
-        <button @click.prevent="$emit('addIconMessage', 'confuse')">
-          <img src="../assets/images/confuse.png" alt="confused face" />
+        <button @click.prevent="$emit('addIconMessage', 'frustrat')">
+          <img src="../assets/images/frustrat.png" alt="confused face" />
           <span>太快了</span>
         </button>
         <button @click.prevent="$emit('addTypingMessage')">

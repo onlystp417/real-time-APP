@@ -12,9 +12,9 @@
         <p>震動{{ index | $_indexChineseDisplay }}</p>
         <div class="card-button">
           <button
-            @click.prevent="$emit('click', itemindex + index * 24)"
-            v-for="(item, itemindex) in items"
-            :key="itemindex"
+            @click="$emit('click', innerIndex + index * 24)"
+            v-for="(item, innerIndex) in items"
+            :key="innerIndex"
             :class="{'finished': item.value }"
           >{{ item.index | $_indexDisplay }}</button>
         </div>
@@ -25,6 +25,7 @@
 
 <script>
 import mixin from "@/mixins/mixin";
+
 export default {
   // mixin 中包含了 filter，看得出來嗎？
   mixins: [mixin],
@@ -36,19 +37,9 @@ export default {
     usersDisplay(item) {
       return item.reduce(
         (accumulator, currentValue, currentIndex) => {
-          if (currentIndex < 24) {
-            accumulator[0].push({ value: currentValue, index: currentIndex });
-            return accumulator;
-          }
-          if (24 <= currentIndex && currentIndex < 48) {
-            accumulator[1].push({ value: currentValue, index: currentIndex });
-            return accumulator;
-          }
-          if (48 <= currentIndex && currentIndex < 72) {
-            accumulator[2].push({ value: currentValue, index: currentIndex });
-            return accumulator;
-          }
-          // 疑惑這一點，為什麼要再回傳
+          // 這裡的流程可以單看流程圖看懂嗎？
+          let index = Math.floor(currentIndex / 24);
+          accumulator[index].push({ value: currentValue, index: currentIndex });
           return accumulator;
         },
         [[], [], []]
@@ -75,7 +66,7 @@ export default {
       }
       &-column {
         background-color: $light-blue;
-        padding: 2px 10px 3px 10px;
+        padding: 2px 5px 3px 5px;
         flex: 0 1 30%;
         border-radius: 11px;
         + .card-column {
@@ -88,8 +79,8 @@ export default {
         }
       }
       &-button {
-        align-content: space-between;
-        justify-content: space-between;
+        align-content: space-around;
+        justify-content: space-around;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;

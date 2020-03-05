@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!-- 深路由目前都沒有資料，因為他們只是作為左右切換的頁面。 -->
     <deepSubMenu @subMenuClick="setCurrentPage" :page="page">
       <template v-slot:first>成績</template>
       <template v-slot:second>課程資訊</template>
