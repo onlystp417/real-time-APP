@@ -1,5 +1,5 @@
 <template>
-  <div class="quiz-question">
+  <form class="quiz-question">
     <section class="question-card quiz-card-content normal-card">
       <h4>單選題</h4>
       <h5>
@@ -9,17 +9,21 @@
       <p>
         <slot>女性身高的第75百分位數若為160公分，則表示有多少百分位數的女性身高小於160公分?</slot>
       </p>
-      <ol>
-        <li>25%</li>
-        <li>50%</li>
-        <li class="answer-select">75%</li>
-        <li>100%</li>
-      </ol>
+      <div class="answer">
+        <input class="check-itself" type="radio" name="answer" id="answer_1" />
+        <label for="answer_1">25%</label>
+        <input class="check-itself" type="radio" name="answer" id="answer_2" />
+        <label for="answer_2">50%</label>
+        <input class="check-itself" type="radio" name="answer" id="answer_3" />
+        <label for="answer_3">75%</label>
+        <input class="check-itself" type="radio" name="answer" id="answer_4" />
+        <label for="answer_4">100%</label>
+      </div>
     </section>
     <div class="quiz-button">
       <buttonQuinary @click="$emit('click', 'quizQuestionAbbreviation')">確定</buttonQuinary>
     </div>
-  </div>
+  </form>
 </template>
 
 <script>
@@ -60,12 +64,16 @@ export default {
   p {
     height: 65px;
   }
-  ol {
+  .answer {
     padding: 0 16px;
     counter-reset: item;
-    li {
+    input {
+      display: none;
+    }
+    label {
       // width: 347px;
       // margin: auto;
+      display: block;
       margin-bottom: 10px;
       background: #f6f6f6;
       padding-left: 15px;
@@ -77,17 +85,19 @@ export default {
         color: $white;
       }
     }
-    > li::before {
+    > label::before {
       content: counter(num) ".";
       padding-right: 5px;
     }
-    > li:first-child::before {
+    > label:first-child::before {
       padding-right: 7px;
     }
-    .answer-select {
+    .check-itself:checked + label {
       background: $light-blue;
       color: $white;
     }
+    // .answer-select {
+    // }
   }
 }
 
