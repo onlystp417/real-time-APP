@@ -13,10 +13,15 @@ export default {
   mixins: [mixin],
   methods: {
     nextPage() {
-      this.$_setMissionEndTimer();
+      this.$_setMissionEndTimer(
+        this.$store.getters.missionCurrentLevel.level,
+        this.$store.getters.missionCurrentLevel.section
+      );
       this.setNextRouter();
-      this.setMissionLevelDetail();
-      this.$_setMissionStartTimer();
+      this.$_setMissionStartTimer(
+        this.$store.getters.missionCurrentLevel.level,
+        this.$store.getters.missionCurrentLevel.section + 1
+      );
     },
     setNextRouter() {
       if (this.$store.getters.missionDepth === "deep") {
@@ -25,9 +30,6 @@ export default {
       if (this.$store.getters.missionDepth === "shallow") {
         this.$router.push({ name: "rollcall" });
       }
-    },
-    setMissionLevelDetail() {
-      this.$store.commit("setMissionLevelDetail", 1);
     }
   }
 };

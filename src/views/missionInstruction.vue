@@ -1,8 +1,16 @@
 <template>
   <div class="missionInstruction">
     <div class="missionInstruction-card">
-      <h3>任務{{ $store.getters.missionLevel | $_indexChineseDisplay }}</h3>
-      <p v-for="(item, index) in missionLevelMessage" :key="index" v-html="item"></p>
+      <h3>
+        任務{{
+          $store.getters.missionCurrentLevel.level | $_indexChineseDisplay
+        }}
+      </h3>
+      <p
+        v-for="(item, index) in missionLevelMessage"
+        :key="index"
+        v-html="item"
+      ></p>
     </div>
     <div class="missionInstruction-button">
       <buttonPrimary @click.prevent="nextPage">開始</buttonPrimary>
@@ -24,14 +32,12 @@ export default {
         [
           "1.感受到振動後拿起手機",
           "2.使用點名功能簽到",
-          "3.觀看本堂課的課程資訊",
-          "4.傳送「課程順暢」文字訊息給老師"
+          "3.觀看本帳號在此課程的排名"
         ],
         [
           "1.感受到振動後拿起手機",
           "2.回答第一題，選擇A選項<br/>3.說出答題是否正確",
-          "4.找到討論區的「邊緣運算」文章<br/>5.在「邊緣運算」文章中<br/>   新增留言「雲端運算」",
-          "6.觀看本帳號的最近一次的點名紀錄"
+          "4.觀看本帳號的最近一次的點名紀錄"
         ],
         [
           "1.感受到振動後拿起手機",
@@ -41,27 +47,27 @@ export default {
         ],
         [
           "1.感受到振動後拿起手機",
-          "2.使用私訊老師的功能",
-          "3.以「我懂了」的選項回饋老師",
+          "2.使用私訊老師的功能<br/>3.以「我懂了」的選項回饋老師",
           "4.查看本課程的答題正確率",
           "5.觀看本課程的修課人數"
         ]
       ]
     };
   },
-  created() {
-    this.$_setMissionStartTimer;
-  },
   computed: {
     missionLevelMessage() {
       return this.messionMessage.find(
-        (value, index) => index === this.$store.getters.missionLevel
+        (value, index) =>
+          index === this.$store.getters.missionCurrentLevel.level
       );
     }
   },
   methods: {
     nextPage() {
-      this.$_setMissionStartTimer();
+      this.$_setMissionStartTimer(
+        this.$store.getters.missionCurrentLevel.level,
+        this.$store.getters.missionCurrentLevel.section
+      );
       this.setNextRouter();
     },
     setNextRouter() {

@@ -158,8 +158,8 @@ export default {
       id: null,
       gender: null,
       name: null,
-      missionLevelState: "shallow",
-      missionLevelState: [
+      missionLevelTime: "shallow",
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -254,7 +254,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -349,7 +349,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -444,7 +444,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -539,7 +539,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -634,7 +634,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -729,7 +729,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -824,7 +824,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -919,7 +919,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -1014,7 +1014,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -1109,7 +1109,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -1204,7 +1204,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -1299,7 +1299,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -1394,7 +1394,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -1489,7 +1489,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -1584,7 +1584,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -1679,7 +1679,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -1774,7 +1774,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -1869,7 +1869,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -1964,7 +1964,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -2059,7 +2059,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -2154,7 +2154,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -2249,7 +2249,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -2344,7 +2344,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -2439,7 +2439,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -2534,7 +2534,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -2629,7 +2629,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -2724,7 +2724,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -2819,7 +2819,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -2914,7 +2914,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -3009,7 +3009,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -3104,7 +3104,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -3199,7 +3199,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -3294,7 +3294,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -3389,7 +3389,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -3484,7 +3484,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -3579,7 +3579,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -3674,7 +3674,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -3769,7 +3769,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -3864,7 +3864,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -3959,7 +3959,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -4054,7 +4054,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -4149,7 +4149,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -4244,7 +4244,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -4339,7 +4339,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -4434,7 +4434,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -4529,7 +4529,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -4624,7 +4624,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -4719,7 +4719,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -4814,7 +4814,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -4909,7 +4909,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -5004,7 +5004,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -5099,7 +5099,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -5194,7 +5194,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -5289,7 +5289,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -5384,7 +5384,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -5479,7 +5479,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -5574,7 +5574,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -5669,7 +5669,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -5764,7 +5764,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -5859,7 +5859,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -5954,7 +5954,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -6049,7 +6049,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -6144,7 +6144,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -6239,7 +6239,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -6334,7 +6334,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -6429,7 +6429,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -6524,7 +6524,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -6619,7 +6619,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -6714,7 +6714,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -6809,7 +6809,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -6904,7 +6904,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -7002,8 +7002,8 @@ export default {
       id: null,
       gender: null,
       name: null,
-      missionLevelState: "shallow",
-      missionLevelState: [
+      missionLevelTime: "shallow",
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -7098,7 +7098,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -7193,7 +7193,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -7288,7 +7288,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -7383,7 +7383,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -7478,7 +7478,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -7573,7 +7573,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -7668,7 +7668,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -7763,7 +7763,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -7858,7 +7858,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -7953,7 +7953,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -8048,7 +8048,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -8143,7 +8143,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -8238,7 +8238,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -8333,7 +8333,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -8428,7 +8428,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -8523,7 +8523,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -8618,7 +8618,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -8713,7 +8713,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -8808,7 +8808,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -8903,7 +8903,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -8998,7 +8998,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -9093,7 +9093,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -9188,7 +9188,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -9283,7 +9283,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -9378,7 +9378,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -9473,7 +9473,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -9568,7 +9568,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -9663,7 +9663,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -9758,7 +9758,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -9853,7 +9853,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -9948,7 +9948,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -10043,7 +10043,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -10138,7 +10138,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -10233,7 +10233,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -10328,7 +10328,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -10423,7 +10423,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -10518,7 +10518,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -10613,7 +10613,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -10708,7 +10708,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -10803,7 +10803,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -10898,7 +10898,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -10993,7 +10993,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -11088,7 +11088,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -11183,7 +11183,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -11278,7 +11278,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -11373,7 +11373,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -11468,7 +11468,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -11563,7 +11563,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -11658,7 +11658,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -11753,7 +11753,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -11848,7 +11848,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -11943,7 +11943,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -12038,7 +12038,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -12133,7 +12133,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -12228,7 +12228,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -12323,7 +12323,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -12418,7 +12418,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -12513,7 +12513,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -12608,7 +12608,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -12703,7 +12703,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -12798,7 +12798,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -12893,7 +12893,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -12988,7 +12988,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -13083,7 +13083,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -13178,7 +13178,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -13273,7 +13273,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -13368,7 +13368,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -13463,7 +13463,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -13558,7 +13558,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -13653,7 +13653,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -13748,7 +13748,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelState: [
+      missionLevelTime: [
         [
           {
             startTime: null,

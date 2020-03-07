@@ -6,7 +6,10 @@
         <h4>題目回答率</h4>
         <span>100%</span>
       </li>
-      <li class="answer-item">
+      <li
+        class="answer-item"
+        @click="setTimer({ componentId: null, missionTimeData:{ level: 3, section: 2, setTime: 'both'}})"
+      >
         <h4>題目正確率</h4>
         <span>100%</span>
       </li>
@@ -34,7 +37,44 @@
 </template>
 
 <script>
-export default {};
+import mixin from "@/mixins/mixin";
+
+export default {
+  mixins: [mixin],
+  methods: {
+    nextPage(data) {
+      this.componentId = data;
+    },
+    setTimer(data) {
+      data.componentId && this.nextPage(data.componentId);
+
+      const { level, section, setTime } = data.missionTimeData;
+      const {
+        level: missionCurrentLevel,
+        section: missionCurrentSection
+      } = this.$store.getters.missionCurrentLevel;
+
+      if (level === missionCurrentLevel && section === missionCurrentSection) {
+        switch (setTime) {
+          case "start":
+            this.$_setMissionStartTimer(level, section);
+            break;
+          case "end":
+            this.$_setMissionEndTimer(level, section);
+            this.$router.push({ name: "missionComplete" });
+            this.$store.commit(
+              "setMissionCurrentCompleteLevel",
+              this.$store.getters.missionCurrentLevel.level - 1
+            );
+            break;
+          case "both":
+            this.$_setMissionEndTimer(level, section);
+            this.$_setMissionStartTimer(level, section + 1);
+        }
+      }
+    }
+  }
+};
 </script>
 
 <style lang="scss" scoped>

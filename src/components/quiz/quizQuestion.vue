@@ -11,26 +11,46 @@
       </p>
       <div class="answer">
         <input class="check-itself" type="radio" name="answer" id="answer_1" />
-        <label for="answer_1">25%</label>
+        <label @click="anserChoose = true" for="answer_1">25%</label>
         <input class="check-itself" type="radio" name="answer" id="answer_2" />
-        <label for="answer_2">50%</label>
+        <label @click="anserChoose = true" for="answer_2">50%</label>
         <input class="check-itself" type="radio" name="answer" id="answer_3" />
-        <label for="answer_3">75%</label>
+        <label @click="anserChoose = true" for="answer_3">75%</label>
         <input class="check-itself" type="radio" name="answer" id="answer_4" />
-        <label for="answer_4">100%</label>
+        <label @click="anserChoose = true" for="answer_4">100%</label>
       </div>
     </section>
     <div class="quiz-button">
-      <buttonQuinary @click="$emit('click', 'quizQuestionAbbreviation')">確定</buttonQuinary>
+      <buttonQuinary @click="anserChoose && (answer = true)" v-show="!answer">確定</buttonQuinary>
     </div>
+    <quizPopover
+      v-show="answer"
+      @click="$emit('setTimer', {componentId: 'quizQuestionAbbreviation', missionTimeData:{level:1,section:1, setTime: 'both'}})"
+    >
+      <template v-slot:images>
+        <img src="@/assets/images/correct.png" alt="correct" />
+      </template>
+      <template v-slot:text>
+        <p class="correct-text">正確</p>
+      </template>
+    </quizPopover>
   </form>
 </template>
 
 <script>
 import buttonQuinary from "@/components/buttonQuinary.vue";
+import quizPopover from "@/components/quiz/quizPopover.vue";
+
 export default {
+  data: function() {
+    return {
+      answer: false,
+      anserChoose: false
+    };
+  },
   components: {
-    buttonQuinary
+    buttonQuinary,
+    quizPopover
   }
 };
 </script>

@@ -4,26 +4,20 @@
     <div class="quiz-popover">
       <h5>答題結果</h5>
       <div>
-        <answerResult>
-          <!-- <img slot="image" src="../assets/images/correct.png" alt="correct" /> -->
-          <img slot="image" src="@/assets/images/wrong.png" alt="correct" />
-          <!-- <p class="correct-text" slot="text">正確</p> -->
-          <p class="wrong-text" slot="text">錯誤</p>
-        </answerResult>
-        <buttonQuinary>確認</buttonQuinary>
+        <slot name="images"></slot>
+        <slot name="text"></slot>
+        <buttonQuinary @click="$emit('click')">確認</buttonQuinary>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import answerResult from "@/components/answerResult.vue";
 import buttonQuinary from "@/components/buttonQuinary.vue";
 import filterPopover from "@/components/filterPopover.vue";
 export default {
   components: {
     filterPopover,
-    answerResult,
     buttonQuinary
   }
 };

@@ -8,16 +8,20 @@ export default {
     }
   },
   methods: {
-    $_setMissionStartTimer() {
-      this.$store.commit("setMissionLevelState", {
+    $_setMissionStartTimer(level, section) {
+      this.$store.commit("SET_MISSIONLEVELTIME", {
         missionTime: "startTime",
-        missionDate: new Date()
+        missionDate: new Date(),
+        level,
+        section
       });
     },
-    $_setMissionEndTimer() {
-      this.$store.commit("setMissionLevelState", {
+    $_setMissionEndTimer(level, section) {
+      this.$store.commit("SET_MISSIONLEVELTIME", {
         missionTime: "endTime",
-        missionDate: new Date()
+        missionDate: new Date(),
+        level,
+        section
       });
     }
   }

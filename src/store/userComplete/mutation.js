@@ -1,6 +1,6 @@
 export default {
   // 設置任務完成狀態
-  setMissionUserState: (state, playload) => {
+  SET_MISSIONUSERSTATE: (state, playload) => {
     if (playload.level === "shallow") {
       state.usersComplete.shallow[playload.index] = !state.usersComplete
         .shallow[playload.index];

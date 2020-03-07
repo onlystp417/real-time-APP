@@ -14,7 +14,7 @@
         <rollcall></rollcall>
       </section>
       <section class="quiz" :class="{ change: page.currentPage === 'quiz' }">
-        <quiz></quiz> 
+        <quiz></quiz>
       </section>
     </div>
   </div>

@@ -1,16 +1,16 @@
 <template>
   <section class="home">
     <homeCard
-      @click="signIn({index: parseInt($event), level: 'shallow'})"
+      @click="signIn({ index: parseInt($event), level: 'shallow' })"
       :userCompleteDepth="$store.getters.usersCompleteShallow"
     >
       <template v-slot:title>資訊架構-淺</template>
     </homeCard>
     <homeCard
-      @click="signIn({index: parseInt($event), level: 'deep'})"
+      @click="signIn({ index: parseInt($event), level: 'deep' })"
       :userCompleteDepth="$store.getters.usersCompleteDeep"
     >
-      <template v-slot:title>資訊架構-深</template>
+      <template v-slot:title>資訊架構-深{{$store.missionLevelChange}}</template>
     </homeCard>
   </section>
 </template>
@@ -21,13 +21,13 @@ export default {
   methods: {
     signIn(item) {
       // 登入的時候設置性別
-      this.$store.commit("setGender", item);
+      this.$store.commit("SET_GENDER", item);
       // 登入的時候設置 userID
-      this.$store.commit("setId", item);
+      this.$store.commit("SET_ID", item);
       // 登入的時候設置深淺
-      this.$store.commit("setMissionDepth", item);
+      this.$store.commit("SET_MISSIONDEPTH", item);
       // 登入的時候設置震動秒數
-      this.$store.commit("setJitterSeconds", item);
+      this.$store.commit("SET_JITTERSECONDS", item);
       // 切換路由尚未綁定 ID 名稱
       this.$router.push({ name: "missionHome" });
     }

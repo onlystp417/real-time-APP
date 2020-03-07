@@ -29,7 +29,7 @@ export default {
   },
   methods: {
     signIn() {
-      this.$store.commit("setUserName", this.userName);
+      this.$store.commit("SET_USERNAME", this.userName);
       this.$router.push({ name: "missionLevel" });
     }
   }

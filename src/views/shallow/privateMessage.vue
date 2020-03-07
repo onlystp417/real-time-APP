@@ -14,19 +14,15 @@
         </div>
       </section>
       <div class="private-Message-button">
-        <!-- 單純的重新賦予數值，可以用什麼方式去命名嘛？ -->
-        <!-- 按鈕部分的邏輯要整理過 -->
         <buttonQuaternary
           @click="isMessageIconActive = !isMessageIconActive"
         ></buttonQuaternary>
       </div>
     </div>
-    <!-- 這邊的結構可以重整嗎？結構重整後想要做到的是兩個任務可以透過一個命名區分出來？ -->
     <messageIcon
       v-show="isMessageIconActive"
       @setMessageIconActive="isMessageIconActive = !isMessageIconActive"
-      @addIconMessage="addMessage"
-      @addTypingMessage="isMessageIconActive = !isMessageIconActive"
+      @setTimer="setTimer"
     ></messageIcon>
   </div>
 </template>
@@ -96,6 +92,34 @@ export default {
           );
         })
       );
+    },
+    setTimer(data) {
+      this.addMessage(data.type)
+
+      const { level, section, setTime } = data.missionTimeData;
+      const {
+        level: missionCurrentLevel,
+        section: missionCurrentSection
+      } = this.$store.getters.missionCurrentLevel;
+
+      if (level === missionCurrentLevel && section === missionCurrentSection) {
+        switch (setTime) {
+          case "start":
+            this.$_setMissionStartTimer(level, section);
+            break;
+          case "end":
+            this.$_setMissionEndTimer(level, section);
+            this.$router.push({ name: "missionComplete" });
+            this.$store.commit(
+              "setMissionCurrentCompleteLevel",
+              this.$store.getters.missionCurrentLevel.level - 1
+            );
+            break;
+          case "both":
+            this.$_setMissionEndTimer(level, section);
+            this.$_setMissionStartTimer(level, section + 1);
+        }
+      }
     }
   },
   components: {

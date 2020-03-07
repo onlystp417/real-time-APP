@@ -1,6 +1,6 @@
 <template>
   <div class="quiz">
-    <component @click="setComponentId" :is="componentId"></component>
+    <component @changeComponent="nextPage" @setTimer="setTimer" :is="componentId"></component>
   </div>
 </template>
 
@@ -9,18 +9,46 @@ import quizQuestionAbbreviation from "@/components/quiz/quizQuestionAbbreviation
 import quizQuestion from "@/components/quiz/quizQuestionTwo.vue";
 import quizQuestionTwo from "@/components/quiz/quizQuestion.vue";
 import quizPopover from "@/components/quiz/quizPopover.vue";
+import mixin from "@/mixins/mixin";
 
 export default {
+  mixins: [mixin],
   data: function() {
     return {
       componentId: "quizQuestionAbbreviation"
     };
   },
   methods: {
-    setComponentId(data) {
+    nextPage(data) {
       this.componentId = data;
-      console.log(data)
-      console.log(this.componentId)
+    },
+    setTimer(data) {
+      data.componentId && this.nextPage(data.componentId);
+
+      const { level, section, setTime } = data.missionTimeData;
+      const {
+        level: missionCurrentLevel,
+        section: missionCurrentSection
+      } = this.$store.getters.missionCurrentLevel;
+
+      if (level === missionCurrentLevel && section === missionCurrentSection) {
+        switch (setTime) {
+          case "start":
+            this.$_setMissionStartTimer(level, section);
+            break;
+          case "end":
+            this.$_setMissionEndTimer(level, section);
+            this.$router.push({ name: "missionComplete" });
+            this.$store.commit(
+              "setMissionCurrentCompleteLevel",
+              this.$store.getters.missionCurrentLevel.level - 1
+            );
+            break;
+          case "both":
+            this.$_setMissionEndTimer(level, section);
+            this.$_setMissionStartTimer(level, section + 1);
+        }
+      }
     }
   },
   components: {

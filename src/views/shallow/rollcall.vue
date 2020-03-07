@@ -1,15 +1,6 @@
 <template>
   <div class="rollcall">
-    <!-- 當畫面中有許多切換的元件，如何去判定綁定的諸多事件屬於哪個元件？ -->
-    <!-- 這個方法是不是不好的方法，看起來清楚嗎 -->
-    <component
-      @rollcallHomeNextPageEnroll="rollcallHomeNextPageEnroll"
-      @rollcallHomeNextPageRecord="rollcallHomeNextPageRecord"
-      @rollcallEnrollNextPageOntime="rollcallEnrollNextPageOntime"
-      @rollcallOnTimeNextPageHome="rollcallOnTimeNextPageHome"
-      @rollcallRecordNextPageHome="rollcallOnTimeNextPageHome"
-      :is="componentId"
-    ></component>
+    <component @changeComponent="nextPage" @setTimer="setTimer" :is="componentId"></component>
   </div>
 </template>
 
@@ -28,45 +19,30 @@ export default {
     };
   },
   methods: {
-    rollcallHomeNextPageEnroll(data) {
+    nextPage(data) {
       this.componentId = data;
     },
-    rollcallHomeNextPageRecord(data) {
-      this.componentId = data;
-      if (
-        this.$store.state.user.missionLevel === 0 &&
-        this.$store.state.user.missionLevelDetail === 1
-      ) {
-        this.$_setMissionStartTimer();
-      }
-    },
-    rollcallEnrollNextPageOntime(data) {
-      this.componentId = data;
-      // if (
-      //   this.$store.state.user.missionLevel === 0 &&
-      //   this.$store.state.user.missionLevelDepth === 1
-      // ) {
-      //   this.$_setMissionStartTimer();
-      // }
-    },
-    rollcallRecordNextPageOntime(data) {
-      this.componentId = data;
-      // if (
-      //   this.$store.state.user.missionLevel === 0 &&
-      //   this.$store.state.user.missionLevelDepth === 1
-      // ) {
-      //   this.$_setMissionStartTimer();
-      // }
-    },
-    rollcallOnTimeNextPageHome(data) {
-      this.componentId = data;
-      if (
-        this.$store.state.user.missionLevel === 0 &&
-        this.$store.state.user.missionLevelDetail === 1
-      ) {
-        this.$_setMissionEndTimer();
-        this.$store.commit("setMissionLevelDetail", 2);
-        this.$_setMissionStartTimer();
+    setTimer(data) {
+      data.componentId && this.nextPage(data.componentId);
+
+      const { level, section, setTime } = data.missionTimeData;
+      const { level: missionCurrentLevel, section: missionCurrentSection } = this.$store.getters.missionCurrentLevel;
+
+      if (level === missionCurrentLevel && section === missionCurrentSection) {
+        switch (setTime) {
+          case "start":
+            this.$_setMissionStartTimer(level, section);
+            break;
+          case "end":
+            this.$_setMissionEndTimer(level, section);
+            this.$router.push({ name: "missionComplete" });
+            console.log('現在結束任務'+ this.$store.getters.missionCurrentLevel.level)
+            this.$store.commit('setMissionCurrentCompleteLevel', this.$store.getters.missionCurrentLevel.level - 1);
+            break;
+          case "both":
+            this.$_setMissionEndTimer(level, section);
+            this.$_setMissionStartTimer(level, section + 1);
+        }
       }
     }
   },

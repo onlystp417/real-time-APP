@@ -1,6 +1,8 @@
 <template>
   <section class="missionComplete">
-    <h2 class="missionComplete-title">任務{{ $store.getters.missionLevel | $_indexChineseDisplay }}完成！</h2>
+    <h2 class="missionComplete-title">
+      任務{{ $store.getters.missionCurrentCompleteLevel | $_indexChineseDisplay }}完成！
+    </h2>
     <section class="missionComplete-card">
       <h3 class="card-title">
         <span>編號：{{ $store.getters.userSymbol }}</span>
@@ -8,9 +10,13 @@
       </h3>
       <p
         class="card-text"
-        v-for="(item, index) in $store.getters.messionMessage"
+        v-for="(item, index) in $store.getters.setMissionCurrentTime($store.getters.missionCurrentCompleteLevel)"
         :key="index"
-      >任務{{ $store.getters.missionLevel }}-{{ index }}：{{ item.minute }}分{{item.second}}秒</p>
+      >
+        任務{{ $store.getters.missionCurrentLevel.level }}-{{ index }}：{{
+          item.minute
+        }}分{{ item.second }}秒
+      </p>
     </section>
     <div class="missionComplete-button">
       <buttonPrimary @click="nextPage">完成</buttonPrimary>
@@ -20,18 +26,15 @@
 
 <script>
 import buttonPrimary from "@/components/buttonPrimary.vue";
+import mixin from "@/mixins/mixin";
 
 export default {
+  mixins: [mixin],
   components: {
     buttonPrimary
   },
   methods: {
     nextPage() {
-      this.$store.commit(
-        "setMissionLevel",
-        this.$store.getters.missionLevel + 1
-      );
-      this.$store.commit("setMissionLevelDetail", 0);
       this.$router.push({ name: "missionLevel" });
     }
   }

@@ -6,26 +6,46 @@
       <p>一般而言，人類的短期記憶能力有其限制，其限制為多少?</p>
       <div class="answer">
         <input class="check-itself" type="radio" name="answer" id="answer_1" />
-        <label for="answer_1">3±1</label>
+        <label @click="anserChoose = true" for="answer_1">3±1</label>
         <input class="check-itself" type="radio" name="answer" id="answer_2" />
-        <label for="answer_2">13±2</label>
+        <label @click="anserChoose = true" for="answer_2">13±2</label>
         <input class="check-itself" type="radio" name="answer" id="answer_3" />
-        <label for="answer_3">7±2</label>
+        <label @click="anserChoose = true" for="answer_3">7±2</label>
         <input class="check-itself" type="radio" name="answer" id="answer_4" />
-        <label for="answer_4">19±2</label>
+        <label @click="anserChoose = true" for="answer_4">19±2</label>
       </div>
     </section>
     <div class="quiz-button">
-      <buttonQuinary @click="$emit('click', 'quizQuestionAbbreviation')">確定</buttonQuinary>
+      <buttonQuinary @click="anserChoose && (answer = true)">確定</buttonQuinary>
     </div>
+    <quizPopover
+      v-show="answer"
+      @click="$emit('setTimer', {componentId: 'quizQuestionAbbreviation', missionTimeData:{level:2,section:1, setTime: 'both'}})"
+    >
+      <template v-slot:images>
+        <img src="@/assets/images/wrong.png" alt="wrong" />
+      </template>
+      <template v-slot:text>
+        <p class="wrong-text">錯誤</p>
+      </template>
+    </quizPopover>
   </form>
 </template>
 
 <script>
 import buttonQuinary from "@/components/buttonQuinary.vue";
+import quizPopover from "@/components/quiz/quizPopover.vue";
+
 export default {
+  data: function() {
+    return {
+      answer: false,
+      anserChoose: false
+    };
+  },
   components: {
-    buttonQuinary
+    buttonQuinary,
+    quizPopover
   }
 };
 </script>
