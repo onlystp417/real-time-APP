@@ -1,28 +1,30 @@
 export default {
-  SET_GENDER: (state, playload) => {
+  setGender: (state, playload) => {
     if (playload.index % 24 < 12) state.gender = "female";
     else if (12 <= playload.index % 24) state.gender = "male";
   },
-  SET_ID: (state, playload) => {
+  setID: (state, playload) => {
     state.id = playload.index;
   },
-  SET_MISSIONDEPTH: (state, playload) => {
+  setMissionDepth: (state, playload) => {
     state.missionDepth = playload.level;
   },
-  SET_MISSIONLEVEL: (state, playload) => {
+  setMissionLevel: (state, playload) => {
     state.missionLevel = playload;
     Object.assign({}, state.missionLevel);
   },
-  SET_USERNAME: (state, playload) => {
+  setUserName: (state, playload) => {
     state.name = playload;
   },
-  SET_MISSIONLEVELTIME: (state, playload) => {
-    state.missionLevelTime[playload.level][playload.section][playload.missionTime] = playload.missionDate;
+  setMissionLevel: (state, playload) => {
+    state.missionLevelTime[playload.level][playload.section][
+      playload.missionTime
+    ] = playload.missionDate;
   },
-  SET_MISSIONLEVELDetail: (state, playload) => {
+  setMissionLevelDetail: (state, playload) => {
     state.missionSection = playload;
   },
-  SET_JITTERSECONDS: (state, playload) => {
+  setJitterSeconds: (state, playload) => {
     console.log(playload);
     if (playload.index / 24 <= 1) {
       state.jitterSeconds = { jitterSeconds: 200, stopSeconds: 200 };

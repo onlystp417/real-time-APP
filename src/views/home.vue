@@ -21,13 +21,13 @@ export default {
   methods: {
     signIn(item) {
       // 登入的時候設置性別
-      this.$store.commit("SET_GENDER", item);
+      this.$store.commit("setGender", item);
       // 登入的時候設置 userID
-      this.$store.commit("SET_ID", item);
+      this.$store.commit("setID", item);
       // 登入的時候設置深淺
-      this.$store.commit("SET_MISSIONDEPTH", item);
+      this.$store.commit("setMissionDepth", item);
       // 登入的時候設置震動秒數
-      this.$store.commit("SET_JITTERSECONDS", item);
+      this.$store.commit("setJitterSeconds", item);
       // 切換路由尚未綁定 ID 名稱
       this.$router.push({ name: "missionHome" });
     }
