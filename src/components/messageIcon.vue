@@ -5,7 +5,9 @@
       <h4>與老師互動</h4>
       <p>你可以透過文字或貼圖與老師進行互動</p>
       <div class="message-item">
-        <button @click="$emit('setTimer', {componentId: null, missionTimeData:{level:3,section:1, setTime: 'both'}, type: 'understand'})">
+        <button
+          @click="$emit('setTimer', {componentId: null, missionTimeData:{level:3,section:1, setTime: 'both'}, type: 'understand'})"
+        >
           <img src="../assets/images/understand.png" alt="smiling face" />
           <span>我懂了</span>
         </button>

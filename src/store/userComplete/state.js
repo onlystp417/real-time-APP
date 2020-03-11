@@ -152,13 +152,11 @@ export default {
       false
     ]
   },
-  // 任務完成組數的詳細資料淺
   usersShallowData: [
     {
       id: null,
       gender: null,
       name: null,
-      missionLevelTime: "shallow",
       missionLevelTime: [
         [
           {
@@ -172,25 +170,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -220,17 +202,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -267,17 +241,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -289,14 +255,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
@@ -315,17 +273,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -362,25 +312,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -410,17 +344,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -457,17 +383,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -479,14 +397,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
@@ -505,17 +415,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -552,25 +454,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -600,17 +486,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -647,17 +525,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -669,14 +539,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
@@ -695,17 +557,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -742,25 +596,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -790,17 +628,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -837,17 +667,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -859,14 +681,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
@@ -885,17 +699,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -932,25 +738,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -980,17 +770,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -1027,17 +809,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -1049,14 +823,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
@@ -1075,17 +841,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -1122,10 +880,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
@@ -1137,6 +891,12 @@ export default {
             startTime: null,
             endTime: null
           },
+          {
+            startTime: null,
+            endTime: null
+          }
+        ],
+        [
           {
             startTime: null,
             endTime: null
@@ -1155,10 +915,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -1175,9 +931,16 @@ export default {
             startTime: null,
             endTime: null
           }
-        ],
-        [
-          {
+        ]
+      ]
+    },
+    {
+      id: null,
+      gender: "",
+      name: "",
+      missionLevelTime: [
+        [
+          {
             startTime: null,
             endTime: null
           },
@@ -1185,6 +948,12 @@ export default {
             startTime: null,
             endTime: null
           },
+          {
+            startTime: null,
+            endTime: null
+          }
+        ],
+        [
           {
             startTime: null,
             endTime: null
@@ -1197,14 +966,7 @@ export default {
             startTime: null,
             endTime: null
           }
-        ]
-      ]
-    },
-    {
-      id: null,
-      gender: "",
-      name: "",
-      missionLevelTime: [
+        ],
         [
           {
             startTime: null,
@@ -1236,6 +998,19 @@ export default {
             startTime: null,
             endTime: null
           },
+          {
+            startTime: null,
+            endTime: null
+          }
+        ]
+      ]
+    },
+    {
+      id: null,
+      gender: "",
+      name: "",
+      missionLevelTime: [
+        [
           {
             startTime: null,
             endTime: null
@@ -1261,7 +1036,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
+          }
+        ],
+        [
           {
             startTime: null,
             endTime: null
@@ -1269,13 +1046,17 @@ export default {
           {
             startTime: null,
             endTime: null
-          }
-        ],
-        [
+          },
           {
             startTime: null,
             endTime: null
           },
+          {
+            startTime: null,
+            endTime: null
+          }
+        ],
+        [
           {
             startTime: null,
             endTime: null
@@ -1301,10 +1082,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -1319,14 +1096,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -1338,17 +1107,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -1382,10 +1143,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -1396,10 +1153,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -1425,25 +1178,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -1477,10 +1214,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -1491,10 +1224,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -1509,14 +1238,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -1528,17 +1249,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -1572,10 +1285,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -1586,10 +1295,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -1615,25 +1320,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -1667,10 +1356,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -1681,10 +1366,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -1699,14 +1380,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -1718,17 +1391,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -1762,10 +1427,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -1776,10 +1437,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -1805,25 +1462,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -1857,10 +1498,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -1871,10 +1508,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -1889,14 +1522,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -1908,17 +1533,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -1952,10 +1569,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -1966,10 +1579,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -1995,25 +1604,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -2047,10 +1640,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -2061,10 +1650,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -2090,6 +1675,12 @@ export default {
           {
             startTime: null,
             endTime: null
+          }
+        ],
+        [
+          {
+            startTime: null,
+            endTime: null
           },
           {
             startTime: null,
@@ -2120,12 +1711,15 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
-        ],
+        ]
+      ]
+    },
+    {
+      id: null,
+      gender: "",
+      name: "",
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -2135,6 +1729,12 @@ export default {
             startTime: null,
             endTime: null
           },
+          {
+            startTime: null,
+            endTime: null
+          }
+        ],
+        [
           {
             startTime: null,
             endTime: null
@@ -2147,14 +1747,7 @@ export default {
             startTime: null,
             endTime: null
           }
-        ]
-      ]
-    },
-    {
-      id: null,
-      gender: "",
-      name: "",
-      missionLevelTime: [
+        ],
         [
           {
             startTime: null,
@@ -2186,6 +1779,19 @@ export default {
             startTime: null,
             endTime: null
           },
+          {
+            startTime: null,
+            endTime: null
+          }
+        ]
+      ]
+    },
+    {
+      id: null,
+      gender: "",
+      name: "",
+      missionLevelTime: [
+        [
           {
             startTime: null,
             endTime: null
@@ -2211,7 +1817,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
+          }
+        ],
+        [
           {
             startTime: null,
             endTime: null
@@ -2219,13 +1827,17 @@ export default {
           {
             startTime: null,
             endTime: null
-          }
-        ],
-        [
+          },
           {
             startTime: null,
             endTime: null
           },
+          {
+            startTime: null,
+            endTime: null
+          }
+        ],
+        [
           {
             startTime: null,
             endTime: null
@@ -2251,10 +1863,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -2269,14 +1877,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -2288,17 +1888,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -2332,10 +1924,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -2346,10 +1934,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -2375,25 +1959,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -2427,10 +1995,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -2441,10 +2005,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -2459,14 +2019,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -2478,17 +2030,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -2522,10 +2066,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -2536,10 +2076,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -2565,25 +2101,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -2617,10 +2137,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -2631,10 +2147,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -2649,14 +2161,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -2668,17 +2172,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -2712,10 +2208,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -2726,10 +2218,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -2755,25 +2243,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -2807,10 +2279,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -2821,10 +2289,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -2839,14 +2303,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -2858,17 +2314,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -2902,10 +2350,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -2916,10 +2360,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -2945,25 +2385,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -2997,10 +2421,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -3011,10 +2431,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -3040,6 +2456,12 @@ export default {
           {
             startTime: null,
             endTime: null
+          }
+        ],
+        [
+          {
+            startTime: null,
+            endTime: null
           },
           {
             startTime: null,
@@ -3070,412 +2492,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ],
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ]
-      ]
-    },
-    {
-      id: null,
-      gender: "",
-      name: "",
-      missionLevelTime: [
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ],
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ],
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ],
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ]
-      ]
-    },
-    {
-      id: null,
-      gender: "",
-      name: "",
-      missionLevelTime: [
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ],
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ],
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ],
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ]
-      ]
-    },
-    {
-      id: null,
-      gender: "",
-      name: "",
-      missionLevelTime: [
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ],
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ],
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ],
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ]
-      ]
-    },
-    {
-      id: null,
-      gender: "",
-      name: "",
-      missionLevelTime: [
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ],
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ],
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ],
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -3486,10 +2502,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -3504,18 +2516,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -3530,10 +2530,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -3552,10 +2548,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -3581,10 +2573,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -3599,18 +2587,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -3625,10 +2601,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -3647,10 +2619,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -3676,10 +2644,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -3694,18 +2658,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -3720,10 +2672,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -3742,10 +2690,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -3771,10 +2715,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -3789,18 +2729,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -3815,10 +2743,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -3837,10 +2761,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -3866,10 +2786,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -3884,18 +2800,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -3910,10 +2814,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -3932,10 +2832,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -3961,10 +2857,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -3979,18 +2871,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4005,10 +2885,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4027,10 +2903,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4054,25 +2926,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelTime: [
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ],
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -4085,7 +2939,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
+          }
+        ],
+        [
           {
             startTime: null,
             endTime: null
@@ -4100,10 +2956,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4122,10 +2974,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4151,10 +2999,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4169,18 +3013,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4195,10 +3027,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4217,10 +3045,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4246,10 +3070,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4264,18 +3084,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4290,10 +3098,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4312,10 +3116,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4341,10 +3141,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4359,18 +3155,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4385,10 +3169,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4407,10 +3187,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4436,10 +3212,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4454,18 +3226,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4480,10 +3240,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4502,10 +3258,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4531,10 +3283,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4549,18 +3297,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4575,10 +3311,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4597,10 +3329,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4626,10 +3354,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4644,18 +3368,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4670,10 +3382,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4692,10 +3400,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4721,10 +3425,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4739,18 +3439,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4765,10 +3453,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4787,10 +3471,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4816,10 +3496,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4834,18 +3510,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4860,10 +3524,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4882,10 +3542,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4911,10 +3567,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -4937,6 +3589,12 @@ export default {
             startTime: null,
             endTime: null
           },
+          {
+            startTime: null,
+            endTime: null
+          }
+        ],
+        [
           {
             startTime: null,
             endTime: null
@@ -4955,6 +3613,10 @@ export default {
           }
         ],
         [
+          {
+            startTime: null,
+            endTime: null
+          },
           {
             startTime: null,
             endTime: null
@@ -4963,6 +3625,19 @@ export default {
             startTime: null,
             endTime: null
           },
+          {
+            startTime: null,
+            endTime: null
+          }
+        ]
+      ]
+    },
+    {
+      id: null,
+      gender: "",
+      name: "",
+      missionLevelTime: [
+        [
           {
             startTime: null,
             endTime: null
@@ -4981,6 +3656,16 @@ export default {
             startTime: null,
             endTime: null
           },
+          {
+            startTime: null,
+            endTime: null
+          },
+          {
+            startTime: null,
+            endTime: null
+          }
+        ],
+        [
           {
             startTime: null,
             endTime: null
@@ -4997,14 +3682,7 @@ export default {
             startTime: null,
             endTime: null
           }
-        ]
-      ]
-    },
-    {
-      id: null,
-      gender: "",
-      name: "",
-      missionLevelTime: [
+        ],
         [
           {
             startTime: null,
@@ -5022,7 +3700,14 @@ export default {
             startTime: null,
             endTime: null
           }
-        ],
+        ]
+      ]
+    },
+    {
+      id: null,
+      gender: "",
+      name: "",
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -5035,7 +3720,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
+          }
+        ],
+        [
           {
             startTime: null,
             endTime: null
@@ -5050,10 +3737,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5072,10 +3755,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5101,10 +3780,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5119,18 +3794,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5145,10 +3808,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5167,10 +3826,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5196,10 +3851,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5214,18 +3865,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5240,10 +3879,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5262,10 +3897,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5291,10 +3922,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5309,18 +3936,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5335,10 +3950,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5357,10 +3968,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5386,10 +3993,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5404,18 +4007,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5430,10 +4021,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5452,10 +4039,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5481,10 +4064,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5499,18 +4078,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5525,10 +4092,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5547,10 +4110,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5576,10 +4135,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5594,18 +4149,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5620,10 +4163,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5642,10 +4181,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5671,10 +4206,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5689,18 +4220,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5715,10 +4234,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5737,10 +4252,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5766,10 +4277,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5784,18 +4291,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5810,10 +4305,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5832,10 +4323,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5861,10 +4348,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -5887,6 +4370,12 @@ export default {
             startTime: null,
             endTime: null
           },
+          {
+            startTime: null,
+            endTime: null
+          }
+        ],
+        [
           {
             startTime: null,
             endTime: null
@@ -5905,6 +4394,10 @@ export default {
           }
         ],
         [
+          {
+            startTime: null,
+            endTime: null
+          },
           {
             startTime: null,
             endTime: null
@@ -5913,6 +4406,19 @@ export default {
             startTime: null,
             endTime: null
           },
+          {
+            startTime: null,
+            endTime: null
+          }
+        ]
+      ]
+    },
+    {
+      id: null,
+      gender: "",
+      name: "",
+      missionLevelTime: [
+        [
           {
             startTime: null,
             endTime: null
@@ -5927,10 +4433,20 @@ export default {
           }
         ],
         [
+          {
+            startTime: null,
+            endTime: null
+          },
           {
             startTime: null,
             endTime: null
           },
+          {
+            startTime: null,
+            endTime: null
+          }
+        ],
+        [
           {
             startTime: null,
             endTime: null
@@ -5947,14 +4463,7 @@ export default {
             startTime: null,
             endTime: null
           }
-        ]
-      ]
-    },
-    {
-      id: null,
-      gender: "",
-      name: "",
-      missionLevelTime: [
+        ],
         [
           {
             startTime: null,
@@ -5972,7 +4481,14 @@ export default {
             startTime: null,
             endTime: null
           }
-        ],
+        ]
+      ]
+    },
+    {
+      id: null,
+      gender: "",
+      name: "",
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -5985,7 +4501,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
+          }
+        ],
+        [
           {
             startTime: null,
             endTime: null
@@ -6000,10 +4518,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6022,10 +4536,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6051,10 +4561,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6069,18 +4575,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6095,10 +4589,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6117,10 +4607,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6146,10 +4632,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6164,18 +4646,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6190,10 +4660,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6212,10 +4678,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6241,10 +4703,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6259,18 +4717,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6285,10 +4731,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6307,10 +4749,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6336,10 +4774,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6354,18 +4788,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6380,10 +4802,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6402,10 +4820,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6431,10 +4845,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6449,18 +4859,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6475,10 +4873,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6497,10 +4891,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6526,10 +4916,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6544,18 +4930,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6570,10 +4944,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6592,10 +4962,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6621,10 +4987,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6639,18 +5001,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6665,10 +5015,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6687,10 +5033,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6716,10 +5058,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6734,18 +5072,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6760,10 +5086,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6782,10 +5104,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6811,10 +5129,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6829,18 +5143,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6855,10 +5157,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6877,10 +5175,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6906,10 +5200,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6924,18 +5214,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6950,10 +5228,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6972,10 +5246,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -6996,13 +5266,11 @@ export default {
       ]
     }
   ],
-  // 任務完成使用者的詳細資料深
   usersDeepData: [
     {
       id: null,
       gender: null,
       name: null,
-      missionLevelTime: "shallow",
       missionLevelTime: [
         [
           {
@@ -7016,25 +5284,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -7064,17 +5316,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -7111,17 +5355,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -7133,14 +5369,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
@@ -7159,17 +5387,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -7206,25 +5426,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -7254,17 +5458,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -7301,17 +5497,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -7323,14 +5511,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
@@ -7349,17 +5529,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -7396,25 +5568,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -7444,17 +5600,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -7491,17 +5639,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -7513,14 +5653,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
@@ -7539,17 +5671,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -7586,25 +5710,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -7634,17 +5742,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -7681,17 +5781,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -7703,14 +5795,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
@@ -7729,17 +5813,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -7776,25 +5852,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -7824,17 +5884,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -7871,17 +5923,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -7893,14 +5937,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
@@ -7919,17 +5955,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -7966,10 +5994,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
@@ -7981,6 +6005,12 @@ export default {
             startTime: null,
             endTime: null
           },
+          {
+            startTime: null,
+            endTime: null
+          }
+        ],
+        [
           {
             startTime: null,
             endTime: null
@@ -7999,10 +6029,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -8019,9 +6045,16 @@ export default {
             startTime: null,
             endTime: null
           }
-        ],
-        [
-          {
+        ]
+      ]
+    },
+    {
+      id: null,
+      gender: "",
+      name: "",
+      missionLevelTime: [
+        [
+          {
             startTime: null,
             endTime: null
           },
@@ -8029,6 +6062,12 @@ export default {
             startTime: null,
             endTime: null
           },
+          {
+            startTime: null,
+            endTime: null
+          }
+        ],
+        [
           {
             startTime: null,
             endTime: null
@@ -8041,14 +6080,7 @@ export default {
             startTime: null,
             endTime: null
           }
-        ]
-      ]
-    },
-    {
-      id: null,
-      gender: "",
-      name: "",
-      missionLevelTime: [
+        ],
         [
           {
             startTime: null,
@@ -8080,6 +6112,19 @@ export default {
             startTime: null,
             endTime: null
           },
+          {
+            startTime: null,
+            endTime: null
+          }
+        ]
+      ]
+    },
+    {
+      id: null,
+      gender: "",
+      name: "",
+      missionLevelTime: [
+        [
           {
             startTime: null,
             endTime: null
@@ -8105,7 +6150,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
+          }
+        ],
+        [
           {
             startTime: null,
             endTime: null
@@ -8113,13 +6160,17 @@ export default {
           {
             startTime: null,
             endTime: null
-          }
-        ],
-        [
+          },
           {
             startTime: null,
             endTime: null
           },
+          {
+            startTime: null,
+            endTime: null
+          }
+        ],
+        [
           {
             startTime: null,
             endTime: null
@@ -8145,10 +6196,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -8163,14 +6210,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -8182,17 +6221,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -8226,10 +6257,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -8240,10 +6267,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -8269,25 +6292,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -8321,10 +6328,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -8335,10 +6338,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -8353,14 +6352,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -8372,17 +6363,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -8416,10 +6399,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -8430,10 +6409,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -8459,25 +6434,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -8511,10 +6470,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -8525,10 +6480,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -8543,14 +6494,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -8562,17 +6505,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -8606,10 +6541,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -8620,10 +6551,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -8649,25 +6576,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -8701,10 +6612,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -8715,10 +6622,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -8733,14 +6636,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -8752,17 +6647,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -8796,10 +6683,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -8810,10 +6693,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -8839,25 +6718,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -8891,10 +6754,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -8905,10 +6764,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -8934,6 +6789,12 @@ export default {
           {
             startTime: null,
             endTime: null
+          }
+        ],
+        [
+          {
+            startTime: null,
+            endTime: null
           },
           {
             startTime: null,
@@ -8964,12 +6825,15 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
-        ],
+        ]
+      ]
+    },
+    {
+      id: null,
+      gender: "",
+      name: "",
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -8979,6 +6843,12 @@ export default {
             startTime: null,
             endTime: null
           },
+          {
+            startTime: null,
+            endTime: null
+          }
+        ],
+        [
           {
             startTime: null,
             endTime: null
@@ -8991,14 +6861,7 @@ export default {
             startTime: null,
             endTime: null
           }
-        ]
-      ]
-    },
-    {
-      id: null,
-      gender: "",
-      name: "",
-      missionLevelTime: [
+        ],
         [
           {
             startTime: null,
@@ -9030,6 +6893,19 @@ export default {
             startTime: null,
             endTime: null
           },
+          {
+            startTime: null,
+            endTime: null
+          }
+        ]
+      ]
+    },
+    {
+      id: null,
+      gender: "",
+      name: "",
+      missionLevelTime: [
+        [
           {
             startTime: null,
             endTime: null
@@ -9055,7 +6931,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
+          }
+        ],
+        [
           {
             startTime: null,
             endTime: null
@@ -9063,13 +6941,17 @@ export default {
           {
             startTime: null,
             endTime: null
-          }
-        ],
-        [
+          },
           {
             startTime: null,
             endTime: null
           },
+          {
+            startTime: null,
+            endTime: null
+          }
+        ],
+        [
           {
             startTime: null,
             endTime: null
@@ -9095,10 +6977,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -9113,14 +6991,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -9132,17 +7002,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -9176,10 +7038,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -9190,10 +7048,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -9219,25 +7073,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -9271,10 +7109,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -9285,10 +7119,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -9303,14 +7133,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -9322,17 +7144,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -9366,10 +7180,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -9380,10 +7190,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -9409,25 +7215,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -9461,10 +7251,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -9475,10 +7261,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -9493,14 +7275,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -9512,17 +7286,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -9556,10 +7322,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -9570,10 +7332,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -9599,25 +7357,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -9651,10 +7393,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -9665,10 +7403,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -9683,14 +7417,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -9702,17 +7428,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -9746,10 +7464,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -9760,10 +7474,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -9789,25 +7499,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -9841,10 +7535,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -9855,10 +7545,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -9884,6 +7570,12 @@ export default {
           {
             startTime: null,
             endTime: null
+          }
+        ],
+        [
+          {
+            startTime: null,
+            endTime: null
           },
           {
             startTime: null,
@@ -9914,412 +7606,6 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ],
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ]
-      ]
-    },
-    {
-      id: null,
-      gender: "",
-      name: "",
-      missionLevelTime: [
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ],
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ],
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ],
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ]
-      ]
-    },
-    {
-      id: null,
-      gender: "",
-      name: "",
-      missionLevelTime: [
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ],
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ],
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ],
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ]
-      ]
-    },
-    {
-      id: null,
-      gender: "",
-      name: "",
-      missionLevelTime: [
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ],
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ],
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ],
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ]
-      ]
-    },
-    {
-      id: null,
-      gender: "",
-      name: "",
-      missionLevelTime: [
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ],
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ],
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ],
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
           }
         ]
       ]
@@ -10330,10 +7616,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -10348,18 +7630,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -10374,10 +7644,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -10396,10 +7662,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -10425,10 +7687,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -10443,18 +7701,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -10469,10 +7715,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -10491,10 +7733,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -10520,10 +7758,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -10538,18 +7772,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -10564,10 +7786,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -10586,10 +7804,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -10615,10 +7829,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -10633,18 +7843,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -10659,10 +7857,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -10681,10 +7875,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -10710,10 +7900,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -10728,18 +7914,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -10754,10 +7928,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -10776,10 +7946,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -10805,10 +7971,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -10823,18 +7985,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -10849,10 +7999,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -10871,10 +8017,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -10898,25 +8040,7 @@ export default {
       id: null,
       gender: "",
       name: "",
-      missionLevelTime: [
-        [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          }
-        ],
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -10929,7 +8053,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
+          }
+        ],
+        [
           {
             startTime: null,
             endTime: null
@@ -10944,10 +8070,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -10966,10 +8088,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -10995,10 +8113,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11013,18 +8127,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11039,10 +8141,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11061,10 +8159,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11090,10 +8184,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11108,18 +8198,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11134,10 +8212,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11156,10 +8230,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11185,10 +8255,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11203,18 +8269,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11229,10 +8283,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11251,10 +8301,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11280,10 +8326,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11298,18 +8340,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11324,10 +8354,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11346,10 +8372,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11375,10 +8397,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11393,18 +8411,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11419,10 +8425,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11441,10 +8443,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11470,10 +8468,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11488,18 +8482,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11514,10 +8496,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11536,10 +8514,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11565,10 +8539,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11583,18 +8553,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11609,10 +8567,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11631,10 +8585,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11660,10 +8610,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11678,18 +8624,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11704,10 +8638,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11726,10 +8656,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11755,10 +8681,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11781,6 +8703,12 @@ export default {
             startTime: null,
             endTime: null
           },
+          {
+            startTime: null,
+            endTime: null
+          }
+        ],
+        [
           {
             startTime: null,
             endTime: null
@@ -11799,6 +8727,10 @@ export default {
           }
         ],
         [
+          {
+            startTime: null,
+            endTime: null
+          },
           {
             startTime: null,
             endTime: null
@@ -11807,6 +8739,19 @@ export default {
             startTime: null,
             endTime: null
           },
+          {
+            startTime: null,
+            endTime: null
+          }
+        ]
+      ]
+    },
+    {
+      id: null,
+      gender: "",
+      name: "",
+      missionLevelTime: [
+        [
           {
             startTime: null,
             endTime: null
@@ -11825,6 +8770,16 @@ export default {
             startTime: null,
             endTime: null
           },
+          {
+            startTime: null,
+            endTime: null
+          },
+          {
+            startTime: null,
+            endTime: null
+          }
+        ],
+        [
           {
             startTime: null,
             endTime: null
@@ -11841,14 +8796,7 @@ export default {
             startTime: null,
             endTime: null
           }
-        ]
-      ]
-    },
-    {
-      id: null,
-      gender: "",
-      name: "",
-      missionLevelTime: [
+        ],
         [
           {
             startTime: null,
@@ -11866,7 +8814,14 @@ export default {
             startTime: null,
             endTime: null
           }
-        ],
+        ]
+      ]
+    },
+    {
+      id: null,
+      gender: "",
+      name: "",
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -11879,7 +8834,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
+          }
+        ],
+        [
           {
             startTime: null,
             endTime: null
@@ -11894,10 +8851,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11916,10 +8869,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11945,10 +8894,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11963,18 +8908,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -11989,10 +8922,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12011,10 +8940,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12040,10 +8965,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12058,18 +8979,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12084,10 +8993,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12106,10 +9011,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12135,10 +9036,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12153,18 +9050,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12179,10 +9064,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12201,10 +9082,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12230,10 +9107,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12248,18 +9121,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12274,10 +9135,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12296,10 +9153,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12325,10 +9178,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12343,18 +9192,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12369,10 +9206,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12391,10 +9224,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12420,10 +9249,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12438,18 +9263,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12464,10 +9277,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12486,10 +9295,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12515,10 +9320,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12533,18 +9334,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12559,10 +9348,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12581,10 +9366,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12610,10 +9391,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12628,18 +9405,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12654,10 +9419,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12676,10 +9437,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12705,10 +9462,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12731,6 +9484,12 @@ export default {
             startTime: null,
             endTime: null
           },
+          {
+            startTime: null,
+            endTime: null
+          }
+        ],
+        [
           {
             startTime: null,
             endTime: null
@@ -12749,6 +9508,10 @@ export default {
           }
         ],
         [
+          {
+            startTime: null,
+            endTime: null
+          },
           {
             startTime: null,
             endTime: null
@@ -12757,6 +9520,19 @@ export default {
             startTime: null,
             endTime: null
           },
+          {
+            startTime: null,
+            endTime: null
+          }
+        ]
+      ]
+    },
+    {
+      id: null,
+      gender: "",
+      name: "",
+      missionLevelTime: [
+        [
           {
             startTime: null,
             endTime: null
@@ -12771,10 +9547,20 @@ export default {
           }
         ],
         [
+          {
+            startTime: null,
+            endTime: null
+          },
           {
             startTime: null,
             endTime: null
           },
+          {
+            startTime: null,
+            endTime: null
+          }
+        ],
+        [
           {
             startTime: null,
             endTime: null
@@ -12791,14 +9577,7 @@ export default {
             startTime: null,
             endTime: null
           }
-        ]
-      ]
-    },
-    {
-      id: null,
-      gender: "",
-      name: "",
-      missionLevelTime: [
+        ],
         [
           {
             startTime: null,
@@ -12816,7 +9595,14 @@ export default {
             startTime: null,
             endTime: null
           }
-        ],
+        ]
+      ]
+    },
+    {
+      id: null,
+      gender: "",
+      name: "",
+      missionLevelTime: [
         [
           {
             startTime: null,
@@ -12829,7 +9615,9 @@ export default {
           {
             startTime: null,
             endTime: null
-          },
+          }
+        ],
+        [
           {
             startTime: null,
             endTime: null
@@ -12844,10 +9632,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12866,10 +9650,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12895,10 +9675,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12913,18 +9689,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12939,10 +9703,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12961,10 +9721,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -12990,10 +9746,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13008,18 +9760,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13034,10 +9774,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13056,10 +9792,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13085,10 +9817,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13103,18 +9831,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13129,10 +9845,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13151,10 +9863,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13180,10 +9888,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13198,18 +9902,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13224,10 +9916,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13246,10 +9934,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13275,10 +9959,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13293,18 +9973,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13319,10 +9987,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13341,10 +10005,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13370,10 +10030,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13388,18 +10044,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13414,10 +10058,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13436,10 +10076,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13465,10 +10101,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13483,18 +10115,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13509,10 +10129,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13531,10 +10147,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13560,10 +10172,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13578,18 +10186,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13604,10 +10200,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13626,10 +10218,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13655,10 +10243,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13673,18 +10257,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13699,10 +10271,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13721,10 +10289,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13750,10 +10314,6 @@ export default {
       name: "",
       missionLevelTime: [
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13768,18 +10328,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13794,10 +10342,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null
@@ -13816,10 +10360,6 @@ export default {
           }
         ],
         [
-          {
-            startTime: null,
-            endTime: null
-          },
           {
             startTime: null,
             endTime: null

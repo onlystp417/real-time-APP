@@ -21,7 +21,7 @@
         <h4>正確題數</h4>
         <span>4/4</span>
       </li>
-      <li class="answer-item">
+      <li class="answer-item" @click="setTimer({ componentId: null, missionTimeData:{ level:0,section:2, setTime: 'end'}})">
         <h4>全班排名</h4>
         <span>11/28</span>
       </li>
@@ -66,6 +66,8 @@ export default {
               "setMissionCurrentCompleteLevel",
               this.$store.getters.missionCurrentLevel.level - 1
             );
+            // 要和後面的儲存資料方式一起改
+            if( this.$store.getters.missionCurrentLevel.level === 3)this.$store.commit("setMissionLocalData");
             break;
           case "both":
             this.$_setMissionEndTimer(level, section);

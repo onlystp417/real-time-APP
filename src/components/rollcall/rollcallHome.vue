@@ -4,9 +4,7 @@
       <li class="rollcallHome-item">
         <h4>最近點名紀錄</h4>
         <div class="item-wrap">
-          <buttonSecondary
-            @click="$emit('changeComponent', 'rollcallRecord')"
-          ></buttonSecondary>
+          <buttonSecondary @click="$emit('changeComponent', 'rollcallRecord')"></buttonSecondary>
         </div>
       </li>
       <li class="rollcallHome-item">
@@ -25,15 +23,16 @@
         <h4>請假</h4>
         <span>0</span>
       </li>
-      <li class="rollcallHome-item" @click="$emit('setTimer', {componentId: null, missionTimeData:{level:2,section:2, setTime: 'both'}})">
+      <li
+        class="rollcallHome-item"
+        @click="$emit('setTimer', {componentId: null, missionTimeData:{level:2,section:2, setTime: 'both'}})"
+      >
         <h4>出席率</h4>
         <span>50％</span>
       </li>
     </ul>
     <div class="rollcallHome-button">
-      <buttonQuinary @click="$emit('changeComponent', 'rollcallEnroll')"
-        >我要點名</buttonQuinary
-      >
+      <buttonQuinary @click="$emit('changeComponent', 'rollcallEnroll')">我要點名</buttonQuinary>
     </div>
   </section>
 </template>

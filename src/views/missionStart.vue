@@ -34,7 +34,6 @@ export default {
   }
 };
 </script>
-
 <style lang="scss" scoped>
 .missionStart {
   height: 100vh;

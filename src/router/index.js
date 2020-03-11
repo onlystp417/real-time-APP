@@ -43,6 +43,11 @@ const routes = [
     component: () => import("@/views/missionComplete.vue")
   },
   {
+    path: "/missionCompleteText",
+    name: "missionCompleteText",
+    component: () => import("@/views/missionCompleteText.vue")
+  },
+  {
     path: "/missionShallow",
     name: "missionShallow",
     component: () => import("@/views/missionShallow.vue"),

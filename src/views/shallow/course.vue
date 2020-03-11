@@ -1,10 +1,6 @@
 <template>
   <div class="course">
-    <component
-      @changeComponent="nextPage"
-      @setTimer="setTimer"
-      :is="componentId"
-    ></component>
+    <component @changeComponent="nextPage" @setTimer="setTimer" :is="componentId"></component>
   </div>
 </template>
 
@@ -29,7 +25,10 @@ export default {
       data.componentId && this.nextPage(data.componentId);
 
       const { level, section, setTime } = data.missionTimeData;
-      const { level: missionCurrentLevel, section: missionCurrentSection } = this.$store.getters.missionCurrentLevel;
+      const {
+        level: missionCurrentLevel,
+        section: missionCurrentSection
+      } = this.$store.getters.missionCurrentLevel;
 
       if (level === missionCurrentLevel && section === missionCurrentSection) {
         switch (setTime) {
@@ -39,8 +38,10 @@ export default {
           case "end":
             this.$_setMissionEndTimer(level, section);
             this.$router.push({ name: "missionComplete" });
-            console.log(this.$store.getters.missionCurrentLevel.level)
-            this.$store.commit('setMissionCurrentCompleteLevel', this.$store.getters.missionCurrentLevel.level - 1);
+            this.$store.commit(
+              "setMissionCurrentCompleteLevel",
+              this.$store.getters.missionCurrentLevel.level - 1
+            );
             break;
           case "both":
             this.$_setMissionEndTimer(level, section);

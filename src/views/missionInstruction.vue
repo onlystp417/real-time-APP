@@ -3,14 +3,10 @@
     <div class="missionInstruction-card">
       <h3>
         任務{{
-          $store.getters.missionCurrentLevel.level | $_indexChineseDisplay
+        $store.getters.missionCurrentLevel.level | $_indexChineseDisplay
         }}
       </h3>
-      <p
-        v-for="(item, index) in missionLevelMessage"
-        :key="index"
-        v-html="item"
-      ></p>
+      <p v-for="(item, index) in missionLevelMessage" :key="index" v-html="item"></p>
     </div>
     <div class="missionInstruction-button">
       <buttonPrimary @click.prevent="nextPage">開始</buttonPrimary>

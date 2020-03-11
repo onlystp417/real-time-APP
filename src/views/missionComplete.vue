@@ -1,8 +1,8 @@
 <template>
   <section class="missionComplete">
-    <h2 class="missionComplete-title">
-      任務{{ $store.getters.missionCurrentCompleteLevel | $_indexChineseDisplay }}完成！
-    </h2>
+    <h2
+      class="missionComplete-title"
+    >任務{{ $store.getters.missionCurrentCompleteLevel | $_indexChineseDisplay }}完成！</h2>
     <section class="missionComplete-card">
       <h3 class="card-title">
         <span>編號：{{ $store.getters.userSymbol }}</span>
@@ -14,7 +14,7 @@
         :key="index"
       >
         任務{{ $store.getters.missionCurrentLevel.level }}-{{ index }}：{{
-          item.minute
+        item.minute
         }}分{{ item.second }}秒
       </p>
     </section>
@@ -35,6 +35,13 @@ export default {
   },
   methods: {
     nextPage() {
+      if (
+        this.$store.getters.missionCurrentLevel.level === 4 &&
+        this.$store.getters.missionCurrentLevel.section === 0
+      ) {
+        this.$router.push({ name: "missionCompleteText" });
+        return;
+      }
       this.$router.push({ name: "missionLevel" });
     }
   }

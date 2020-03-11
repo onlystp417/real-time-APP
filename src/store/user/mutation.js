@@ -39,5 +39,82 @@ export default {
   },
   setMissionCurrentCompleteLevel: (state, playload) => {
     state.missionCurrentCompleteLevel = playload;
+  },
+  // 目前任務完成，跳轉回原頁面，清除內部快取資料。
+  clearUserCacheData: state => {
+    state.id = null;
+    state.gender = null;
+    state.name = null;
+    state.missionState = [false, false, false, false];
+    state.missionLevel = null;
+    state.missionSection = null;
+    state.jitterSeconds = { jitterSeconds: null, stopSeconds: null };
+    state.missionLevelTime = [
+      [
+        {
+          startTime: null,
+          endTime: null
+        },
+        {
+          startTime: null,
+          endTime: null
+        },
+        {
+          startTime: null,
+          endTime: null
+        }
+      ],
+      [
+        {
+          startTime: null,
+          endTime: null
+        },
+        {
+          startTime: null,
+          endTime: null
+        },
+        {
+          startTime: null,
+          endTime: null
+        }
+      ],
+      [
+        {
+          startTime: null,
+          endTime: null
+        },
+        {
+          startTime: null,
+          endTime: null
+        },
+        {
+          startTime: null,
+          endTime: null
+        },
+        {
+          startTime: null,
+          endTime: null
+        }
+      ],
+      [
+        {
+          startTime: null,
+          endTime: null
+        },
+        {
+          startTime: null,
+          endTime: null
+        },
+        {
+          startTime: null,
+          endTime: null
+        },
+        {
+          startTime: null,
+          endTime: null
+        }
+      ]
+    ];
+    state.missionCurrentCompleteLevel = null
   }
 };

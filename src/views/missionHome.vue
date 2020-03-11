@@ -1,6 +1,6 @@
 <template>
   <section class="missionHome">
-    <form @submit.prevent="signIn" class="missionHome-register" method="post" action>
+    <form @submit.prevent="signIn" class="missionHome-register" method="post">
       <div class="register-user">
         <h3>編號：{{ $store.getters.userSymbol }}</h3>
         <input

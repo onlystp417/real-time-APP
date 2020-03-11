@@ -2,7 +2,7 @@
   <div class="courseHome">
     <section class="courseHome-information">
       <h2 class="courseHome-title">課程資訊</h2>
-      <div class="information-card" @click="$emit('setTimer', { componentId: null, missionTimeData:{ level:0,section:2, setTime: 'end' } })">
+      <div class="information-card">
         <div>
           <h5>授課教師</h5>
           <p>測試員-老師</p>

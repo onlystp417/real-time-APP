@@ -5,12 +5,12 @@
       v-for="(item, index) in $store.getters.missionLevelState"
       :key="index"
     >
-      <h3 class="missionLevel-title">
-        任務{{ index | $_indexChineseDisplay }}
-      </h3>
-      <buttonPrimary @click="nextPage(index)" :class="{ finished: item }">{{
+      <h3 class="missionLevel-title">任務{{ index | $_indexChineseDisplay }}</h3>
+      <buttonPrimary @click="nextPage(index)" :class="{ 'finished' : item }">
+        {{
         item ? "已完成" : "開始"
-      }}</buttonPrimary>
+        }}
+      </buttonPrimary>
     </div>
   </section>
 </template>
@@ -34,7 +34,7 @@ export default {
       }
       // 跳轉路由到完成任務的關卡
       if (index < this.$store.getters.missionCurrentLevel.level) {
-        this.$store.commit('setMissionCurrentCompleteLevel', index)
+        this.$store.commit("setMissionCurrentCompleteLevel", index);
         this.$router.push({ name: "missionComplete" });
       }
     }

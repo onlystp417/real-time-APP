@@ -15,9 +15,9 @@ export default {
   missionLevelState: (state, getters) => {
     // 試著跟 time 連結
     return state.missionState.map((value, index) => {
-      if(index < getters.missionCurrentLevel.level) return true
-      else return false
-    })
+      if (index < getters.missionCurrentLevel.level) return true;
+      else return false;
+    });
   },
   serGenderAbbreviative: state => (state.gender === "male" ? "M" : "F"),
   missionLevelTime: state => state.missionLevelTime[state.missionLevel],
