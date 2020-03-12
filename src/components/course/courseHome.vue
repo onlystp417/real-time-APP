@@ -7,8 +7,8 @@
           <h5>授課教師</h5>
           <p>測試員-老師</p>
         </div>
-        <div>
-          <h5 @click="$emit('setTimer', {componentId: null, missionTimeData:{level:3,section:3, setTime: 'end'}})">修課人數</h5>
+        <div @click="$emit('setTimer', {componentId: null, missionTimeData:{ level:3, section:2,nextLevel:3,nextSection:3 }})">
+          <h5>修課人數</h5>
           <p>54</p>
         </div>
         <div>

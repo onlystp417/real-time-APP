@@ -8,7 +8,7 @@
       </p>
     </div>
     <div class="anousement-button">
-      <buttonQuinary @click="$emit('setTimer', {componentId: 'courseHome', missionTimeData:{level:2,section:3, setTime: 'end'}})">了解</buttonQuinary>
+      <buttonQuinary @click="$emit('setTimer', {componentId: 'courseHome', missionTimeData:{ level:2, section:3,nextLevel:2,nextSection:4, complete:true }})">了解</buttonQuinary>
     </div>
   </div>
 </template>

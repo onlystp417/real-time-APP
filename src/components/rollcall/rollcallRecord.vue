@@ -25,7 +25,7 @@
     </ul>
     <div class="record-button">
       <buttonQuinary
-        @click="$emit('setTimer', {componentId: 'rollcallHome', missionTimeData:{ level:1, section:2, setTime: 'end'}})"
+        @click="$emit('setTimer', {componentId: 'rollcallHome', missionTimeData:{ level:1, section:2,nextLevel:1,nextSection:3,complete:true }})"
       >確認</buttonQuinary>
     </div>
   </div>

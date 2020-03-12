@@ -8,7 +8,7 @@
       </li>
       <li
         class="answer-item"
-        @click="setTimer({ componentId: null, missionTimeData:{ level: 3, section: 2, setTime: 'both'}})"
+        @click="$_setTimer({ componentId: null, missionTimeData:{ level:3, section:3,nextLevel:3,nextSection:4, complete:true }})"
       >
         <h4>題目正確率</h4>
         <span>100%</span>
@@ -21,7 +21,10 @@
         <h4>正確題數</h4>
         <span>4/4</span>
       </li>
-      <li class="answer-item" @click="setTimer({ componentId: null, missionTimeData:{ level:0,section:2, setTime: 'end'}})">
+      <li
+        class="answer-item"
+        @click="$_setTimer({ componentId: null, missionTimeData:{ level:0,section:2, nextLevel: 0, nextSection: 3,complete: true}})"
+      >
         <h4>全班排名</h4>
         <span>11/28</span>
       </li>
@@ -40,42 +43,7 @@
 import mixin from "@/mixins/mixin";
 
 export default {
-  mixins: [mixin],
-  methods: {
-    nextPage(data) {
-      this.componentId = data;
-    },
-    setTimer(data) {
-      data.componentId && this.nextPage(data.componentId);
-
-      const { level, section, setTime } = data.missionTimeData;
-      const {
-        level: missionCurrentLevel,
-        section: missionCurrentSection
-      } = this.$store.getters.missionCurrentLevel;
-
-      if (level === missionCurrentLevel && section === missionCurrentSection) {
-        switch (setTime) {
-          case "start":
-            this.$_setMissionStartTimer(level, section);
-            break;
-          case "end":
-            this.$_setMissionEndTimer(level, section);
-            this.$router.push({ name: "missionComplete" });
-            this.$store.commit(
-              "setMissionCurrentCompleteLevel",
-              this.$store.getters.missionCurrentLevel.level - 1
-            );
-            // 要和後面的儲存資料方式一起改
-            if( this.$store.getters.missionCurrentLevel.level === 3)this.$store.commit("setMissionLocalData");
-            break;
-          case "both":
-            this.$_setMissionEndTimer(level, section);
-            this.$_setMissionStartTimer(level, section + 1);
-        }
-      }
-    }
-  }
+  mixins: [mixin]
 };
 </script>
 

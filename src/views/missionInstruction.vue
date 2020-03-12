@@ -3,7 +3,7 @@
     <div class="missionInstruction-card">
       <h3>
         任務{{
-        $store.getters.missionCurrentLevel.level | $_indexChineseDisplay
+        $store.getters.missionCompleteLevel.level | $_indexChineseDisplay
         }}
       </h3>
       <p v-for="(item, index) in missionLevelMessage" :key="index" v-html="item"></p>
@@ -54,16 +54,13 @@ export default {
     missionLevelMessage() {
       return this.messionMessage.find(
         (value, index) =>
-          index === this.$store.getters.missionCurrentLevel.level
+          index === this.$store.getters.missionCompleteLevel.level
       );
     }
   },
   methods: {
     nextPage() {
-      this.$_setMissionStartTimer(
-        this.$store.getters.missionCurrentLevel.level,
-        this.$store.getters.missionCurrentLevel.section
-      );
+      this.$store.commit('setMissionLevelTime', {level: this.$store.getters.missionCompleteLevel.level,section: 0})
       this.setNextRouter();
     },
     setNextRouter() {

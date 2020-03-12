@@ -19,16 +19,17 @@
 import homeCard from "@/components/homeCard";
 
 export default {
-  created() {
-    this.$store.commit("setMissionStoreDepthData");
-  },
   methods: {
     signIn(item) {
       if (item.complete) {
-        this.$store.commit("setCurrentUser", item.index);
+        this.$store.commit("setCurrentUser", {
+          index: item.index,
+          depth: item.level
+        });
         this.$router.push({ name: "missionLevel" });
-        return
+        return;
       }
+      this.$store.commit('clearMissionStoreDepthData')
       // 登入的時候設置性別
       this.$store.commit("setGender", item);
       // 登入的時候設置 userID

@@ -6,16 +6,16 @@
       <p>你可以透過文字或貼圖與老師進行互動</p>
       <div class="message-item">
         <button
-          @click="$emit('setTimer', {componentId: null, missionTimeData:{level:3,section:1, setTime: 'both'}, type: 'understand'})"
+          @click="$emit('setTimer', {componentId: null, missionTimeData:{level:3,section:1, nextLevel:3,nextSection: 2}, type: 'understand'})"
         >
           <img src="../assets/images/understand.png" alt="smiling face" />
           <span>我懂了</span>
         </button>
-        <button @click.prevent="$emit('addIconMessage', 'confuse')">
+        <button @click.prevent="$emit('addMessage', 'confuse')">
           <img src="../assets/images/confuse.png" alt="frustrated face" />
           <span>聽不懂</span>
         </button>
-        <button @click.prevent="$emit('addIconMessage', 'frustrat')">
+        <button @click.prevent="$emit('addMessage', 'frustrat')">
           <img src="../assets/images/frustrat.png" alt="confused face" />
           <span>太快了</span>
         </button>

@@ -13,15 +13,9 @@ export default {
   mixins: [mixin],
   methods: {
     nextPage() {
-      this.$_setMissionEndTimer(
-        this.$store.getters.missionCurrentLevel.level,
-        this.$store.getters.missionCurrentLevel.section
-      );
+      this.$store.commit('setMissionCompleteLevel', {level: this.$store.getters.missionCompleteLevel.level,section: 1})
+      this.$store.commit('setMissionLevelTime', {level: this.$store.getters.missionCompleteLevel.level,section: 1})
       this.setNextRouter();
-      this.$_setMissionStartTimer(
-        this.$store.getters.missionCurrentLevel.level,
-        this.$store.getters.missionCurrentLevel.section + 1
-      );
     },
     setNextRouter() {
       if (this.$store.getters.missionDepth === "deep") {

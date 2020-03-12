@@ -23,19 +23,21 @@ export default {
   mixins: [mixin],
   methods: {
     nextPage(index) {
-      if (index === this.$store.getters.missionCurrentLevel.level) {
+      if (index === this.$store.state.user.missionCompleteLevel.level && this.$store.state.user.missionCompleteLevel.level !== 3) {
         this.$router.push({ name: "missionInstruction" });
         return;
       }
       // 跳轉警告功能到下個路由
-      if (index > this.$store.getters.missionCurrentLevel.level) {
+      else if (index > this.$store.state.user.missionCompleteLevel.level) {
         alert("請依序完成任務！");
         return;
       }
       // 跳轉路由到完成任務的關卡
-      if (index < this.$store.getters.missionCurrentLevel.level) {
-        this.$store.commit("setMissionCurrentCompleteLevel", index);
+      else {
+        console.log(index);
+        this.$store.commit("setMissionCompleteLevelCache", index);
         this.$router.push({ name: "missionComplete" });
+        return;
       }
     }
   },

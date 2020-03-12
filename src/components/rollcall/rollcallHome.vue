@@ -25,7 +25,7 @@
       </li>
       <li
         class="rollcallHome-item"
-        @click="$emit('setTimer', {componentId: null, missionTimeData:{level:2,section:2, setTime: 'both'}})"
+        @click="$emit('setTimer', {componentId: null, missionTimeData:{ level:2, section:2,nextLevel:2,nextSection:3 }})"
       >
         <h4>出席率</h4>
         <span>50％</span>

@@ -23,6 +23,7 @@
       v-show="isMessageIconActive"
       @setMessageIconActive="isMessageIconActive = !isMessageIconActive"
       @setTimer="setTimer"
+      @addMessage="addMessage"
     ></messageIcon>
   </div>
 </template>
@@ -93,33 +94,9 @@ export default {
         })
       );
     },
-    setTimer(data) {
+    setTimer(data){
+      this.$_setTimer(data);
       this.addMessage(data.type)
-
-      const { level, section, setTime } = data.missionTimeData;
-      const {
-        level: missionCurrentLevel,
-        section: missionCurrentSection
-      } = this.$store.getters.missionCurrentLevel;
-
-      if (level === missionCurrentLevel && section === missionCurrentSection) {
-        switch (setTime) {
-          case "start":
-            this.$_setMissionStartTimer(level, section);
-            break;
-          case "end":
-            this.$_setMissionEndTimer(level, section);
-            this.$router.push({ name: "missionComplete" });
-            this.$store.commit(
-              "setMissionCurrentCompleteLevel",
-              this.$store.getters.missionCurrentLevel.level - 1
-            );
-            break;
-          case "both":
-            this.$_setMissionEndTimer(level, section);
-            this.$_setMissionStartTimer(level, section + 1);
-        }
-      }
     }
   },
   components: {

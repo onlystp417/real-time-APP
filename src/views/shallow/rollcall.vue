@@ -1,6 +1,6 @@
 <template>
   <div class="rollcall">
-    <component @changeComponent="nextPage" @setTimer="setTimer" :is="componentId"></component>
+    <component @changeComponent="$_nextPage" @setTimer="$_setTimer" :is="componentId"></component>
   </div>
 </template>
 
@@ -17,34 +17,6 @@ export default {
     return {
       componentId: "rollcallHome"
     };
-  },
-  methods: {
-    nextPage(data) {
-      this.componentId = data;
-    },
-    setTimer(data) {
-      data.componentId && this.nextPage(data.componentId);
-
-      const { level, section, setTime } = data.missionTimeData;
-      const { level: missionCurrentLevel, section: missionCurrentSection } = this.$store.getters.missionCurrentLevel;
-
-      if (level === missionCurrentLevel && section === missionCurrentSection) {
-        switch (setTime) {
-          case "start":
-            this.$_setMissionStartTimer(level, section);
-            break;
-          case "end":
-            this.$_setMissionEndTimer(level, section);
-            this.$router.push({ name: "missionComplete" });
-            console.log('現在結束任務'+ this.$store.getters.missionCurrentLevel.level)
-            this.$store.commit('setMissionCurrentCompleteLevel', this.$store.getters.missionCurrentLevel.level - 1);
-            break;
-          case "both":
-            this.$_setMissionEndTimer(level, section);
-            this.$_setMissionStartTimer(level, section + 1);
-        }
-      }
-    }
   },
   components: {
     rollcallHome,

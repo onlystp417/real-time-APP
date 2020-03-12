@@ -2,7 +2,7 @@
   <section class="missionComplete">
     <h2
       class="missionComplete-title"
-    >任務{{ $store.getters.missionCurrentCompleteLevel | $_indexChineseDisplay }}完成！</h2>
+    >任務{{ $store.getters.missionCompleteLevelCache | $_indexChineseDisplay }}完成！</h2>
     <section class="missionComplete-card">
       <h3 class="card-title">
         <span>編號：{{ $store.getters.userSymbol }}</span>
@@ -10,10 +10,10 @@
       </h3>
       <p
         class="card-text"
-        v-for="(item, index) in $store.getters.setMissionCurrentTime($store.getters.missionCurrentCompleteLevel)"
+        v-for="(item, index) in $store.getters.setMissionCurrentTime($store.getters.missionCompleteLevelCache)"
         :key="index"
       >
-        任務{{ $store.getters.missionCurrentLevel.level }}-{{ index }}：{{
+        任務{{ $store.getters.missionCompleteLevel.level }}-{{ index }}：{{
         item.minute
         }}分{{ item.second }}秒
       </p>
@@ -33,14 +33,24 @@ export default {
   components: {
     buttonPrimary
   },
+  created() {},
   methods: {
     nextPage() {
       if (
-        this.$store.getters.missionCurrentLevel.level === 4 &&
-        this.$store.getters.missionCurrentLevel.section === 0
+        this.$store.getters.missionCompleteLevel.level === 3 &&
+        this.$store.getters.missionCompleteLevel.section === 4 && this.$store.getters.missionDepth
       ) {
         this.$router.push({ name: "missionCompleteText" });
         return;
+      }
+      if (
+        this.$store.getters.missionCompleteLevel.level ===
+        this.$store.getters.missionCompleteLevelCache
+      ) {
+        this.$store.commit("setMissionCompleteLevel", {
+          level: this.$store.getters.missionCompleteLevel.level + 1,
+          section: 0
+        });
       }
       this.$router.push({ name: "missionLevel" });
     }

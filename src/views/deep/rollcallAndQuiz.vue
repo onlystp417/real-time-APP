@@ -50,7 +50,6 @@ export default {
 <style lang="scss" scoped>
 .rollcallAndQuiz {
   // 要調整
-  overflow: hidden;
   white-space: nowrap;
 }
 section.rollcall {

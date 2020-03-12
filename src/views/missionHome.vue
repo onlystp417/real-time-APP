@@ -13,7 +13,7 @@
         />
       </div>
       <div class="register-action">
-        <button class="negtive" @click.prevent="$router.push({name: 'home'})" type="button">取消</button>
+        <button class="negtive" @click.prevent="goBack" type="button">取消</button>
         <button class="positive" type="submit">開始</button>
       </div>
     </form>
@@ -31,6 +31,10 @@ export default {
     signIn() {
       this.$store.commit("setUserName", this.userName);
       this.$router.push({ name: "missionLevel" });
+    },
+    goBack() {
+      this.$store.commit("clearUserCacheData");
+      this.$router.push({ name: "home" });
     }
   }
 };
