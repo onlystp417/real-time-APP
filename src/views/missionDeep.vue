@@ -6,19 +6,19 @@
 </template>
 
 <script>
-import deepMenu from "@/components/deepMenu.vue";
-import deepSubMenu from "@/components/deepSubMenu.vue";
+  import deepMenu from '@/components/deepMenu.vue';
+  import deepSubMenu from '@/components/deepSubMenu.vue';
 
-export default {
-  components: {
-    deepMenu,
-    deepSubMenu
-  }
-};
+  export default {
+    components: {
+      deepMenu,
+      deepSubMenu
+    }
+  };
 </script>
 
 <style lang="scss" scoped>
-.missionDeep {
-  padding-top: 39px;
-}
+  .missionDeep {
+    padding-top: 39px;
+  }
 </style>

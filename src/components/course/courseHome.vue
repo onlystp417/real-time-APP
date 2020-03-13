@@ -41,61 +41,61 @@
 </template>
 
 <script>
-import buttonSecondary from "@/components/buttonSecondary.vue";
-export default {
-  components: {
-    buttonSecondary
-  }
-};
+  import buttonSecondary from '@/components/buttonSecondary.vue';
+  export default {
+    components: {
+      buttonSecondary
+    }
+  };
 </script>
 
 <style lang="scss" scoped>
-.courseHome {
-  padding-top: 13px;
-  &-title {
-    margin-bottom: 9px;
-    @include fontstyle(500, 24px, 1.2, $font, #474747);
-  }
-  &-information {
-    .information-card {
-      background: $white;
-      box-shadow: 0px 3px 6px #00000029;
-      padding: 10px 16px 6.5px 16px;
-      margin-bottom: 18px;
-      > div + div {
-        border-top: 1px solid #70707022;
+  .courseHome {
+    padding-top: 13px;
+    &-title {
+      margin-bottom: 9px;
+      @include fontstyle(500, 24px, 1.2, $font, #474747);
+    }
+    &-information {
+      .information-card {
+        background: $white;
+        box-shadow: 0px 3px 6px #00000029;
+        padding: 10px 16px 6.5px 16px;
+        margin-bottom: 18px;
+        > div + div {
+          border-top: 1px solid #70707022;
+        }
       }
-    }
-    h5 {
-      display: inline-block;
-      @include fontstyle(100, 10px, 1, $font, #b7b7b7);
-    }
-    p {
-      margin-bottom: 8.5px;
-      margin-top: -4px;
-    }
-  }
-  &-annousemenet {
-    .annousemenet-card {
-      position: relative;
-      padding: 8px 16px 6px 16px;
-      margin-bottom: 15px;
-      background: $white;
-      box-shadow: 0px 3px 6px #00000029;
       h5 {
-        margin-bottom: 9px;
-        @include fontstyle(700, 14px, 22px, $font, #474747);
+        display: inline-block;
+        @include fontstyle(100, 10px, 1, $font, #b7b7b7);
       }
       p {
-        height: 45px;
-        @include fontstyle(300, 12px, 16px, $font, #474747);
+        margin-bottom: 8.5px;
+        margin-top: -4px;
       }
-      .button-wrapper {
-        position: absolute;
-        top: 8px;
-        right: 12px;
+    }
+    &-annousemenet {
+      .annousemenet-card {
+        position: relative;
+        padding: 8px 16px 6px 16px;
+        margin-bottom: 15px;
+        background: $white;
+        box-shadow: 0px 3px 6px #00000029;
+        h5 {
+          margin-bottom: 9px;
+          @include fontstyle(700, 14px, 22px, $font, #474747);
+        }
+        p {
+          height: 45px;
+          @include fontstyle(300, 12px, 16px, $font, #474747);
+        }
+        .button-wrapper {
+          position: absolute;
+          top: 8px;
+          right: 12px;
+        }
       }
     }
   }
-}
 </style>

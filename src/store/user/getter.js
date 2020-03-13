@@ -16,10 +16,10 @@ export default {
     let missionState = [false, false, false, false];
     return missionState.map((value, index) => {
       if (index < state.missionCompleteLevel.level) return true;
-      else if (state.missionCompleteLevel.level === 3) return true;
       else return false;
     });
   },
+  jitterSeconds: state => state.jitterSeconds,
   serGenderAbbreviative: state => (state.gender === "male" ? "M" : "F"),
   missionDepth: state => state.missionDepth,
   userSymbol: (state, getters) =>
