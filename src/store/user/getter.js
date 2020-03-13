@@ -34,7 +34,6 @@ export default {
           acc = new Date(acc);
           cur = new Date(cur);
         }
-        console.log(index, acc, cur);
         timeCount[index - 1] = (cur.getTime() - acc.getTime()) / 1000;
         return cur;
       });
