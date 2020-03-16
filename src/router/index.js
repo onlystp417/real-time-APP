@@ -9,13 +9,6 @@ const routes = [
     path: "/",
     name: "home",
     component: home
-    // 嘗試登陸鎖定，用是否有儲存姓名判定，但拭不出來，因為無法叫出 store 在這裏
-    // beforeEnter: (to, from, next) => {
-    //   if(this.$store.state.user.name){
-    //     next();
-    //   }
-    //   next(false)
-    // }
   },
   {
     path: "/missionHome",
