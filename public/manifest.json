@@ -1,0 +1,29 @@
+{
+  "name": "即時反饋系統",
+  "short_name": "Real-Time",
+  "theme_color": "#425C70",
+  "background_color": "#F0F1F3",
+  "display": "standalone",
+  "start_url": "/",
+  "icons": [{
+      "src": "./images/app-icon_72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/app-icon_96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/app-icon_192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/app-icon_256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}
