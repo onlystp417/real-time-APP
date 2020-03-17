@@ -13,11 +13,7 @@ export default {
     return state.missionCompleteLevelCache;
   },
   missionLevelState: (state, getters) => {
-    let missionState = [false, false, false, false];
-    return missionState.map((value, index) => {
-      if (index < state.missionCompleteLevel.level) return true;
-      else return false;
-    });
+    return state.missionLevelTime.map(value => value.every(value => value));
   },
   jitterSeconds: state => state.jitterSeconds,
   serGenderAbbreviative: state => (state.gender === "male" ? "M" : "F"),

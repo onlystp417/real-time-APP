@@ -13,6 +13,10 @@ export default {
     state.missionDepth = playload.level;
   },
   setMissionLevelTime: (state, playload) => {
+    console.log(`現在任務計時：
+    第${playload.level}關卡。
+    第${playload.section}小節。
+    時間為${new Date()}。`);
     state.missionLevelTime[playload.level][playload.section] = new Date();
   },
   setMissionCompleteLevel: (state, playload) => {
