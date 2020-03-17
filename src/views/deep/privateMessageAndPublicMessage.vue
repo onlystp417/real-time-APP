@@ -1,80 +1,47 @@
 <template>
-  <div>
-    <deepSubMenu @subMenuClick="setCurrentPage" :page="page">
+  <div class="container">
+    <deepSubMenu @subMenuClick="setCurrentPage"
+                 :page="page">
       <template v-slot:first>私訊老師</template>
       <template v-slot:second>公開討論</template>
     </deepSubMenu>
     <div class="privateMessageAndpublicMessage">
-      <section class="privateMessage" :class="{change: page.currentPage === 'publicMessage'}">
-        <privateMessage>
-        </privateMessage>
-      </section>
-      <section class="publicMessage" :class="{change: page.currentPage === 'publicMessage'}">
-        <publicMessage>
-        </publicMessage>
-      </section>
+      <component :is="page.currentPage"></component>
     </div>
   </div>
 </template>
 
 <script>
-import privateMessage from "@/views/shallow/privateMessage.vue";
-import publicMessage from "@/views/shallow/publicMessage.vue";
-import deepSubMenu from "@/components/deepSubMenu.vue";
-import buttonQuaternary from "@/components/buttonQuaternary.vue";
-export default {
-  data: function() {
-    return {
-      page: {
-        pages: ["privateMessage", "publicMessage"],
-        currentPage: "privateMessage"
+  import privateMessage from '@/views/shallow/privateMessage.vue';
+  import publicMessage from '@/views/shallow/publicMessage.vue';
+  import deepSubMenu from '@/components/deepSubMenu.vue';
+  import buttonQuaternary from '@/components/buttonQuaternary.vue';
+  export default {
+    data: function() {
+      return {
+        page: {
+          pages: ['privateMessage', 'publicMessage'],
+          currentPage: 'privateMessage'
+        }
+      };
+    },
+    methods: {
+      setCurrentPage(emitCurrentaPage) {
+        this.page.currentPage = emitCurrentaPage;
       }
-    };
-  },
-  methods: {
-    setCurrentPage(emitCurrentaPage) {
-      this.page.currentPage = emitCurrentaPage;
+    },
+    components: {
+      privateMessage,
+      publicMessage,
+      deepSubMenu,
+      buttonQuaternary
     }
-  },
-  components: {
-    privateMessage,
-    publicMessage,
-    deepSubMenu,
-    buttonQuaternary
-  }
-};
+  };
 </script>
 
 <style lang="scss" scoped>
-.privateMessageAndpublicMessage {
-    // 要調整
-  white-space: nowrap;
-}
-section.privateMessage {
-  display: inline-block;
-  width: 100%;
-  transition: all 0.3s;
-  position: relative;
-  vertical-align: top;
-  left: 0px;
-  white-space: normal;
-  z-index: 99;
-  &.change {
-    opacity: 0;
-    left: -100vw;
+  .container {
+    padding-top: 39px;
+    margin-bottom: 75px;
   }
-}
-section.publicMessage {
-  display: inline-block;
-  width: 100%;
-    white-space: normal;
-  transition: all 0.3s;
-  position: relative;
-  vertical-align: top;
-  left: 0px;
-  z-index: 1;
-  &.change {
-    left: -100vw;
-  }
-}
 </style>

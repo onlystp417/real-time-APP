@@ -18,7 +18,8 @@
 </script>
 
 <style lang="scss" scoped>
-  .missionDeep {
-    padding-top: 39px;
+  #app .missionDeep {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 </style>
