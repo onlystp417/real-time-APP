@@ -11,9 +11,6 @@
   import bar from '@/components/bar.vue';
 
   export default {
-    data: function() {
-      return {};
-    },
     components: {
       bar
     }

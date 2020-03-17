@@ -1,20 +1,22 @@
 <template>
-  <img class="backward" src="../assets/images/backward.png" alt="backward" />
+  <img class="backward"
+       src="../assets/images/backward.png"
+       alt="backward" />
 </template>
 
 <script>
-export default {};
+  export default {};
 </script>
 
 <style lang="scss" scoped>
-.backward {
-  position: absolute;
-  top: 34px;
-  left: 12px;
-  width: 28px;
-}
+  .backward {
+    position: absolute;
+    top: 34px;
+    left: 12px;
+    width: 28px;
+  }
 
-.hide {
-  display: none;
-}
+  .hide {
+    display: none;
+  }
 </style>
