@@ -22,7 +22,7 @@
     mixins: [mixin],
     methods: {
       nextPage(index) {
-        if (index === this.$store.state.user.missionCompleteLevel.level) {
+        if (index === this.$store.state.user.missionCompleteLevel.level && this.$store.state.user.missionCompleteLevel.level !== 3 ) {
           this.$router.push({ name: 'missionInstruction' });
           return;
         }

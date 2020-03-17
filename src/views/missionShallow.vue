@@ -6,13 +6,13 @@
 </template>
 
 <script>
-import shallowMenu from "@/components/shallowMenu.vue";
+  import shallowMenu from '@/components/shallowMenu.vue';
 
-export default {
-  components: {
-    shallowMenu
-  }
-};
+  export default {
+    components: {
+      shallowMenu
+    }
+  };
 </script>
 
 <style lang="scss" scoped>

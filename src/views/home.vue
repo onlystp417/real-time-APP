@@ -36,6 +36,7 @@
         this.$store.commit('setJitterSeconds', item);
         // 切換路由尚未綁定 ID 名稱
         this.$router.push({ name: 'missionHome' });
+        console.log(item);
       }
     },
     components: {

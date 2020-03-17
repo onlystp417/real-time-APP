@@ -69,6 +69,7 @@
       background-color: $white;
       border-radius: 13px;
       padding: 26px 37px 34px 37px;
+      box-shadow: 0px 1px 3px #00000029;
       .card {
         &-title {
           text-align: center;
@@ -87,6 +88,9 @@
     &-button {
       margin: 42px auto 0px auto;
       text-align: center;
+      .boxshadow {
+        box-shadow: 0px 3px 6px #00000029;
+      }
     }
   }
 </style>

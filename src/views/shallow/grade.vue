@@ -7,7 +7,7 @@
         <span>100%</span>
       </li>
       <li class="answer-item"
-          @click="$_setTimer({ componentId: null, missionTimeData:{ level:3, section:3,nextLevel:3,nextSection:4, complete:true }})">
+          @click="$_setTimer({ componentId: null, missionTimeData:{ level:3, section:2,nextLevel:3,nextSection:3 }})">
         <h4>題目正確率</h4>
         <span>100%</span>
       </li>

@@ -69,10 +69,6 @@
     },
     methods: {
       nextPage() {
-        this.$store.commit('setMissionLevelTime', {
-          level: this.$store.getters.missionCompleteLevel.level,
-          section: 0
-        });
         this.setNextRouter();
         this.clearVibrate();
       },
@@ -82,6 +78,10 @@
       vibrate() {
         this.blackview = !this.blackview;
         window.navigator.vibrate = navigator.vibrate || navigator.webkitVibrate;
+        this.$store.commit('setMissionLevelTime', {
+          level: this.$store.getters.missionCompleteLevel.level,
+          section: 0
+        });
         let { jitterSeconds, stopSeconds } = this.$store.getters.jitterSeconds;
         if (window.navigator.vibrate) {
           this.intervalNumber = setInterval(
