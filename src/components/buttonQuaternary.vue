@@ -15,6 +15,7 @@ export default {};
   bottom: 85px;
   display: block;
   width: 65px;
+  
   height: 65px;
   background: $light-blue;
   border-radius: 999px;
