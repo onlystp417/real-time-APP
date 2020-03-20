@@ -24,59 +24,61 @@
       </li>
     </ul>
     <div class="record-button">
-      <buttonQuinary @click="$emit('setTimer', {componentId: 'rollcallHome', missionTimeData:{ level:1, section:2,nextLevel:1,nextSection:3,complete:true }})">確認</buttonQuinary>
+      <buttonQuinary
+        @click="$emit('setTimer', {componentId: 'rollcallHome', missionTimeData:{ level:1, section:2,nextLevel:1,nextSection:3,complete:true }})"
+      >確認</buttonQuinary>
     </div>
   </div>
 </template>
 
 <script>
-  import buttonQuinary from '@/components/buttonQuinary.vue';
-  export default {
-    components: {
-      buttonQuinary
-    }
-  };
+import buttonQuinary from "@/components/buttonQuinary.vue";
+export default {
+  components: {
+    buttonQuinary
+  }
+};
 </script>
 
 <style lang="scss" scoped>
-  .rollcall-record {
-    > ul {
-      background: $white;
-      box-shadow: 0px 3px 6px #00000029;
-      margin-bottom: 46px;
-      padding: 17.5px 33px 4.5px 23px;
-      list-style: none;
+.rollcall-record {
+  > ul {
+    background: $white;
+    box-shadow: 0px 3px 6px #00000029;
+    margin-bottom: 46px;
+    padding: 17.5px 33px 4.5px 23px;
+    list-style: none;
+  }
+  li {
+    margin-bottom: 20px;
+  }
+  time {
+    display: inline-block;
+    width: 70%;
+    @include fontstyle(700, 18px, 22px, $font, #474747);
+  }
+  span {
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+  }
+  .record {
+    &-title {
+      margin-bottom: 9px;
+      @include fontstyle(700, 24px, 1.2, $font, #474747);
     }
-    li {
-      margin-bottom: 20px;
+    &-ontime {
+      @include fontstyle(700, 18px, 22px, $font, $success);
     }
-    time {
-      display: inline-block;
-      width: 70%;
-      @include fontstyle(500, 18px, 22px, $font, #474747);
+    &-late {
+      @include fontstyle(700, 18px, 22px, $font, $warning);
     }
-    span {
-      display: inline-block;
-      width: 30%;
-      text-align: right;
-    }
-    .record {
-      &-title {
-        margin-bottom: 9px;
-        @include fontstyle(500, 24px, 1.2, $font, #474747);
-      }
-      &-ontime {
-        @include fontstyle(500, 18px, 22px, $font, $success);
-      }
-      &-late {
-        @include fontstyle(500, 18px, 22px, $font, $warning);
-      }
-      &-button {
-        margin: 0 auto;
-        margin-top: 6.2vh;
-        width: 48.6vw;
-        max-width: 250px;
-      }
+    &-button {
+      margin: 0 auto;
+      margin-top: 6.2vh;
+      width: 48.6vw;
+      max-width: 250px;
     }
   }
+}
 </style>

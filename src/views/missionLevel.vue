@@ -68,7 +68,7 @@
       }
     }
     &-title {
-      @include fontstyle(500, 26px, 1.34, $font, #757575);
+      @include fontstyle(700, 26px, 1.34, $font, #757575);
       margin-bottom: 9px;
       text-align: center;
     }
