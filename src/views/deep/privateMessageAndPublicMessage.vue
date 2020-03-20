@@ -15,7 +15,7 @@
   import privateMessage from '@/views/shallow/privateMessage.vue';
   import publicMessage from '@/views/shallow/publicMessage.vue';
   import deepSubMenu from '@/components/deepSubMenu.vue';
-  import buttonQuaternary from '@/components/buttonQuaternary.vue';
+  // import buttonQuaternary from '@/components/buttonQuaternary.vue';
   export default {
     data: function() {
       return {

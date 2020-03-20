@@ -27,7 +27,7 @@
         if (this.$store.getters.missionDepth === 'deep') {
           this.$router.push({ name: 'rollcallAndQuiz' });
         }
-        if (this.$store.getters.missionDepth === 'shallow') {
+        else {
           this.$router.push({ name: 'rollcall' });
         }
       }

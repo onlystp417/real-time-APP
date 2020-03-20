@@ -26,7 +26,6 @@ export default {
     }
   },
   clearMissionStoreDepthData: state => {
-    // 清除所有 localStorage 中的資料。
     localStorage.clear();
   }
 };
