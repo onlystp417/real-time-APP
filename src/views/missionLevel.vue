@@ -20,6 +20,9 @@
 
   export default {
     mixins: [mixin],
+    mounted() {
+      this.$store.commit('setPageReturn');
+    },
     methods: {
       nextPage(index) {
         if (
@@ -45,6 +48,9 @@
     },
     components: {
       buttonPrimary
+    },
+    destroyed() {
+      this.$store.commit('setPageReturn');
     }
   };
 </script>

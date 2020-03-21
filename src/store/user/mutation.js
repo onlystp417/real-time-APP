@@ -60,5 +60,6 @@ export default {
       [null, null, null, null, null],
       [null, null, null, null, null]
     ];
-  }
+  },
+  setPageReturn : state => state.pageReturn = !state.pageReturn
 };

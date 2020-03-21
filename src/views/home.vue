@@ -59,7 +59,7 @@
         console.log(item);
       },
       deleteData(data) {
-        this.$store.commit('deleteData', data)
+        this.$store.commit('deleteData', data);
       }
     },
     components: {
