@@ -1,11 +1,31 @@
 <template>
   <section class="home">
-    <homeCard @click="signIn({ index: parseInt($event.number), level: 'deep', complete: $event.complete })"
-              :userCompleteDepth="{depth:'deep' , data: $store.getters.usersCompleteDeep}">
+    <homeCard @deleteData="deleteData"
+              @click="
+        signIn({
+          index: parseInt($event.number),
+          level: 'deep',
+          complete: $event.complete
+        })
+      "
+              :userCompleteDepth="{
+        depth: 'deep',
+        data: $store.getters.usersCompleteDeep
+      }">
       <template v-slot:title>資訊架構-深</template>
     </homeCard>
-    <homeCard @click="signIn({ index: parseInt($event.number), level: 'shallow', complete: $event.complete })"
-              :userCompleteDepth="{depth:'shallow' , data: $store.getters.usersCompleteShallow}">
+    <homeCard @deleteData="deleteData"
+              @click="
+        signIn({
+          index: parseInt($event.number),
+          level: 'shallow',
+          complete: $event.complete
+        })
+      "
+              :userCompleteDepth="{
+        depth: 'shallow',
+        data: $store.getters.usersCompleteShallow
+      }">
       <template v-slot:title>資訊架構-淺</template>
     </homeCard>
   </section>
@@ -37,6 +57,9 @@
         // 切換路由尚未綁定 ID 名稱
         this.$router.push({ name: 'missionHome' });
         console.log(item);
+      },
+      deleteData(data) {
+        this.$store.commit('deleteData', data)
       }
     },
     components: {
