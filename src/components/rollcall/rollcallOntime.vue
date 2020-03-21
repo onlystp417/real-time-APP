@@ -6,7 +6,14 @@
 </template>
 
 <script>
-  export default {};
+  export default {
+    created() {
+      this.$store.commit('setPageReturn');
+    },
+    destroyed() {
+      this.$store.commit('setPageReturn');
+    }
+  };
 </script>
 
 <style lang="scss" scoped>

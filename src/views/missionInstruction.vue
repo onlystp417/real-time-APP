@@ -28,6 +28,9 @@
     components: {
       buttonPrimary
     },
+    mounted() {
+      this.$store.commit('setPageReturn');
+    },
     data: function() {
       return {
         messionMessage: [
@@ -95,6 +98,9 @@
         clearInterval(this.intervalNumber);
         this.vibrateData = !this.vibrateData;
       }
+    },
+    destroyed() {
+      this.$store.commit('setPageReturn');
     }
   };
 </script>
