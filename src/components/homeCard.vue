@@ -41,7 +41,6 @@
         );
       },
       dataCalcute(item, index, innerIndex) {
-        console.log(this);
         let result = {
           number: null,
           complete: item.value,

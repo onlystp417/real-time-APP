@@ -18,6 +18,7 @@ export default {
     第${playload.section}小節。
     時間為${new Date()}。`);
     state.missionLevelTime[playload.level][playload.section] = new Date();
+    state.missionLevelTime = [...state.missionLevelTime]
   },
   setMissionCompleteLevel: (state, playload) => {
     state.missionCompleteLevel = {

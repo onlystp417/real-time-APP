@@ -1,5 +1,6 @@
 export default {
   name: state => state.name,
+  id: state => state.id,
   missionCurrentLevel: state => {
     return {
       level: state.missionCurrentLevel.level - 1,

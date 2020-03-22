@@ -8,7 +8,6 @@ Vue.config.productionTip = false;
 // 引用 moment.js 函數使用
 const moment = require("moment");
 require("moment/locale/zh-cn");
-
 Vue.use(require("vue-moment"), {
   moment
 });
