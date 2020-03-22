@@ -27,7 +27,7 @@
       nextPage(index) {
         if (
           index === this.$store.state.user.missionCompleteLevel.level &&
-          this.$store.state.user.missionCompleteLevel.level !== 3
+          !this.$store.getters.missionLevelState.every(value => value)
         ) {
           this.$router.push({ name: 'missionInstruction' });
           return;
@@ -39,7 +39,6 @@
         }
         // 跳轉路由到完成任務的關卡
         else {
-          console.log(index);
           this.$store.commit('setMissionCompleteLevelCache', index);
           this.$router.push({ name: 'missionComplete' });
           return;

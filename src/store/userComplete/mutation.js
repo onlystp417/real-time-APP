@@ -25,9 +25,6 @@ export default {
       state.usersDeepData = JSON.parse(localStorage.getItem("usersDeepData"));
     }
   },
-  clearMissionStoreDepthData: state => {
-    localStorage.clear();
-  },
   deleteData: (state, playload) => {
     if (playload.depth === "deep") {
       state.usersDeepData = Array(72).fill({
@@ -48,6 +45,7 @@ export default {
         "usersDeepData",
         JSON.stringify(state.usersDeepData)
       );
+      Object.assign({}, state.usersDeepData);
     }
     if (playload.depth === "shallow") {
       state.usersShallowData = Array(72).fill({
@@ -71,6 +69,7 @@ export default {
         "usersShallowData",
         JSON.stringify(state.usersShallowData)
       );
+      Object.assign({}, state.usersShallowData);
     }
   }
 };

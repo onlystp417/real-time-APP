@@ -1,8 +1,10 @@
 <template>
   <div class="quiz">
     <component @changeComponent="$_nextPage"
-               @setTimer="$_setTimer"
-               :is="componentId"></component>
+               @answer="answerFinish"
+               :is="componentId"
+               :finishAnswerOne="finishAnswerOne"
+               :finishAnswerTwo="finishAnswerTwo"></component>
   </div>
 </template>
 
@@ -17,8 +19,18 @@
     mixins: [mixin],
     data: function() {
       return {
-        componentId: 'quizQuestionAbbreviation'
+        componentId: 'quizQuestionAbbreviation',
+        finishAnswerOne: false,
+        finishAnswerTwo: false
       };
+    },
+    methods: {
+      answerFinish(data) {
+        console.log(data)
+        this.$_setTimer(data);
+        if (data.quiz === 0) this.finishAnswerOne = !this.finishAnswerOne;
+        if (data.quiz === 1) this.finishAnswerTwo = !this.finishAnswerTwo;
+      }
     },
     components: {
       quizQuestionAbbreviation,
