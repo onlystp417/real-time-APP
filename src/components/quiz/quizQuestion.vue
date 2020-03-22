@@ -41,7 +41,7 @@
                      v-show="!answer">確定</buttonQuinary>
     </div>
     <quizPopover v-show="answer"
-                 @click="$emit('setTimer', {componentId: 'quizQuestionAbbreviation', missionTimeData:{ level:1, section:1,nextLevel:1,nextSection:2 }})">
+                 @click="$emit('answer', {componentId: 'quizQuestionAbbreviation',quiz:0, missionTimeData:{ level:1, section:1,nextLevel:1,nextSection:2 }})">
       <template v-slot:images>
         <img src="@/assets/images/correct.png"
              alt="correct" />
@@ -58,10 +58,11 @@
   import quizPopover from '@/components/quiz/quizPopover.vue';
 
   export default {
+
     data: function() {
       return {
         answer: false,
-        anserChoose: false
+        anserChoose: false,
       };
     },
     components: {

@@ -4,13 +4,15 @@
       <h4>單選題</h4>
       <h5>第一題</h5>
       <p>女性身高的第75百分位數若為160公分，則表示有多少百分位數的女性身高小於160公分?</p>
-      <buttonTertiary @click="$emit('changeComponent', 'quizQuestionTwo')">作答</buttonTertiary>
+      <buttonTertiary @click="$emit('changeComponent', 'quizQuestionTwo')"
+                      :finishAnswerOne="finishAnswerOne">{{finishAnswerOne?'正確':'作答'}}</buttonTertiary>
     </section>
     <section class="quiz-card-content">
       <h4>單選題</h4>
       <h5>第二題</h5>
       <p>一般而言，人類的短期記憶能力有其限制，其限制為多少?</p>
-      <buttonTertiary @click="$emit('changeComponent', 'quizQuestion')">作答</buttonTertiary>
+      <buttonTertiary @click="$emit('changeComponent', 'quizQuestion')"
+                      :finishAnswerTwo="finishAnswerTwo">{{finishAnswerTwo?'錯誤':'作答'}}</buttonTertiary>
     </section>
   </div>
 </template>
@@ -20,6 +22,10 @@
   import buttonTertiary from '@/components/buttonTertiary.vue';
 
   export default {
+    props: {
+      finishAnswerOne: Boolean,
+      finishAnswerTwo: Boolean
+    },
     components: {
       buttonQuinary,
       buttonTertiary
