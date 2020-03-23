@@ -1,29 +1,38 @@
 <template>
-  <component :is="componentId"
-             @changeComponent="$_nextPage"></component>
+  <div class="public-message">
+    <div class="message-list">
+      <section class="public-message-card" @click="$emit('changeComponent', 'publicMessageDetail')">
+        <header class="message-header">
+          <img src="@/assets/images/user.png"
+               alt="user graphy" />
+          <div>
+            <h5>王小明</h5>
+            <time>2019-06-11 16:00</time>
+          </div>
+        </header>
+        <div class="message-content">
+          <h5>邊緣運算</h5>
+          <p>即時反饋系統</p>
+        </div>
+        <div class="message-response">
+          <span class="num">1</span>
+          <span class="unit">則回應</span>
+        </div>
+      </section>
+    </div>
+  </div>
 </template>
 
 <script>
   import messageTyping from '@/components/messageTyping.vue';
   import buttonQuaternary from '@/components/buttonQuaternary.vue';
   import buttonQuinary from '@/components/buttonQuinary.vue';
-  import publicMessage from '@/components/publicMessage/publicMessage.vue';
-  import publicMessageDetail from '@/components/publicMessage/publicMessageDetail.vue';
-  import mixin from '@/mixins/mixin';
 
   export default {
-    mixins: [mixin],
-    data: function() {
-      return {
-        componentId: 'publicMessage'
-      };
-    },
     components: {
       messageTyping,
       buttonQuaternary,
       buttonQuinary,
-      publicMessageDetail,
-      publicMessage
     }
   };
 </script>

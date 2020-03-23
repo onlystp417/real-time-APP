@@ -60,7 +60,7 @@ export default {
           [null, null, null, null, null]
         ]
       });
-      state.usersComplete.deep = Array(72).fill(false);
+      state.usersComplete.shallow = Array(72).fill(false);
       localStorage.removeItem(
         "shallow",
         JSON.stringify(state.usersComplete.shallow)

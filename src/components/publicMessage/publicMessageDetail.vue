@@ -1,29 +1,75 @@
 <template>
-  <component :is="componentId"
-             @changeComponent="$_nextPage"></component>
+  <div class="public-message">
+    <div class="message-list">
+      <section class="public-message-card">
+        <header class="message-header">
+          <img src="@/assets/images/user.png"
+               alt="user graphy" />
+          <div>
+            <h5>王小明</h5>
+            <time>2019-06-11 16:00</time>
+          </div>
+        </header>
+        <div class="message-content">
+          <h5>邊緣運算</h5>
+          <p>即時反饋系統</p>
+        </div>
+        <div class="message-response">
+          <span class="num">1</span>
+          <span class="unit">則回應</span>
+        </div>
+      </section>
+      <div class="message-text">
+        <span class="num">1</span>
+        <span class="unit">則回應</span>
+      </div>
+      <section class="public-message-card">
+        <header class="message-header">
+          <img src="@/assets/images/user.png"
+               alt="user graphy" />
+          <div>
+            <h5>王小明</h5>
+            <time>2020-01-05 03:30</time>
+          </div>
+        </header>
+        <div class="message-content">
+          <h5>實驗測試</h5>
+          <p>即時反饋系統</p>
+        </div>
+        <div class="message-response">
+          <span class="num">0</span>
+          <span class="unit">則回應</span>
+        </div>
+      </section>
+      <div class="public-button">
+        <buttonQuinary>我要留言</buttonQuinary>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
   import messageTyping from '@/components/messageTyping.vue';
   import buttonQuaternary from '@/components/buttonQuaternary.vue';
   import buttonQuinary from '@/components/buttonQuinary.vue';
-  import publicMessage from '@/components/publicMessage/publicMessage.vue';
-  import publicMessageDetail from '@/components/publicMessage/publicMessageDetail.vue';
-  import mixin from '@/mixins/mixin';
+
 
   export default {
-    mixins: [mixin],
+    created() {
+      this.$store.commit('setPageReturn');
+    },
+    destroyed() {
+      this.$store.commit('setPageReturn');
+    },
     data: function() {
       return {
-        componentId: 'publicMessage'
+        showAnswer: false
       };
     },
     components: {
       messageTyping,
       buttonQuaternary,
-      buttonQuinary,
-      publicMessageDetail,
-      publicMessage
+      buttonQuinary
     }
   };
 </script>
