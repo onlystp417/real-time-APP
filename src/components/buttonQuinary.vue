@@ -10,8 +10,7 @@ export default {};
 
 <style lang="scss" scoped>
 .primary-button-big {
-  width: 48.6vw;
-  max-width: 250px;
+  max-width: 200px;
   background: $light-blue;
   border-radius: 21px;
   padding: 0;
