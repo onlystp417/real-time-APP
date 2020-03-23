@@ -19,7 +19,6 @@ export default {};
   font-size: 16px;
   font-weight: 700;
   box-sizing: border-box;
-  box-shadow: 0 2px 3px #00000029;
   &:active,
   &:focus {
     background: $white;
