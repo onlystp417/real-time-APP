@@ -1,8 +1,9 @@
 <template>
   <div class="home-card">
-    <h2 class="card-title">
-      <slot name="title">預設標題</slot>
-    </h2>
+    <section class="card-title">
+      <h2><slot name="title">預設標題</slot></h2>
+      <button @click="$emit('deleteData', userCompleteDepth)" class="card-deleteButton">清除資料</button>
+    </section>
     <div class="card">
       <div class="card-column"
            v-for="(items, index) in usersDisplay(userCompleteDepth.data)"
@@ -40,7 +41,6 @@
         );
       },
       dataCalcute(item, index, innerIndex) {
-        console.log(this);
         let result = {
           number: null,
           complete: item.value,
@@ -73,6 +73,18 @@
           color: $light-blue;
           margin-bottom: 8px;
           text-align: left;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        &-deleteButton {
+          display: block;
+          width: 90px;
+          background-color: #fff;
+          border: 1px solid;
+          padding: 6px 0;
+          @include fontstyle(300, 16px, 1, $font, #34a0d8);
+          border-radius: 22px;
         }
         &-column {
           background-color: $light-blue;

@@ -1,5 +1,6 @@
 export default {
   name: state => state.name,
+  id: state => state.id,
   missionCurrentLevel: state => {
     return {
       level: state.missionCurrentLevel.level - 1,
@@ -40,8 +41,8 @@ export default {
         minute: (value - (value % 60)) / 60
       };
       let unitDigit = /^\b(?=\d$)/;
-      time.second = time.second.toString().replace(unitDigit, "0");
-      time.minute = time.minute.toString().replace(unitDigit, "0");
+      time.second = Math.ceil(time.second).toString().replace(unitDigit, "0");
+      time.minute = Math.ceil(time.minute).toString().replace(unitDigit, "0");
       return time;
     });
   }

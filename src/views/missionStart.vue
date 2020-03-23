@@ -8,27 +8,28 @@
 </template>
 
 <script>
-import mixin from "@/mixins/mixin";
-export default {
-  mixins: [mixin],
-  methods: {
-    nextPage() {
-      this.$store.commit("setMissionCompleteLevel", {
-        level: this.$store.getters.missionCompleteLevel.level,
-        section: 1
-      });
-      this.$store.commit("setMissionLevelTime", {
-        level: this.$store.getters.missionCompleteLevel.level,
-        section: 1
-      });
-      this.setNextRouter();
-    },
-    setNextRouter() {
-      if (this.$store.getters.missionDepth === "deep") {
-        this.$router.push({ name: "rollcallAndQuiz" });
-      }
-      if (this.$store.getters.missionDepth === "shallow") {
-        this.$router.push({ name: "rollcall" });
+  import mixin from '@/mixins/mixin';
+  export default {
+    mixins: [mixin],
+    methods: {
+      nextPage() {
+        this.$store.commit('setMissionCompleteLevel', {
+          level: this.$store.getters.missionCompleteLevel.level,
+          section: 1
+        });
+        this.$store.commit('setMissionLevelTime', {
+          level: this.$store.getters.missionCompleteLevel.level,
+          section: 1
+        });
+        this.setNextRouter();
+      },
+      setNextRouter() {
+        if (this.$store.getters.missionDepth === 'deep') {
+          this.$router.push({ name: 'rollcallAndQuiz' });
+        }
+        else {
+          this.$router.push({ name: 'rollcall' });
+        }
       }
     }
   }

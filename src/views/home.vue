@@ -1,11 +1,31 @@
 <template>
   <section class="home">
-    <homeCard @click="signIn({ index: parseInt($event.number), level: 'deep', complete: $event.complete })"
-              :userCompleteDepth="{depth:'deep' , data:$store.getters.usersCompleteDeep}">
+    <homeCard @deleteData="deleteData"
+              @click="
+        signIn({
+          index: parseInt($event.number),
+          level: 'deep',
+          complete: $event.complete
+        })
+      "
+              :userCompleteDepth="{
+        depth: 'deep',
+        data: $store.getters.usersCompleteDeep
+      }">
       <template v-slot:title>資訊架構-深</template>
     </homeCard>
-    <homeCard @click="signIn({ index: parseInt($event.number), level: 'shallow', complete: $event.complete })"
-              :userCompleteDepth="{depth:'shallow' , data:$store.getters.usersCompleteShallow}">
+    <homeCard @deleteData="deleteData"
+              @click="
+        signIn({
+          index: parseInt($event.number),
+          level: 'shallow',
+          complete: $event.complete
+        })
+      "
+              :userCompleteDepth="{
+        depth: 'shallow',
+        data: $store.getters.usersCompleteShallow
+      }">
       <template v-slot:title>資訊架構-淺</template>
     </homeCard>
   </section>
@@ -18,14 +38,14 @@
     methods: {
       signIn(item) {
         if (item.complete) {
+          console.log(item);
           this.$store.commit('setCurrentUser', {
-            index: item.index,
+            index: item.level === 'deep' ? item.index : item.index - 72,
             depth: item.level
           });
           this.$router.push({ name: 'missionLevel' });
           return;
         }
-        this.$store.commit('clearMissionStoreDepthData');
         // 登入的時候設置性別
         this.$store.commit('setGender', item);
         // 登入的時候設置 userID
@@ -36,7 +56,10 @@
         this.$store.commit('setJitterSeconds', item);
         // 切換路由尚未綁定 ID 名稱
         this.$router.push({ name: 'missionHome' });
-        console.log(item);
+        // console.log(item);
+      },
+      deleteData(data) {
+        this.$store.commit('deleteData', data);
       }
     },
     components: {

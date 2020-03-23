@@ -1016,33 +1016,9 @@ export default {
         [null, null, null, null, null],
         [null, null, null, null, null]
       ]
-    },
-    {
-      id: null,
-      gender: null,
-      name: null,
-      missionCompleteLevel: null,
-      missionLevelTime: [
-        [null, null, null, null],
-        [null, null, null, null],
-        [null, null, null, null, null],
-        [null, null, null, null, null]
-      ]
     }
   ],
   usersDeepData: [
-    {
-      id: null,
-      gender: null,
-      name: null,
-      missionCompleteLevel: null,
-      missionLevelTime: [
-        [null, null, null, null],
-        [null, null, null, null],
-        [null, null, null, null, null],
-        [null, null, null, null, null]
-      ]
-    },
     {
       id: null,
       gender: null,

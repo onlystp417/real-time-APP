@@ -27,7 +27,6 @@
         this.$store.commit('clearUserCacheData');
       },
       storeDataToLocalStorage() {
-        // 儲存資料到本地端，一旦發生資料變動
         localStorage.setItem(
           'shallow',
           JSON.stringify(this.$store.state.usersComplete.usersComplete.shallow)

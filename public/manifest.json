@@ -1,6 +1,6 @@
 {
   "name": "即時反饋系統",
-  "short_name": "Real-Time",
+  "short_name": "RealTime",
   "theme_color": "#425C70",
   "background_color": "#F0F1F3",
   "display": "standalone",

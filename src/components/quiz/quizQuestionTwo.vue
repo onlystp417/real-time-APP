@@ -20,7 +20,7 @@
     </div>
     <quizPopover
       v-show="answer"
-      @click="$emit('setTimer', {componentId: 'quizQuestionAbbreviation', missionTimeData:{ level:2, section:1,nextLevel:2,nextSection:2 }})"
+      @click="$emit('answer', {componentId: 'quizQuestionAbbreviation', quiz:1,missionTimeData:{ level:2, section:1,nextLevel:2,nextSection:2 }})"
     >
       <template v-slot:images>
         <img src="@/assets/images/wrong.png" alt="wrong" />

@@ -29,13 +29,10 @@
     components: {
       buttonPrimary
     },
-    created() {},
     methods: {
       nextPage() {
         if (
-          this.$store.getters.missionCompleteLevel.level === 3 &&
-          this.$store.getters.missionCompleteLevel.section === 4 &&
-          this.$store.getters.missionDepth
+          this.$store.getters.missionCompleteLevelCache === 3
         ) {
           this.$router.push({ name: 'missionCompleteText' });
           return;

@@ -1,11 +1,21 @@
 <template>
-  <a @click.prevent="$emit('click')" class="button-tertiary" href>
+  <a
+    @click.prevent="$emit('click')"
+    class="button-tertiary"
+    :class="{'correct': finishAnswerOne,'wrong': finishAnswerTwo}"
+    href
+  >
     <slot></slot>
   </a>
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    finishAnswerOne: Boolean,
+    finishAnswerTwo: Boolean
+  }
+};
 </script>
 
 <style lang="scss" scoped>
@@ -24,6 +34,24 @@ export default {};
     background: $white;
     color: $light-blue;
     border: $light-blue 2px solid;
+<<<<<<< HEAD
+=======
+    &:active {
+      background: $white;
+      color: $light-blue;
+      border: $light-blue 2px solid;
+    }
+    &.correct {
+      background: $white;
+      border: 1px solid $success;
+      @include fontstyle(400, 16px, 1.5, $font, $success);
+    }
+    &.wrong {
+      background: $white;
+      border: 1px solid $warning;
+      @include fontstyle(400, 16px, 1.5, $font, $warning);
+    }
+>>>>>>> a169b9cfa2b6d00c25007f696fdf1b7c6e671526
   }
   .correct {
     background: $white;

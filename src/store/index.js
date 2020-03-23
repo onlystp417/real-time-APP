@@ -11,10 +11,10 @@ export default new Vuex.Store({
     usersComplete
   },
   mutations: {
-    // 儲存裡面的資料
+    // 儲存任務完成裡資料
     storeCurrentData: (state, playload) => {
       if (playload === "shallow") {
-        state.usersComplete.usersShallowData.splice(state.user.id, 1, {
+        state.usersComplete.usersShallowData.splice(state.user.id - 72, 1, {
           id: state.user.id,
           gender: state.user.gender,
           name: state.user.name,
@@ -22,7 +22,7 @@ export default new Vuex.Store({
           missionCompleteLevel: state.user.missionCompleteLevel
         });
         state.usersComplete.usersComplete.shallow.splice(
-          state.user.id,
+          state.user.id - 72,
           1,
           true
         );

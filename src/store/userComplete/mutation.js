@@ -25,8 +25,51 @@ export default {
       state.usersDeepData = JSON.parse(localStorage.getItem("usersDeepData"));
     }
   },
-  clearMissionStoreDepthData: state => {
-    // 清除所有 localStorage 中的資料。
-    localStorage.clear();
+  deleteData: (state, playload) => {
+    if (playload.depth === "deep") {
+      state.usersDeepData = Array(72).fill({
+        id: null,
+        gender: null,
+        name: null,
+        missionCompleteLevel: null,
+        missionLevelTime: [
+          [null, null, null, null],
+          [null, null, null, null],
+          [null, null, null, null, null],
+          [null, null, null, null, null]
+        ]
+      });
+      state.usersComplete.deep = Array(72).fill(false);
+      localStorage.removeItem("deep", JSON.stringify(state.usersComplete.deep));
+      localStorage.removeItem(
+        "usersDeepData",
+        JSON.stringify(state.usersDeepData)
+      );
+      Object.assign({}, state.usersDeepData);
+    }
+    if (playload.depth === "shallow") {
+      state.usersShallowData = Array(72).fill({
+        id: null,
+        gender: null,
+        name: null,
+        missionCompleteLevel: null,
+        missionLevelTime: [
+          [null, null, null, null],
+          [null, null, null, null],
+          [null, null, null, null, null],
+          [null, null, null, null, null]
+        ]
+      });
+      state.usersComplete.deep = Array(72).fill(false);
+      localStorage.removeItem(
+        "shallow",
+        JSON.stringify(state.usersComplete.shallow)
+      );
+      localStorage.removeItem(
+        "usersShallowData",
+        JSON.stringify(state.usersShallowData)
+      );
+      Object.assign({}, state.usersShallowData);
+    }
   }
 };

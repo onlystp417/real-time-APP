@@ -34,6 +34,12 @@
 <script>
 import buttonQuinary from "@/components/buttonQuinary.vue";
 export default {
+  created() {
+    this.$store.commit("setPageReturn");
+  },
+  destroyed() {
+    this.$store.commit("setPageReturn");
+  },
   components: {
     buttonQuinary
   }

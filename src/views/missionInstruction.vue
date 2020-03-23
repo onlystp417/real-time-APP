@@ -16,25 +16,41 @@
 </template>
 
 <script>
-import mixin from "@/mixins/mixin";
-import buttonPrimary from "@/components/buttonPrimary.vue";
-export default {
-  mixins: [mixin],
-  components: {
-    buttonPrimary
-  },
-  data: function() {
-    return {
-      messionMessage: [
-        [
-          "1.感受到振動後拿起手機",
-          "2.使用點名功能簽到",
-          "3.觀看本帳號在此課程的排名"
-        ],
-        [
-          "1.感受到振動後拿起手機",
-          "2.回答第一題，選擇A選項<br/>3.說出答題是否正確",
-          "4.觀看本帳號的最近一次的點名紀錄"
+  import mixin from '@/mixins/mixin';
+  import buttonPrimary from '@/components/buttonPrimary.vue';
+  export default {
+    mixins: [mixin],
+    components: {
+      buttonPrimary
+    },
+    mounted() {
+      this.$store.commit('setPageReturn');
+    },
+    data: function() {
+      return {
+        messionMessage: [
+          [
+            '1.感受到振動後拿起手機',
+            '2.使用點名功能簽到',
+            '3.觀看本帳號在此課程的排名'
+          ],
+          [
+            '1.感受到振動後拿起手機',
+            '2.回答第一題，選擇A選項<br/>3.說出答題是否正確',
+            '4.觀看本帳號的最近一次的點名紀錄'
+          ],
+          [
+            '1.感受到振動後拿起手機',
+            '2.回答第二題，選擇B選項<br/>3.說出答題是否正確',
+            '4.查看本課程的出席率',
+            '5.查看本課程的「12/3停課一周」公告'
+          ],
+          [
+            '1.感受到振動後拿起手機',
+            '2.使用私訊老師的功能<br/>3.以「我懂了」的選項回饋老師',
+            '4.查看本課程的答題正確率',
+            '5.觀看本課程的修課人數'
+          ]
         ],
         [
           "1.感受到振動後拿起手機",
@@ -85,10 +101,37 @@ export default {
         );
       }
     },
-    clearVibrate() {
-      navigator.vibrate([]);
-      clearInterval(this.intervalNumber);
-      this.vibrateData = !this.vibrateData;
+    methods: {
+      nextPage() {
+        this.setNextRouter();
+        this.clearVibrate();
+      },
+      setNextRouter() {
+        this.$router.push({ name: 'missionStart' });
+      },
+      vibrate() {
+        this.blackview = !this.blackview;
+        window.navigator.vibrate = navigator.vibrate || navigator.webkitVibrate;
+        this.$store.commit('setMissionLevelTime', {
+          level: this.$store.getters.missionCompleteLevel.level,
+          section: 0
+        });
+        let { jitterSeconds, stopSeconds } = this.$store.getters.jitterSeconds;
+        if (window.navigator.vibrate) {
+          this.intervalNumber = setInterval(
+            () => window.navigator.vibrate([jitterSeconds, stopSeconds]),
+            jitterSeconds + stopSeconds
+          );
+        }
+      },
+      clearVibrate() {
+        navigator.vibrate([]);
+        clearInterval(this.intervalNumber);
+        this.vibrateData = !this.vibrateData;
+      }
+    },
+    destroyed() {
+      this.$store.commit('setPageReturn');
     }
   }
 };
