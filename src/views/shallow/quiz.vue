@@ -26,7 +26,6 @@
     },
     methods: {
       answerFinish(data) {
-        console.log(data)
         this.$_setTimer(data);
         if (data.quiz === 0) this.finishAnswerOne = !this.finishAnswerOne;
         if (data.quiz === 1) this.finishAnswerTwo = !this.finishAnswerTwo;

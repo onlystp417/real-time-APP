@@ -29,7 +29,6 @@
       display: inline-block;
       width: 33px;
       height: 33px;
-      cursor: pointer;
     }
     &-app {
       display: inline;
