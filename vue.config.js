@@ -1,7 +1,9 @@
 // const { GenerateSW } = require("workbox-webpack-plugin");
 
 module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "/RealTime/" : "",
+    publicPath: process.env.NODE_ENV === 'production'
+    ? '/real-time/'
+    : '/'
   css: {
     loaderOptions: {
       sass: {
