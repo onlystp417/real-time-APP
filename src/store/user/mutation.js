@@ -36,10 +36,10 @@ export default {
     };
   },
   setJitterSeconds: (state, playload) => {
-    if (playload.index / 24 <= 1) {
+    if (playload.index / 24 < 1) {
       state.jitterSeconds = { jitterSeconds: 200, stopSeconds: 200 };
       return;
-    } else if (1 < playload.index / 24 && playload.index / 24 <= 2) {
+    } else if (1 <= playload.index / 24 && playload.index / 24 < 2) {
       state.jitterSeconds = { jitterSeconds: 200, stopSeconds: 600 };
       return;
     } else {
