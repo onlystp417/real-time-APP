@@ -2,10 +2,11 @@
   <header class="bar">
     <div class="bar-img">
       <a v-if="$store.state.user.pageReturn"
-         @click="$router.go(-1)">
+         @click="$router.push({name: 'home'})">
         <img src="../assets/images/backward.png"
              alt="go">
-      </a></div>
+      </a>
+    </div>
     <h1 class="bar-app">使用者介面設計</h1>
   </header>
 </template>
