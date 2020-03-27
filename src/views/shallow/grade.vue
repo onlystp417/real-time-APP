@@ -3,14 +3,14 @@
     <section class="grade-answer">
       <h3>答題表現</h3>
       <li class="answer-item">
-        <h4>題目回答率</h4>
+        <h4>答題回答率</h4>
         <span>100%</span>
       </li>
       <li
         class="answer-item"
         @click="$_setTimer({ componentId: null, missionTimeData:{ level:3, section:2,nextLevel:3,nextSection:3 }})"
       >
-        <h4>題目正確率</h4>
+        <h4>答題正確率</h4>
         <span>100%</span>
       </li>
       <li class="answer-item">
@@ -25,7 +25,7 @@
         class="answer-item"
         @click="$_setTimer({ componentId: null, missionTimeData:{ level:0,section:2, nextLevel: 0, nextSection: 3,complete: true}})"
       >
-        <h4>全班排名</h4>
+        <h4>排名</h4>
         <span>11/28</span>
       </li>
     </section>

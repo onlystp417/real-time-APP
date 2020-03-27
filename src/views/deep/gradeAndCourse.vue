@@ -1,7 +1,6 @@
 <template>
   <div class="container">
-    <deepSubMenu @subMenuClick="setCurrentPage"
-                 :page="page">
+    <deepSubMenu @subMenuClick="setCurrentPage" :page="page">
       <template v-slot:first>成績</template>
       <template v-slot:second>課程資訊</template>
     </deepSubMenu>
@@ -12,34 +11,34 @@
 </template>
 
 <script>
-  import grade from '@/views/shallow/grade.vue';
-  import course from '@/views/shallow/course.vue';
-  import deepSubMenu from '@/components/deepSubMenu.vue';
-  export default {
-    data: function() {
-      return {
-        page: {
-          pages: ['grade', 'course'],
-          currentPage: 'grade'
-        }
-      };
-    },
-    methods: {
-      setCurrentPage(emitCurrentaPage) {
-        this.page.currentPage = emitCurrentaPage;
+import grade from "@/views/shallow/grade.vue";
+import course from "@/views/shallow/course.vue";
+import deepSubMenu from "@/components/deepSubMenu.vue";
+export default {
+  data: function() {
+    return {
+      page: {
+        pages: ["grade", "course"],
+        currentPage: "grade"
       }
-    },
-    components: {
-      grade,
-      course,
-      deepSubMenu
+    };
+  },
+  methods: {
+    setCurrentPage(emitCurrentaPage) {
+      this.page.currentPage = emitCurrentaPage;
     }
-  };
+  },
+  components: {
+    grade,
+    course,
+    deepSubMenu
+  }
+};
 </script>
 
 <style lang="scss" scoped>
-  .container {
-    padding-top: 39px;
-    margin-bottom: 75px;
-  }
+.container {
+  padding-top: 39px;
+  margin-bottom: 75px;
+}
 </style>
